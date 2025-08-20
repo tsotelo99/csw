@@ -1,0 +1,273 @@
+@media screen {
+
+
+/* Center main content and set max-width */
+.main-content-container {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem;
+}
+
+
+#nav, #main-nav {
+  background-color: #eee;
+}
+
+/*****************************************************
+TYPOGRAPHY
+*****************************************************/
+
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #999;
+    clear: both;
+  }
+
+/*****************************************************
+PULLQUOTES
+*****************************************************/
+
+
+  aside {
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    margin: 1rem 0 1rem 0;
+
+    p {
+      font-size: 120%;
+      line-height: 120%;
+      text-align: justify;
+      padding: 0;
+      margin: 0;
+    }
+
+  }
+
+  /* mobile-first design css */
+  .pullquote {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    color: #486B76;
+    margin: 1em auto;
+    padding: 1em 0 1em 0;
+  }
+
+  /* tablet styles */
+
+  @media screen and (min-width: 34em) {
+    .pullquote {
+      float: left;
+      width: 50%;
+      padding: 1.2em 0 1.2em 0;
+      margin: .8em 2em .8em 0;
+    }
+  }
+
+  /* desktop styles */
+  @media screen and (min-width: 58em) {
+    .pullquote {
+      margin-left: -15%;
+    }
+
+    aside.right {
+      margin-left: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    aside p {
+      margin: 0;
+    }
+
+  }
+
+/*****************************************************
+IMAGES
+*****************************************************/
+
+  figure {
+    margin-bottom: 0;
+    clear: none;
+    margin: none;
+    /* no bottom padding; handled with caption */
+  }
+
+  .right {
+    float: right;
+    padding: 0 0px 0px 2rem;
+    text-align: left;
+    margin-right: 0px;
+  }
+
+  .left {
+    float: left;
+    padding: 0 2rem 0px 0px;
+    margin-left: 0px;
+  }
+
+  .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figcaption {
+    color: #888;
+    font-family: 'Oxygen', sans-serif;
+    display: block;
+    font-size: .8rem;
+    margin: .4rem 0 1rem 0;
+    clear: both;
+    line-height: 1.1rem;
+  }
+
+  figcaption.right {
+    text-align: justify;
+    padding: 0 0px 0px 0rem;
+  }
+
+  figcaption.left {
+    text-align: justify;
+    padding: 0;
+  }
+
+  figcaption.center {
+    text-align: justify;
+    padding: 0;
+  }
+
+  figcaption p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2rem;
+    font-size: .8rem;
+  }
+
+  figcaption a {
+    opacity: .5;
+    font-weight: normal;
+  }
+
+
+/*****************************************************
+DIRECTORY CARDS
+*****************************************************/
+
+  .card {
+    opacity: .8;
+    min-height: 15rem;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* Smooth transition */
+  }
+
+  .card:hover {
+    background: #eee;
+    opacity: 1;
+    transform: scale(1.05);
+    /* Slightly enlarge the card */
+  }
+
+  .card-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-height: 15rem;
+  }
+
+  .card-img-top {
+    height: 15rem;
+  }
+
+  .card h3 {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5rem 0 1rem 0;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .card a {
+    opacity: 1;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0px
+  }
+
+
+/* Basic vertical card styling */
+.v-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s;
+  max-width:30rem;
+}
+
+.v-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.v-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.v-card-body {
+  padding: 1.2rem 1rem 1rem 1rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.v-card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.v-card-text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0;
+  flex: 1 1 auto;
+}
+
+/* Responsive card grid layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+  
+}
+/* end media screen */
+
+
+/*****************************************************************************/
+/*
+/* SMALL SCREEN
+/*
+/*****************************************************************************/
+
+@media (max-width: 768px) {
+
+  main {
+    margin: 0 1.5%;
+  }
+
+}

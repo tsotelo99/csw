@@ -1,0 +1,35 @@
+{% for person in site.data.people.current %}
+<div class="card card-horizontal mb-4" style="max-width: 100%;">
+  <div class="row g-0 align-items-center">
+    <div class="col-md-4">
+      <img src="{{ site.baseurl }}/assets/images/people/{{ person.image }}" class="img-fluid rounded-start"
+        alt="{{ person.name }}" style="object-fit:cover; height:100%; min-height:220px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title mb-1">{{ person.name }}</h2>
+        <h3 class="card-subtitle mb-2 text-muted">{{ person.title }}</h3>
+        {% if person.bio %}
+        <p class="card-text">{{ person.bio }}</p>
+        {% endif %}
+
+        {% if person.office %}
+        <p class="card-text">{{ person.office }}</p>
+        {% endif %}
+
+        {% if person.phone %}
+        <p class="card-text">{{ person.phone }}</p>
+        {% endif %}
+
+        {% if person.email %}
+        <p class="card-text"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+        {% endif %}
+
+        {% if person.link %}
+        <p class="card-text"><a href="{{ person.link }}" target="_blank">{{ person.link }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
