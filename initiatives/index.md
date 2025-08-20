@@ -8,5 +8,5 @@ header-image: /assets/images/banners/red-canyon.jpg
 The Center for the Southwest supports work on the U.S. Southwest, U.S.-Mexico Borderlands, Native America, and regional and global environments through a variety of long-term research, student, and community-facing initiatives.
 
 Indigenous Borderlands
-Borderland Environments
-Western History Dissertation Workshop
+
+Indigenous Crossing
