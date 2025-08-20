@@ -1,12 +1,5 @@
 # Team names, titles and social links
 current:
-- name: Teresa Rodriguez Sotelo
-  title: Graduate Assistant
-  image: thumbnail_IMG_7304.jpg
-  office: Mesa Vista Hall 2061
-  email:  tsotelo99@unm.edu
-  bio: 
-  link: 
 
 - name: Samuel Truett
   title: Director
@@ -15,3 +8,12 @@ current:
   email: truett@unm.edu
   bio: 
   link: 
+  
+- name: Teresa Rodriguez Sotelo
+  title: Graduate Assistant
+  image: thumbnail_IMG_7304.jpg
+  office: Mesa Vista Hall 2061
+  email:  tsotelo99@unm.edu
+  bio: 
+  link: 
+
