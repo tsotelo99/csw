@@ -12,6 +12,11 @@ cards:
     thumbnail: /assets/images/cards/horn.jpg
     summary: 
     link: "horn-lecture/about"
+    
+  - title: "C. Ruth and Calvin P. Horn Lecture"
+    thumbnail: /assets/images/cards/horn.jpg
+    summary: 
+    link: "horn-lecture/about"
 
 ---
 
