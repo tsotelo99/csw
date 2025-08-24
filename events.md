@@ -22,3 +22,4 @@ This launches a series of international conferences on Indigenous borderlands in
 ## Keynote Speakers (https://ib2022.unm.edu/keynote-speakers.html)
 ## Symposium Abstracts (https://ib2022.unm.edu/symposium-abstracts.html) 
 ## Sponsors and Host City (https://ib2022.unm.edu/venue-and-accommodation.html) 
+image: ibnas-sponsors.png
