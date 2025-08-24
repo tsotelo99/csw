@@ -9,4 +9,4 @@ The Center for the Southwest supports work on the U.S. Southwest, U.S.-Mexico Bo
 
 [Indigenous Borderlands](https://tsotelo99.github.io/csw/Indigenous%20Boderlands)
 
-Indigenous Crossing
+[Indigenous Crossing](indigenous-crossings.md)
