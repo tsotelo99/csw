@@ -21,13 +21,13 @@ This workshop will result in an edited volume of essays. Paper abstracts of arou
 
 # Coordinating Committee
 
-## Joshua L. Reid (Snohomish Tribe of Indians) 
+### Joshua L. Reid (Snohomish Tribe of Indians) 
 History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.
 
-## Samuel Truett
+### Samuel Truett
 History Department, Director of the Center for the Southwest, University of New Mexico.
 
-## Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)
+### Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)
 History Department, Princeton University.
 
 ## Rani-Henrik Andersson
