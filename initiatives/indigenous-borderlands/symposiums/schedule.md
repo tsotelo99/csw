@@ -1,6 +1,10 @@
 ---
+title: Indigenous Boderlands in North America Symposium 
+author: Teresa Rodriguez
+date: 2025-8-25
+layout: unm-base
+header-image: /assets/images/banners/bartlett-arizona.jpg
 ---
-
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/767653321?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CSW-VP-23001 - IBNAS Intro and Keynote"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
