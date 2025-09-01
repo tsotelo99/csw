@@ -3,7 +3,7 @@ title: Indigenous Boderlands in North America Symposium
 author: Teresa Rodriguez
 date: 2025-8-25
 layout: unm-base
-header-image: /assets/images/banners/bartlett-arizona.jpg
+header-image: /assets/images/banners/indigenousborderlands.jpg
 ---
 
 # Indigenous Boderlands in North America Symposium  
