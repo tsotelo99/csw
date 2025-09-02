@@ -18,6 +18,6 @@ Bringing historians in strategic conversation with scholars of other disciplines
 # First in a Series
 This launches a series of international conferences on Indigenous borderlands in American and global contexts.
 
- [Schedule](initiatives/indigenous-borderlands/symposiums/schedule.md) 
+ [Schedule](https://github.com/tsotelo99/csw/blob/58942caeaf2c139aa75fec4ac42cd4a98d4243e0/initiatives/indigenous-borderlands/symposiums/schedule.md) 
  [Keynote Speakers](initiatives/indigenous-borderlands/symposiums/Speakers.md)
  [Symposium Abstracts](https://ib2022.unm.edu/symposium-abstracts.html) 
