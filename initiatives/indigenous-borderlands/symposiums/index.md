@@ -1,12 +1,12 @@
 ---
-title: Indigenous Boderlands in North America Symposium 
+title: Indigenous Borderlands in North America Symposium
 author: Teresa Rodriguez
 date: 2025-8-25
 layout: unm-base
-header-image: /assets/images/cards/indigenousborderlands.jpg
+header-image: /assets/images/banners/bartlett-arizona.jpg
 ---
 
-# Indigenous Boderlands in North America Symposium  
+# Indigenous Borderlands in North America Symposium  
 Date: Wednesday, November 2 - Saturday, November 5, 2022
 Location: National Hispanic Cultural Center, Albuquerque, New Mexico
 
