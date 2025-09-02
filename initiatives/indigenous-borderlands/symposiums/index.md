@@ -3,7 +3,7 @@ title: Indigenous Boderlands in North America Symposium
 author: Teresa Rodriguez
 date: 2025-8-25
 layout: unm-base
-header-image:/assets/images/cards/indigenousborderlands.jpg
+header-image: /assets/images/cards/indigenousborderlands.jpg
 ---
 
 # Indigenous Boderlands in North America Symposium  
@@ -19,5 +19,5 @@ Bringing historians in strategic conversation with scholars of other disciplines
 This launches a series of international conferences on Indigenous borderlands in American and global contexts.
 
  [Schedule](initiatives/indigenous-borderlands/symposiums/schedule.md) 
- [Keynote Speakers](speakers.md)
+ [Keynote Speakers](initiatives/indigenous-borderlands/symposiums/speakers.md)
  [Symposium Abstracts](https://ib2022.unm.edu/symposium-abstracts.html) 
