@@ -1,3 +1,11 @@
+---
+title: Indigenous Borderlands in North America Symposium
+author: Teresa Rodriguez
+date: 2025-8-25
+layout: unm-base
+header-image: /assets/images/banners/bartlett-arizona.jpg
+---
+
 ## Keynote Speakers
 
 ---
