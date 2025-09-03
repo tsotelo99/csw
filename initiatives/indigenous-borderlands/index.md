@@ -22,5 +22,3 @@ This launches a series of international conferences on Indigenous borderlands in
  [Keynote Speakers](speakers.md)
  [Video Repository](https://vimeo.com/showcase/9963408)
 
-<p align="center">
-  <img src="ibnas-sponsors.png" width="200" alt="Description">
