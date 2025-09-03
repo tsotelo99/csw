@@ -18,6 +18,6 @@ Bringing historians in strategic conversation with scholars of other disciplines
 # First in a Series
 This launches a series of international conferences on Indigenous borderlands in American and global contexts.
 
- [Schedule and Abstracts](schedule-abstracts.md) 
+ [Schedule and Abstracts](schedule-abstracts.md)
  [Keynote Speakers](speakers.md)
  [Video Repository](https://vimeo.com/showcase/9963408)
