@@ -19,5 +19,5 @@ Bringing historians in strategic conversation with scholars of other disciplines
 This launches a series of international conferences on Indigenous borderlands in American and global contexts.
 
  [Schedule and Abstracts](schedule-abstracts.md) 
- [Keynote Speakers](initiatives/indigenous-borderlands/speakers.md)
- [Video Repository] (https://vimeo.com/showcase/9963408)
+ [Keynote Speakers](speakers.md)
+ [Video Repository](https://vimeo.com/showcase/9963408)
