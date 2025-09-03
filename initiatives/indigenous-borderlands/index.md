@@ -24,6 +24,5 @@ This launches a series of international conferences on Indigenous borderlands in
 
 {% include jumbotron.html
   height="50"
-  image-path="assets/images/people/ibnas-sponsors.png"
-  title=""
+  image-path="/assets/images/people/ibnas-sponsors.png"
 %}
