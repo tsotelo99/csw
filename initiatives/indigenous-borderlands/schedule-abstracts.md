@@ -5,10 +5,9 @@ date: 2025-8-25
 layout: unm-base
 header-image: /assets/images/banners/bartlett-arizona.jpg
 ---
-
+# [Abstracts](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ib2022.unm.edu/ibnas-abstracts-alphabetical-listing.pdf) 
+ 
 ## Schedule — All events held in the Bank of America Theatre
-
-## (Abstracts)[chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ib2022.unm.edu/ibnas-abstracts-alphabetical-listing.pdf]
 
 ### Wednesday, November 2, 2022
 
