@@ -18,14 +18,9 @@ Bringing historians in strategic conversation with scholars of other disciplines
 # First in a Series
 This launches a series of international conferences on Indigenous borderlands in American and global contexts.
 
-  - title: "Schedule and Abstracts"
-    thumbnail: /assets/images/cards/initiatives.jpg
-    summary: 
-    link: "schedule-abstracts.md"
-    
  [Schedule and Abstracts](schedule-abstracts.md)
  [Keynote Speakers](speakers.md)
  [Video Repository](https://vimeo.com/showcase/9963408)
 
 <p align="center">
-  <img src="ibnas-sponsors.png.png" width="200" alt="Description">
+  <img src="ibnas-sponsors.png" width="200" alt="Description">
