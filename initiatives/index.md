@@ -9,7 +9,7 @@ The Center for the Southwest supports work on the U.S. Southwest, U.S.-Mexico Bo
 
 [Indigenous Borderlands](indigenous-borderlands/index.md)
 
-[Indigenous Crossing](indigenous-crossings.md)
+[Indigenous Crossing](indigenous-crossings/index.md)
 
 
 cards: 
