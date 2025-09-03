@@ -14,9 +14,9 @@ header-image: /assets/images/banners/bartlett-arizona.jpg
 **_(Pointe-au-Chien Tribe)_**
 
 {% include figure.html
-class="left"
+class="right"
 width="48%"
-caption="Here's an image on the right."
+caption="Here's an image on the left."
 image-path="assets/images/people/theresadardar.jpg"
 %}
 
@@ -35,9 +35,9 @@ She spends most of her time traveling between political, professional, academic,
 
 
 {% include figure.html
-class="left"
+class="right"
 width="48%"
-caption="Here's an image on the right."
+caption="Here's an image on the left."
 image-path="patty-ferguson2022.jpg"
 %}
 
