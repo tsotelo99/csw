@@ -10,3 +10,24 @@ The Center for the Southwest supports work on the U.S. Southwest, U.S.-Mexico Bo
 [Indigenous Borderlands](indigenous-borderlands/index.md)
 
 [Indigenous Crossing](indigenous-crossings.md)
+
+
+cards: 
+  - title: "Indigenous Borderlands"
+    thumbnail: /assets/images/cards/initiatives.jpg
+    summary: 
+    link: "indigenous-boderlands/index"
+
+  - title: "Indigenous Crossing"
+    thumbnail: /assets/images/cards/horn.jpg
+    summary: 
+    link: "indigenous-crossings.md"
+    
+
+---
+
+{% assign cards = page.cards %}
+
+{% include card-grid.html 
+cards = cards 
+%}
