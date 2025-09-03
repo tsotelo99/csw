@@ -10,6 +10,8 @@ header-image: /assets/images/banners/bartlett-arizona.jpg
 
 ## Schedule — All events held in the Bank of America Theatre
 
+## Abstracts [chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ib2022.unm.edu/ibnas-abstracts-alphabetical-listing.pdf]
+
 ### Wednesday, November 2, 2022
 
 * **4:00** – Doors Open
