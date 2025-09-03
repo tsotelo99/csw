@@ -5,7 +5,7 @@
 ### **Theresa Dardar**     
 **_(Pointe-au-Chien Tribe)_**
 
-{% theresadardar.jpg% }
+{theresadardar.jpg}
 
 Theresa Dardar is a lifelong resident of the small American Indian fishing community of Pointe-aux-Chenes in Lafourche Parish, Louisiana, one of the most fragile coastal areas in the world. She is a strong local leader advocating for the restoration and protection of not just the ecosystem of the Gulf of Mexico and its coastal areas but also for the people and communities who call coastal Louisiana home.
 
@@ -19,7 +19,7 @@ She spends most of her time traveling between political, professional, academic,
 
 ### **Patty Ferguson-Bohnee**  
 **_(Pointe-au-Chien Tribe)_**
-{% patty-ferguson2022.jpg %}
+{patty-ferguson2022.jpg}
 
 Patty Ferguson-Bohnee is the Director of the Indian Legal Clinic, Faculty Director of the Indian Legal Program, and Clinical Professor of Law at the Sandra Day O'Connor College of Law at Arizona State University.
 
