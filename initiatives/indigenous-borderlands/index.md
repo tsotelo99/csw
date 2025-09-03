@@ -22,7 +22,9 @@ This launches a series of international conferences on Indigenous borderlands in
  [Keynote Speakers](speakers.md)
  [Video Repository](https://vimeo.com/showcase/9963408)
 
-{% include jumbotron.html
-  height="50"
-  image-path="/assets/images/people/ibnas-sponsors.png"
-%}
+
+{% include figure.html
+  class="center"
+  width="100%"
+  caption="Make sure your image is large enough to be 100% width or it will look grainy. See above."
+  image-path="/assets/images/people/ibnas-sponsors.png" %}
