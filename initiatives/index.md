@@ -16,12 +16,12 @@ cards:
   - title: "Indigenous Borderlands"
     thumbnail: /assets/images/cards/initiatives.jpg
     summary: 
-    link: "indigenous-boderlands/index"
+    link: "(indigenous-boderlands/index.md)"
 
   - title: "Indigenous Crossing"
     thumbnail: /assets/images/cards/horn.jpg
     summary: 
-    link: "indigenous-crossings.md"
+    link: "(indigenous-crossings.md)"
     
 
 ---
