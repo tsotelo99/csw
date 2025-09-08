@@ -31,4 +31,4 @@ The Center for the Southwest is devoted to the study of the U.S. Southwest and i
 Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwest) or follow us on [X](https://twitter.com/CntrSW). You can also contact us at [cntrsw@unm.edu](mailto:cntrsw@unm.edu).
 
 
-(Western History at UNM)[western-history-at-unm/people.md]
+[Western History at UNM](western-history-at-unm/people.md)
