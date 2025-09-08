@@ -13,10 +13,6 @@ cards:
     summary: 
     link: "horn-lecture/about"
     
- - title: "Western History at UNM"
-    thumbnail: /assets/images/cards/horn.jpg
-    summary: 
-    link: "horn-lecture/about"
 ---
 
 {% assign cards = page.cards %}
