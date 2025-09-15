@@ -46,9 +46,9 @@ History of Women, Gender and Sexuality, Asian American History, American West Hi
 %}
 
 ---
-# Katherine Massoth - Associate Professor 
+# Katherine Massot - Associate Professor
 Email: kmassoth@unm.edu
-Office: Mesa Vista Hall 2097
+Office: 2097 Mesa Vista Hall
 Women’s and Gender History, Frontiers and Borderlands History, Southwest History, American West History, U.S. History, 19th century History, Mexican History, Cultural History, Social History
 {% include figure.html
   class="right"
@@ -56,8 +56,8 @@ Women’s and Gender History, Frontiers and Borderlands History, Southwest Histo
   caption=
   image-path="/assets/images/people/katherinemassoth.jpg"
 %}
----
 
+---
 # Samuel Truett - Professor
 Director, Center for the Southwest
 Email: truett@unm.edu
