@@ -1,7 +1,18 @@
 ---
-title: Center for the Southwest
+title: initiatives
 layout: unm-base
 header-image: /assets/images/banners/red-canyon.jpg
+cards: 
+  - title: "Indigenous Crossings"
+    thumbnail: /assets/images/cards/initiatives.jpg
+    summary: 
+    link: "indigenous-crossings/index"
+
+  - title: "indigenous-borderlands"
+    thumbnail: /assets/images/cards/horn.jpg
+    summary: 
+    link: "indigenous-borderlands/index"
+    
 ---
 
 # Initiatives
