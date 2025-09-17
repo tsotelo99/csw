@@ -3,6 +3,7 @@
 
 /* Center main content and set max-width */
 .main-content-container {
+  font-size: 16px;
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
@@ -158,10 +159,11 @@ DIRECTORY CARDS
 *****************************************************/
 
   .card {
-    opacity: .8;
-    min-height: 15rem;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    /* Smooth transition */
+  opacity: .8;
+  min-height: 15rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  /* Smooth transition */
+  margin-bottom: 2rem; /* space between cards */
   }
 
   .card:hover {
@@ -170,6 +172,7 @@ DIRECTORY CARDS
     transform: scale(1.05);
     /* Slightly enlarge the card */
   }
+
 
   .card-image {
     object-fit: cover;
@@ -182,15 +185,32 @@ DIRECTORY CARDS
     height: 15rem;
   }
 
+/* Horizontal card image left, text right */
+.card-img-left {
+  width: 20rem;
+  object-fit: cover;
+  float: left;
+  margin-right: 1.5rem;
+  border-radius: 8px;
+}
+
   .card h3 {
-    font-family: 'Open Sans';
     font-size: 1.5rem;
     font-weight: bold;
     margin: .5rem 0 1rem 0;
+    color: #666;
+  font-family: "Gotham A",
+      "Gotham B",
+      "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
   }
 
   .card-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: normal;
   }
 
