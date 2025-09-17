@@ -1,7 +1,5 @@
 ---
-title: About Us
-author: Fred Gibbs
-date: 2024-10-28
+title: About CSW
 layout: unm-base
 header-image: /assets/images/banners/bartlett-arizona.jpg
 ---
@@ -17,7 +15,8 @@ Through scholarly initiatives, speakers, workshops, colloquia, institutional par
 
 ## People
 
-{% include people.html %}
+{% assign people = site.data.people.current-csw %}
+{% include people.html people = people %}
 
 ---
 

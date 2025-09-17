@@ -1,5 +1,5 @@
 # Team names, titles and social links
-current:
+current-csw:
 
 - name: Samuel Truett
   title: Director
@@ -16,4 +16,53 @@ current:
   email:  tsotelo99@unm.edu
   bio: 
   link: 
+
+
+affiliates:
+
+- name: Durwood Ball
+  title: Editor, New Mexico Historical Review
+  image: durwoodball.jpg
+  office: Mesa Vista 1002
+  phone: (505) 277-7847
+  email: lball@unm.edu
+  bio:
+  interests: American Frontier and Western History, U.S. Military History, U.S. History, Male Gender History
+  link: https://history.unm.edu/faculty/durwood-ball.html
+
+- name: LM Garcia y Griego
+  title: Associate Professor
+  image: garcia-y-griego-25.jpg
+  office: Mesa Vista Hall 1075
+  phone: (505) 225-0043
+  email: mgarciay@unm.edu
+  interests: American West, Modern Mexico, U.S. Latino Population 
+
+- name: Karen J. Leong
+  title: Associate Professor
+  image: karenleong.jpg
+  office: 2094 Mesa Vista Hall
+  email: kleong@unm.edu
+  interests: History of Women, Gender and Sexuality, Asian American History, American West History, 20th Century U.S. History, Cultural History, Critical Race and Relational Ethnic Studies
+  bio:
+  link:
+
+- name: Katherine Massoth
+  title: Associate Professor
+  image: katherinemassoth.jpg
+  office: 2097 Mesa Vista Hall
+  email: kmassoth@unm.edu
+  interests: Women’s and Gender History, Frontiers and Borderlands History, Southwest History, American West History, U.S. History, 19th century History, Mexican History, Cultural History, Social History
+  bio:
+  link:
+
+- name: Samuel Truett
+  title: Professor, Director, Center for the Southwest
+  image: samuel-truett.jpg
+  office: Mesa Vista 2059
+  phone: (505) 277-6210
+  email: truett@unm.edu
+  interests: Borderlands History, Environmental History, History of the North American West, Nineteenth Century Mexico, Native American and Indigenous History, Transnational History, Empires and Borderlands in World History
+  bio:
+  link:
 
