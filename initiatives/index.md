@@ -12,7 +12,13 @@ cards:
     thumbnail: /assets/images/cards/horn.jpg
     summary: 
     link: "initiatives/indigenous-borderlands/index"
-    
+
+    {% assign cards = page.cards %}
+
+{% include card-grid.html 
+cards = cards 
+%}
+
 ---
 
 # Initiatives
