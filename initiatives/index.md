@@ -12,14 +12,15 @@ cards:
     thumbnail: /assets/images/cards/horn.jpg
     summary: 
     link: "initiatives/indigenous-borderlands/index"
+    
+---
 
-    {% assign cards = page.cards %}
+{% assign cards = page.cards %}
 
 {% include card-grid.html 
 cards = cards 
 %}
 
----
 
 # Initiatives
 The Center for the Southwest supports work on the U.S. Southwest, U.S.-Mexico Borderlands, Native America, and regional and global environments through a variety of long-term research, student, and community-facing initiatives.
