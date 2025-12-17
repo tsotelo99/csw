@@ -291,3 +291,40 @@ DIRECTORY CARDS
   }
 
 }
+/* Two-column page layout: content + right sidebar */
+.page-grid {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.page-grid .content {
+  min-width: 0;
+}
+
+.page-grid .sidebar {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.sidebar h2 { margin-top: 0; font-size: 1.1rem; }
+.sidebar .news-list { list-style: none; padding: 0; margin: 0; }
+.sidebar .news-list li { padding: .5rem 0; border-bottom: 1px solid #eee; }
+.sidebar .news-list li a { font-weight: 600; color: #123; text-decoration: none; }
+
+/* Stack on narrow screens */
+@media (max-width: 900px) {
+  .page-grid { grid-template-columns: 1fr; }
+  .page-grid .sidebar { order: 2; }
+}
+
+/* Sticky sidebar on desktop */
+@media (min-width: 900px) {
+  .sidebar { position: sticky; top: 1.5rem; }
+}

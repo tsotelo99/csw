@@ -17,9 +17,9 @@ cards:
 
 {% assign cards = page.cards %}
 
-{% include card-grid.html 
-cards = cards 
-%}
+<div class="page-grid">
+  <main class="content" role="main">
+    {% include card-grid.html cards=cards %}
 
 
 
@@ -32,3 +32,10 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
 
 
 [Western History at UNM](western-history-at-unm/people.md)
+
+  </main>
+
+  <aside class="sidebar" role="complementary" aria-label="News">
+    {% include news-sidebar.html %}
+  </aside>
+</div>
