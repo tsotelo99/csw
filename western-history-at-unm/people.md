@@ -1,5 +1,5 @@
 ---
-title: western-history-at-unm
+title: Western-History-at-UNM
 layout: unm-base
 header-image: /assets/images/banners/bartlett-arizona.jpg
 ---
