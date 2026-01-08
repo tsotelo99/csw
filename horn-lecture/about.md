@@ -12,16 +12,3 @@ This endowed lecture series was established as the “Calvin Horn Lecture on Wes
 
 Calvin and Ruth's vision for the series was to provide the campus and the larger community access to inspiring speakers who brought history to life by providing perspective on the West. By understanding the past we gain new insight into the history of such matters as land use, conservation, access to water, our regional identity, the creative arts, and the actions of historical figures. 
 
-<section class="gallery">
-  <h2>Galería</h2>
-
-  <div class="gallery-container">
-    <img id="mainImage" src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" alt="Galería principal">
-
-    <div class="thumbnails">
-      <img src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" onclick="changeImage(this)">
-      <img src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" onclick="changeImage(this)">
-      <img src="{{site.baseurl}}/assets/images/cards/horn.jpg" onclick="changeImage(this)">
-      <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" onclick="changeImage(this)">
-    </div>
-  </div>
