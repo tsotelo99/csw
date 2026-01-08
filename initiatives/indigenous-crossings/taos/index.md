@@ -34,9 +34,9 @@ Department of Cultures, University of Helsinki.
   <aside class="sidebar" role="complementary" aria-label="Gallery">
     <h2>Gallery</h2>
     <div class="sidebar-gallery">
-      {% include figure.html class="sidebar-img" width="100%" caption="Taos Workshop" image-path="/assets/images/indigenous-crossings/taos/photo1.jpg" %}
-      {% include figure.html class="sidebar-img" width="100%" caption="Participants" image-path="/assets/images/indigenous-crossings/taos/photo2.jpg" %}
-      {% include figure.html class="sidebar-img" width="100%" caption="Landscape" image-path="/assets/images/indigenous-crossings/taos/photo3.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Horn Lecture" image-path="/assets/images/cards/horn.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Indigenous Borderlands" image-path="/assets/images/cards/indigenousborderlands.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
     </div>
   </aside>
 </div>

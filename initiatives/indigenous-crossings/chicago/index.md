@@ -4,6 +4,9 @@ layout: unm-base
 header-image: /assets/images/indigenous-crossings/chicago/header.jpg
 ---
 
+<div class="page-grid">
+  <main class="content" role="main">
+
 # Indigenous Crossings Workshop at Chicago, Illinois
 
 Date: February 7-9, 2026
@@ -25,3 +28,15 @@ History Department, Princeton University.
 
 ### Rani-Henrik Andersson
 Department of Cultures, University of Helsinki.
+
+  </main>
+
+  <aside class="sidebar" role="complementary" aria-label="Gallery">
+    <h2>Gallery</h2>
+    <div class="sidebar-gallery">
+      {% include figure.html class="sidebar-img" width="100%" caption="Horn Lecture" image-path="/assets/images/cards/horn.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Indigenous Borderlands" image-path="/assets/images/cards/indigenousborderlands.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
+    </div>
+  </aside>
+</div>
