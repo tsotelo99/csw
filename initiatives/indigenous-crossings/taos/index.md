@@ -4,6 +4,9 @@ layout: unm-base
 header-image: /assets/images/indigenous-crossings/taos/header.jpg
 ---
 
+<div class="page-grid">
+  <main class="content" role="main">
+
 # Indigenous Crossings Workshop at Taos, New Mexico
 
 Date: September 26-27, 2022
@@ -25,3 +28,15 @@ History Department, Princeton University.
 
 ### Rani-Henrik Andersson
 Department of Cultures, University of Helsinki.
+
+  </main>
+
+  <aside class="sidebar" role="complementary" aria-label="Gallery">
+    <h2>Gallery</h2>
+    <div class="sidebar-gallery">
+      {% include figure.html class="sidebar-img" width="100%" caption="Taos Workshop" image-path="/assets/images/indigenous-crossings/taos/photo1.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Participants" image-path="/assets/images/indigenous-crossings/taos/photo2.jpg" %}
+      {% include figure.html class="sidebar-img" width="100%" caption="Landscape" image-path="/assets/images/indigenous-crossings/taos/photo3.jpg" %}
+    </div>
+  </aside>
+</div>
