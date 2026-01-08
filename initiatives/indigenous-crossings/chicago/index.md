@@ -11,7 +11,7 @@ header-image: /assets/images/indigenous-crossings/chicago/header.jpg
 
 Date: February 7-9, 2026
 
-In a workshop hosted by the Newberry Lab for Southwest Studies at Chicago, IL (February 8-11, 2026), the continuation of the project that propose anchoring visions of past and future to a deeper planetary archive, one linked to Native nations and Indigenous communities and their historical border crossings world-wide. We seek to connect exciting new work in global Indigenous studies with Native-centered work on place, mobility, climate change and justice, human and other-than-human kinship, migration and sanctuary, borderlands and border crossings, Native trans-national relationships and social movements, and Indigenous politics, identities, diplomacy, and cross-community relations in historical contexts of global change.
+In a workshop hosted by the [Newberry Library](https://www.newberry.org/about) Lab for Southwest Studies at Chicago, IL (February 8-11, 2026), the continuation of the project that propose anchoring visions of past and future to a deeper planetary archive, one linked to Native nations and Indigenous communities and their historical border crossings world-wide. We seek to connect exciting new work in global Indigenous studies with Native-centered work on place, mobility, climate change and justice, human and other-than-human kinship, migration and sanctuary, borderlands and border crossings, Native trans-national relationships and social movements, and Indigenous politics, identities, diplomacy, and cross-community relations in historical contexts of global change.
 
 Some pictures from the workshop. 
 
