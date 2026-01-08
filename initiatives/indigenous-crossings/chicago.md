@@ -1,5 +1,4 @@
----
-title: Chicago
+title: Taos
 layout: unm-base
 header-image: /assets/images/red-canyon.jpg
 ---

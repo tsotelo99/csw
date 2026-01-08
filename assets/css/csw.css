@@ -304,6 +304,18 @@ DIRECTORY CARDS
 
 .page-grid .content {
   min-width: 0;
+  text-align: left;
+}
+
+.page-grid .content h1,
+.page-grid .content h2,
+.page-grid .content h3,
+.page-grid .content h4,
+.page-grid .content h5,
+.page-grid .content h6,
+.page-grid .content p {
+  text-align: left;
+  margin-left: 0;
 }
 
 .page-grid .sidebar {
