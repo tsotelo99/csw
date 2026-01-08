@@ -1,6 +1,8 @@
+---
 title: Chicago
 layout: unm-base
-header-image: /assets/images/indigenous-crossings/taos/header.jpg
+header-image: /assets/images/red-canyon.jpg
+---
 ## Chicago, Illinois
 
 # Indigenous Crossings Workshop at Chicago, Illinois
