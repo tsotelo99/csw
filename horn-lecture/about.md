@@ -12,36 +12,16 @@ This endowed lecture series was established as the “Calvin Horn Lecture on Wes
 
 Calvin and Ruth’s vision for the series was to provide the campus and the larger community access to inspiring speakers who brought history to life by providing perspective on the West. By understanding the past we gain new insight into the history of such matters as land use, conservation, access to water, our regional identity, the creative arts, and the actions of historical figures. 
 
-/* ---- Layout de columnas ---- */
-.news-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem; /* espacio entre columnas */
-  justify-content: center;
-}
+<section class="gallery">
+  <h2>Galería</h2>
 
-.news-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1.5rem;
-  width: calc(33.333% - 2rem); /* 3 columnas */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+  <div class="gallery-container">
+    <img id="mainImage" src="images/bryce-wash.jpg" alt="Galería principal">
 
-.news-card h3 {
-  margin-top: 0;
-  font-size: 1.25rem;
-}
-
-.news-card p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.news-card a {
-  display: inline-block;
-  margin-top: 0.75rem;
-  color: #0066cc;
-  text-decoration: none;
-}
+    <div class="thumbnails">
+      <img src="images/banners/bryce-wash.jpg" onclick="changeImage(this)">
+      <img src="images/banners/red-cayon.jpg" onclick="changeImage(this)">
+      <img src="images/cards/horn.jpg" onclick="changeImage(this)">
+      <img src="images/cards/initiatives.jpg" onclick="changeImage(this)">
+    </div>
+  </div>
