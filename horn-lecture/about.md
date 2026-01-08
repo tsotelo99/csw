@@ -10,18 +10,18 @@ The C. Ruth and Calvin P. Horn Lecture Series makes a singularly invaluable cont
 
 This endowed lecture series was established as the “Calvin Horn Lecture on Western History and Culture” in the fall of 1985 with the purpose of honoring the memory of U.S. President John F. Kennedy and to support the study of history, a passion of both Mr. and Mrs. Horn. This endowed lecture series — the only endowed lecture series in the Department of History at UNM — was originally organized by the University of New Mexico Press and honors Calvin and Ruth Horn’s passion for American Western history. The Center for the Southwest  has now transitioned as the coordinating organization for the event, which offers a generous honorarium of $1,000 to the featured Calvin Horn lecturer. If you would like to contribute to the C. Ruth and Calvin P. Horn Series, please visit our donation page.
 
-Calvin and Ruth’s vision for the series was to provide the campus and the larger community access to inspiring speakers who brought history to life by providing perspective on the West. By understanding the past we gain new insight into the history of such matters as land use, conservation, access to water, our regional identity, the creative arts, and the actions of historical figures. 
+Calvin and Ruth's vision for the series was to provide the campus and the larger community access to inspiring speakers who brought history to life by providing perspective on the West. By understanding the past we gain new insight into the history of such matters as land use, conservation, access to water, our regional identity, the creative arts, and the actions of historical figures. 
 
 <section class="gallery">
   <h2>Galería</h2>
 
   <div class="gallery-container">
-    <img id="mainImage" src="images/bryce-wash.jpg" alt="Galería principal">
+    <img id="mainImage" src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" alt="Galería principal">
 
     <div class="thumbnails">
-      <img src="images/banners/bryce-wash.jpg" onclick="changeImage(this)">
-      <img src="images/banners/red-cayon.jpg" onclick="changeImage(this)">
-      <img src="images/cards/horn.jpg" onclick="changeImage(this)">
-      <img src="images/cards/initiatives.jpg" onclick="changeImage(this)">
+      <img src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" onclick="changeImage(this)">
+      <img src="{{site.baseurl}}/assets/images/banners/red-canyon.jpg" onclick="changeImage(this)">
+      <img src="{{site.baseurl}}/assets/images/cards/horn.jpg" onclick="changeImage(this)">
+      <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" onclick="changeImage(this)">
     </div>
   </div>
