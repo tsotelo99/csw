@@ -35,7 +35,7 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives">
       <div class="card-body">
         <h5 class="card-title">Initiatives</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -44,7 +44,7 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/assets/images/cards/horn.jpg" class="card-img-top" alt="Horn Lecture">
       <div class="card-body">
         <h5 class="card-title">Horn Lecture</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -53,7 +53,7 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/assets/images/cards/indigenousborderlands.jpg" class="card-img-top" alt="Indigenous Crossing">
       <div class="card-body">
         <h5 class="card-title">Indigenous Crossing</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -62,7 +62,7 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
   </div>
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="/assets/images/cards/horn.jpg" class="card-img-top" alt="News">
       <div class="card-body">
         <h5 class="card-title">News</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
