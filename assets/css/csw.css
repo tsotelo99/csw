@@ -124,7 +124,8 @@ IMAGES
   }
 
   figcaption {
-    color: #888;
+    color: #111111;
+    background-color: inherit;
     font-family: 'Oxygen', sans-serif;
     display: block;
     font-size: .8rem;
