@@ -7,7 +7,7 @@ header-image: /assets/images/red-canyon.jpg
 <div class="page-grid">
   <main class="content" role="main">
 
-# Indigenous Crossings Workshop at Taos, New Mexico
+# Indigenous Crossings Workshop at Taos New Mexico
 
 Date: September 26-27, 2022
 
