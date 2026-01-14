@@ -7,7 +7,7 @@ header-image: /assets/images/red-canyon.jpg
 <div class="page-grid">
   <main class="content" role="main">
 
-# Indigenous Crossings Workshop at Taos New Mexico
+<h1>Indigenous Crossings Workshop at Taos New Mexico</h1>
 
 Date: September 26-27, 2022
 
@@ -15,18 +15,18 @@ In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos
 
 Some pictures from the workshop. 
 
-## Coordinating Committee
+<h2>Coordinating Committee</h2>
 
-### Joshua L. Reid (Snohomish Tribe of Indians) 
+<h3>Joshua L. Reid (Snohomish Tribe of Indians)</h3>
 History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.
 
-### Samuel Truett
+<h3>Samuel Truett</h3>
 History Department, Director of the Center for the Southwest, University of New Mexico.
 
-### Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)
+<h3>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h3>
 History Department, Princeton University.
 
-### Rani-Henrik Andersson
+<h3>Rani-Henrik Andersson</h3>
 Department of Cultures, University of Helsinki.
 
 
