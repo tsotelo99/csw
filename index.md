@@ -34,13 +34,15 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
-    <div class="card">
-      <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives">
-      <div class="card-body">
-        <h5 class="card-title">Initiatives</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <a href="https://tsotelo99.github.io/csw/initiatives/" style="text-decoration: none;">
+      <div class="card">
+        <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives">
+        <div class="card-body">
+          <h5 class="card-title">Initiatives</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col">
     <div class="card">
