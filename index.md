@@ -36,7 +36,7 @@ Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwes
   <div class="col">
     <a href="https://tsotelo99.github.io/csw/initiatives/" style="text-decoration: none;">
       <div class="card">
-        <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives">
+        <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives" style="height: 300px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Initiatives</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
