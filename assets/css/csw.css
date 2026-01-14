@@ -94,6 +94,7 @@ IMAGES
     margin: 0;
     padding: 0;
     clear: none;
+    background-color: inherit;
     /* no bottom padding; handled with caption */
   }
 
