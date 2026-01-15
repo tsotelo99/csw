@@ -2,7 +2,6 @@
 title: Center for the Southwest
 layout: unm-base
 header-image: /assets/images/csw-images/andy-young-2.jpg
-backgroud-postition: center bottom
 section_cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
