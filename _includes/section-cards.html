@@ -1,0 +1,16 @@
+{% assign cards = include.cards %}
+<div class="section-card-grid">
+  {% for card in cards %}
+    <div class="section-card">
+      <a href="{{ card.link | default: card.url }}">
+        <div class="section-card-image-wrapper">
+          <img src="{{site.baseurl}}{{ card.image }}" class="section-card-image" alt="{{ card.title }}">
+          <div class="section-card-header">{{ card.title }}</div>
+        </div>
+        <div class="section-card-body">
+          <p class="section-card-text">{{ card.description }}</p>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
