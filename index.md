@@ -16,9 +16,6 @@ section_cards:
     link: /news/
     description: Stay updated on our latest news, events, and announcements.
 ------
-header-image: path/to/image.jpg
-background-position: center bottom
----
 
 
 # Welcome to the Center for the Southwest
