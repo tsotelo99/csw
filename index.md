@@ -6,7 +6,7 @@ backgroud-postition: center bottom
 section_cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
-    link: /initiatives/
+    link: csw/initiatives
     description: Explore our scholarly initiatives and research projects focused on Southwest studies.
   - title: Horn Lecture
     image: /assets/images/csw-images/andy-young-2.jpg
