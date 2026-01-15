@@ -30,45 +30,38 @@ The Center for the Southwest is devoted to the study of the U.S. Southwest and i
 Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwest) or follow us on [X](https://twitter.com/CntrSW). You can also contact us at [cntrsw@unm.edu](mailto:cntrsw@unm.edu).
 
 
-[Western History at UNM](western-history-at-unm/people.md)
+{% assign cards = include.cards %}
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <a href="https://tsotelo99.github.io/csw/initiatives/" style="text-decoration: none;">
-      <div class="card">
-        <img src="{{site.baseurl}}/assets/images/cards/initiatives.jpg" class="card-img-top" alt="Initiatives" style="height: 300px; object-fit: cover;">
-        <div class="card-body">
-          <h5 class="card-title">Initiatives</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
+{% for card in cards %}
+{% if card.title and card.title != "" and card.thumbnail %}
+<div class="card h-card">
+  <a href="{{ site.baseurl }}{{ card.link | default: card.url }}" class="card-link">
+    
+    <!-- Image -->
+    {% capture card_image_url %}
+    {% include images/image-path.html image-path=card.thumbnail page-dir=card.dir %}
+    {% endcapture %}
+    {% assign card_image_url = card_image_url | strip %}
+    <img src="{{ card_image_url }}" 
+         class="card-img-left" 
+         alt="{{ card.title }}">
+    
+    <!-- Content -->
+    <div class="card-body">
+      <h3>{{ card.title }}</h3>
+      <p class="card-text">{{ card.summary | default: card.description }}</p>
+      
+      <!-- Display tags if they exist -->
+      {% if card.tags %}
+      <div class="tags mt-2">
+        {% for tag in card.tags %}
+        <span class="badge bg-secondary me-1">{{ tag }}</span>
+        {% endfor %}
       </div>
-    </a>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{site.baseurl}}/assets/images/cards/horn.jpg" class="card-img-top" alt="Horn Lecture">
-      <div class="card-body">
-        <h5 class="card-title">Horn Lecture</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+      {% endif %}
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{site.baseurl}}/assets/images/cards/indigenousborderlands.jpg" class="card-img-top" alt="Indigenous Crossing">
-      <div class="card-body">
-        <h5 class="card-title">Indigenous Crossing</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="{{site.baseurl}}/assets/images/cards/horn.jpg" class="card-img-top" alt="News">
-      <div class="card-body">
-        <h5 class="card-title">News</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
+    
+  </a>
 </div>
+{% endif %}
+{% endfor %}
