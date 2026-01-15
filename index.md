@@ -31,6 +31,7 @@ The Center for the Southwest is devoted to the study of the U.S. Southwest and i
 
 Stay connected and engaged with the Center for the Southwest through our social media channels and direct contact.
 
+- **Instagram:** [Follow us on Instagram](https://www.facebook.com/centerforthesouthwest)
 - **Facebook:** [Follow us on Facebook](https://www.facebook.com/centerforthesouthwest)
 - **X (Twitter):** [Follow us on X](https://twitter.com/CntrSW)
 - **Email:** [cntrsw@unm.edu](mailto:cntrsw@unm.edu)
