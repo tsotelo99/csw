@@ -4,15 +4,15 @@ layout: unm-base
 header-image: /assets/images/banners/red-canyon.jpg
 section_cards:
   - title: Initiatives
-    image: /assets/images/cards/initiatives.jpg
+    image: /assets/images/csw-images/andy-young-1.jpg
     link: /initiatives/
     description: Explore our scholarly initiatives and research projects focused on Southwest studies.
   - title: Horn Lecture
-    image: /assets/images/cards/horn-lecture.jpg
+    image: /assets/images/csw-images/andy-young-2.jpg
     link: /horn-lecture/
     description: Annual lecture series featuring prominent scholars and thinkers.
   - title: News & Events
-    image: /assets/images/cards/news-events.jpg
+    image: /assets/images/andy-young-3.jpg
     link: /news/
     description: Stay updated on our latest news, events, and announcements.
 ---
