@@ -15,8 +15,7 @@ section_cards:
     image: /assets/images/csw-images/andy-young-3.jpg
     link: /news/
     description: Stay updated on our latest news, events, and announcements.
-------
-
+---
 
 # Welcome to the Center for the Southwest
 
