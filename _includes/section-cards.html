@@ -3,12 +3,11 @@
   {% for card in cards %}
     <div class="section-card">
       <a href="{{ card.link | default: card.url }}">
-        <div class="section-card-image-wrapper">
-          <img src="{{site.baseurl}}{{ card.image }}" class="section-card-image" alt="{{ card.title }}">
-          <div class="section-card-header">{{ card.title }}</div>
-        </div>
-        <div class="section-card-body">
-          <p class="section-card-text">{{ card.description }}</p>
+        <div class="section-card-image-wrapper" style="background-image: url('{{site.baseurl}}{{ card.image }}')">
+          <div class="section-card-overlay">
+            <h3 class="section-card-title">{{ card.title }}</h3>
+            <p class="section-card-description">{{ card.description }}</p>
+          </div>
         </div>
       </a>
     </div>

@@ -1,6 +1,6 @@
 /*****************************************************
 SECTION CARDS
-Rectangle cards with header overlay for main sections
+Rectangle cards with image background and overlay text
 *****************************************************/
 
 .section-card-grid {
@@ -54,32 +54,30 @@ Rectangle cards with header overlay for main sections
   /* Display */
   display: flex;
   position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
   /* Box Model */
   width: 100%;
-  height: 100px;
+  height: 300px;
+  
+  /* Visual */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
-  background: var(--bg-muted);
+  transition: background-size var(--transition-normal);
 }
 
-.section-card-image {
-  /* Box Model */
-  width: 100%;
-  height: 100%;
-  
-  /* Visual */
-  object-fit: cover;
-  transition: transform var(--transition-normal);
+.section-card:hover .section-card-image-wrapper {
+  background-size: 110%;
 }
 
-.section-card:hover .section-card-image {
-  /* Visual */
-  transform: scale(1.05);
-}
-
-.section-card-header {
+.section-card-overlay {
   /* Display */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   
@@ -88,10 +86,22 @@ Rectangle cards with header overlay for main sections
   top: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  bottom: 0;
   width: 100%;
-  padding: var(--spacing-md);
+  height: 100%;
+  padding: var(--spacing-lg);
   
+  /* Visual */
+  background: rgba(0, 0, 0, 0.4);
+  transition: background var(--transition-normal);
+  z-index: 2;
+}
+
+.section-card:hover .section-card-overlay {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.section-card-title {
   /* Typography */
   font-size: 2.5rem;
   font-weight: 900;
@@ -99,37 +109,18 @@ Rectangle cards with header overlay for main sections
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   letter-spacing: 0.5px;
-  
-  /* Visual */
-  background: transparent;
-  transition: all var(--transition-normal);
-  z-index: 2;
+  margin: 0 0 var(--spacing-md) 0;
+  line-height: 1.2;
 }
 
-.section-card:hover .section-card-header {
-  /* Visual */
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-.section-card-body {
-  /* Box Model */
-  padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
-  flex: 1 1 auto;
-  
-  /* Display */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  
-  /* Visual */
-  background: white;
-}
-
-.section-card-text {
+.section-card-description {
   /* Typography */
   font-size: 0.95rem;
   font-weight: normal;
-  color: var(--text-muted);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.5;
+  max-width: 100%;
 }
