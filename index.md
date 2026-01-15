@@ -22,6 +22,16 @@ section_cards:
 
 The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.
 
-Feel free to like us on [Facebook](https://www.facebook.com/centerforthesouthwest) or follow us on [X](https://twitter.com/CntrSW). You can also contact us at [cntrsw@unm.edu](mailto:cntrsw@unm.edu).
+## Featured Sections
 
 {% include section-cards.html cards=page.section_cards %}
+
+---
+
+## Connect With Us
+
+Stay connected and engaged with the Center for the Southwest through our social media channels and direct contact.
+
+- **Facebook:** [Follow us on Facebook](https://www.facebook.com/centerforthesouthwest)
+- **X (Twitter):** [Follow us on X](https://twitter.com/CntrSW)
+- **Email:** [cntrsw@unm.edu](mailto:cntrsw@unm.edu)
