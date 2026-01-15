@@ -12,7 +12,7 @@ section_cards:
     link: /horn-lecture/
     description: Annual lecture series featuring prominent scholars and thinkers.
   - title: News & Events
-    image: /assets/images/andy-young-3.jpg
+    image: /assets/images/csw-images/andy-young-3.jpg
     link: /news/
     description: Stay updated on our latest news, events, and announcements.
 ---
@@ -22,7 +22,6 @@ section_cards:
 
 The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.
 
-## Featured Sections
 
 {% include section-cards.html cards=page.section_cards %}
 
