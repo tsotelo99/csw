@@ -73,11 +73,12 @@ header-image: /assets/images/banners/red-canyon.jpg
 
 <div class="past-lectures-grid">
 
+
 <div class="lecture-card">
-<div class="lecture-year">2024</div>
-<div class="lecture-speaker">Juliana Barr</div>
-<div class="lecture-affiliation">Duke University</div>
-<div class="lecture-title">"The Woman in Blue: How Native Storytellers Turned a Bilocating Nun into an Expression of Indigenous Geopolitics"</div>
+<div class="lecture-year">2025</div>
+<div class="lecture-speaker">Dr. Joshua L. Reid</div>
+<div class="lecture-affiliation">University of Washington</div>
+<div class="lecture-title">"Comekala and Ranald MacDonald: Making Pacific Worlds through Indigenous Exploration"</div>
 </div>
 
 <div class="lecture-card">
