@@ -13,6 +13,9 @@ header-image: /assets/images/banners/bryce-wash.jpg
   main.content {
     width: 100% !important;
   }
+  h1 {
+    color: #ba0c2f;
+  }
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -28,7 +31,10 @@ header-image: /assets/images/banners/bryce-wash.jpg
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 1.3em;
-    color: #555;
+    color: #ba0c2f;
+  }
+  h5 {
+    color: #ba0c2f;
   }
   .committee-grid {
     display: grid;
@@ -63,7 +69,7 @@ In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos
   {% include figure.html class="gallery-item" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
 </div>
 
-<h5>Coordinating Committee</h5>
+<h4>Coordinating Committee</h4>
 
 <div class="committee-grid">
   <div class="committee-member">
