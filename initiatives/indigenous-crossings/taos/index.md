@@ -13,6 +13,17 @@ header-image: /assets/images/banners/bryce-wash.jpg
   main.content {
     width: 100% !important;
   }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+  }
 </style>
 
 <div class="page-grid">
@@ -41,4 +52,10 @@ Department of Cultures, University of Helsinki.
 
 
   </main>
+</div>
+
+<div class="gallery-grid">
+  {% include figure.html class="gallery-item" width="100%" caption="Horn Lecture" image-path="/assets/images/cards/horn.jpg" %}
+  {% include figure.html class="gallery-item" width="100%" caption="Indigenous Borderlands" image-path="/assets/images/cards/indigenousborderlands.jpg" %}
+  {% include figure.html class="gallery-item" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
 </div>
