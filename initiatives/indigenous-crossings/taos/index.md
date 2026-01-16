@@ -4,7 +4,7 @@ layout: unm-base
 header-image: /assets/images/banners/bryce-wash.jpg
 ---
 
-<h1>Indigenous Crossings Workshop/h1>
+<h1>Indigenous Crossings Workshop</h1>
 
 <style>
   .page-grid {
@@ -59,15 +59,15 @@ In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos
 
 Some pictures from the workshop. 
 
-<h2>Coordinating Committee</h2>
+<h3>Coordinating Committee</h3>
 
 <div class="committee-grid">
   <div class="committee-member">
-    <h3>Joshua L. Reid (Snohomish Tribe of Indians)</h3>
+    <h4>Joshua L. Reid (Snohomish Tribe of Indians)</h4>
     <p>History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.</p>
   </div>
   <div class="committee-member">
-    <h3>Samuel Truett</h3>
+    <h4>Samuel Truett</h4>
     <p>History Department, Director of the Center for the Southwest, University of New Mexico.</p>
   </div>
   <div class="committee-member">
