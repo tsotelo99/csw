@@ -13,6 +13,9 @@ header-image: /assets/images/banners/bryce-wash.jpg
   main.content {
     width: 100% !important;
   }
+  h1 {
+    text-align: center;
+  }
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
