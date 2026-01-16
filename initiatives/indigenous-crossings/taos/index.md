@@ -24,6 +24,29 @@ header-image: /assets/images/banners/bryce-wash.jpg
     width: 100%;
     height: auto;
   }
+  .committee-section h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: #555;
+  }
+  .committee-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .committee-member h3 {
+    font-size: 0.95em;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+  }
+  .committee-member p {
+    font-size: 0.85em;
+    margin: 0;
+    color: #666;
+    line-height: 1.4;
+  }
 </style>
 
 <div class="page-grid">
@@ -37,17 +60,24 @@ Some pictures from the workshop.
 
 <h2>Coordinating Committee</h2>
 
-<h3>Joshua L. Reid (Snohomish Tribe of Indians)</h3>
-History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.
-
-<h3>Samuel Truett</h3>
-History Department, Director of the Center for the Southwest, University of New Mexico.
-
-<h3>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h3>
-History Department, Princeton University.
-
-<h3>Rani-Henrik Andersson</h3>
-Department of Cultures, University of Helsinki.
+<div class="committee-grid">
+  <div class="committee-member">
+    <h3>Joshua L. Reid (Snohomish Tribe of Indians)</h3>
+    <p>History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.</p>
+  </div>
+  <div class="committee-member">
+    <h3>Samuel Truett</h3>
+    <p>History Department, Director of the Center for the Southwest, University of New Mexico.</p>
+  </div>
+  <div class="committee-member">
+    <h3>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h3>
+    <p>History Department, Princeton University.</p>
+  </div>
+  <div class="committee-member">
+    <h3>Rani-Henrik Andersson</h3>
+    <p>Department of Cultures, University of Helsinki.</p>
+  </div>
+</div>
 
 
 
