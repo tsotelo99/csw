@@ -69,7 +69,7 @@ In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos
   {% include figure.html class="gallery-item" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
 </div>
 
-<h4>Coordinating Committee</h4>
+<h3>Coordinating Committee</h3>
 
 <div class="committee-grid">
   <div class="committee-member">
