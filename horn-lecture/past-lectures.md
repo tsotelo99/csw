@@ -105,14 +105,14 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">2017</div>
 <div class="lecture-speaker">Dr. Ari Kelman</div>
-<div class="lecture-affiliation">UC Davis</div>
+<div class="lecture-affiliation">University of California, Davis</div>
 <div class="lecture-title">"For Liberty and Empire: How the Civil War Bled Into the Indian Wars"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2016</div>
 <div class="lecture-speaker">Dr. John Mack Faragher</div>
-<div class="lecture-affiliation">Yale</div>
+<div class="lecture-affiliation">Yale University</div>
 <div class="lecture-title">"Violence and Justice in Frontier Los Angeles"</div>
 </div>
 
@@ -126,35 +126,35 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">2014</div>
 <div class="lecture-speaker">Dr. Brenda Stevenson</div>
-<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-affiliation">University of California, Los Angeles</div>
 <div class="lecture-title">"Rethinking the L.A. Riots of 1992: Contested Images of the 'Female' in the Murder Trial of Soon Ja Du"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2013</div>
 <div class="lecture-speaker">Dr. Ned Blackhawk</div>
-<div class="lecture-affiliation">Yale</div>
+<div class="lecture-affiliation">Yale University</div>
 <div class="lecture-title">"The Indigenous West of Mark Twain: Samuel Clemens and the American Empire, 1861-1866"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2012</div>
 <div class="lecture-speaker">Dr. Martha Sandweiss</div>
-<div class="lecture-affiliation">Princeton</div>
+<div class="lecture-affiliation">Princeton University</div>
 <div class="lecture-title">"Lost Tales, Forgotten Women, and the Violence of Everyday Life in the Nineteenth Century West"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2011</div>
 <div class="lecture-speaker">Dr. Andrew Kirk</div>
-<div class="lecture-affiliation">UNLV</div>
+<div class="lecture-affiliation">University of Nevada, Las Vegas</div>
 <div class="lecture-title">"Doomtown: Picturing Home on the Nevada Test Site"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2010</div>
 <div class="lecture-speaker">Dr. Stephen Aron</div>
-<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-affiliation">University of California, Los Angeles</div>
 <div class="lecture-title">"Can We All Just Get Along: In Search of an Alternative History of the American West"</div>
 </div>
 
@@ -168,14 +168,14 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">2008</div>
 <div class="lecture-speaker">Dr. Sherry L. Smith</div>
-<div class="lecture-affiliation">SMU</div>
+<div class="lecture-affiliation">Southern Methodist University</div>
 <div class="lecture-title">"Discovering the Nations Within: Indians, the Counterculture, and the New Left in the 'Sixties' West"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2007</div>
 <div class="lecture-speaker">Dr. Paul Hutton</div>
-<div class="lecture-affiliation">UNM</div>
+<div class="lecture-affiliation">University of New Mexico</div>
 <div class="lecture-title">"Kit Carson's Ride"</div>
 </div>
 
@@ -210,7 +210,7 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">2002</div>
 <div class="lecture-speaker">Dr. Hal K. Rothman</div>
-<div class="lecture-affiliation">UNLV</div>
+<div class="lecture-affiliation">University of Nevada, Las Vegas</div>
 <div class="lecture-title">"Tourism and the Next Stage of Capitalism: How Experience Became Currency and Entertainment Replaced Culture"</div>
 </div>
 
@@ -225,7 +225,7 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">1999</div>
 <div class="lecture-speaker">Dr. Richard Etulain</div>
-<div class="lecture-affiliation">UNM</div>
+<div class="lecture-affiliation">University of New Mexico</div>
 <div class="lecture-title">"Telling Western Stories"</div>
 </div>
 
@@ -239,7 +239,7 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">1997</div>
 <div class="lecture-speaker">Dr. Vicki Ruiz</div>
-<div class="lecture-affiliation">UC Irvine</div>
+<div class="lecture-affiliation">University of California, Irvine</div>
 <div class="lecture-title">"Conquests and Migrations"</div>
 </div>
 
@@ -274,14 +274,14 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">1992</div>
 <div class="lecture-speaker">Dr. Joan M. Jensen</div>
-<div class="lecture-affiliation">NMSU</div>
+<div class="lecture-affiliation">New Mexico State University</div>
 <div class="lecture-title">"Creativity and Western Women"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">1991</div>
 <div class="lecture-speaker">Dr. Gerald D. Nash</div>
-<div class="lecture-affiliation">UNM</div>
+<div class="lecture-affiliation">University of New Mexico</div>
 <div class="lecture-title">"Western Historians"</div>
 </div>
 
@@ -302,14 +302,14 @@ header-image: /assets/images/banners/red-canyon.jpg
 <div class="lecture-card">
 <div class="lecture-year">1988</div>
 <div class="lecture-speaker">Dr. David J. Weber</div>
-<div class="lecture-affiliation">SMU</div>
+<div class="lecture-affiliation">Southern Methodist University</div>
 <div class="lecture-title">"The Hispanic Southwest"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">1987</div>
 <div class="lecture-speaker">Dr. Juan Gómez-Quiñones</div>
-<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-affiliation">University of California, Los Angeles</div>
 <div class="lecture-title">"Contemporary Chicano Political History"</div>
 </div>
 
