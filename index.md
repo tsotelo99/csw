@@ -1,7 +1,7 @@
 ---
 title: Center for the Southwest
 layout: unm-base
-header-image: /assets/images/banners/andybanner1.png
+header-image: /assets/images/banners/red-canyon.jpg
 section_cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
