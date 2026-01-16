@@ -14,6 +14,7 @@ header-image: /assets/images/red-canyon.jpg
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 30px 0;
+  width: 90%;
 }
 
 .lecture-card {
@@ -55,6 +56,18 @@ header-image: /assets/images/red-canyon.jpg
   font-size: 14px;
   color: #444;
   line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .past-lectures-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .past-lectures-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
