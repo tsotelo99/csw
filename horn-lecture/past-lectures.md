@@ -213,11 +213,6 @@ header-image: /assets/images/red-canyon.jpg
 <div class="lecture-title">"Tourism and the Next Stage of Capitalism: How Experience Became Currency and Entertainment Replaced Culture"</div>
 </div>
 
-<div class="lecture-card">
-<div class="lecture-year">2001</div>
-<div class="lecture-speaker">No Lecture</div>
-<div class="lecture-affiliation">N/A</div>
-</div>
 
 <div class="lecture-card">
 <div class="lecture-year">2000</div>
