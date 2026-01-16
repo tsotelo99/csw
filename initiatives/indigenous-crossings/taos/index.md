@@ -29,7 +29,7 @@ header-image: /assets/images/banners/bryce-wash.jpg
 <div class="page-grid">
   <main class="content" role="main">
 
-## Date: September 26-27, 2022
+<h4>Date: September 26-27, 2022</h4>
 
 In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos, NM (September 26-27, 2025), we propose anchoring visions of past and future to a deeper planetary archive, one linked to Native nations and Indigenous communities and their historical border crossings world-wide. We seek to connect exciting new work in global Indigenous studies with Native-centered work on place, mobility, climate change and justice, human and other-than-human kinship, migration and sanctuary, borderlands and border crossings, Native trans-national relationships and social movements, and Indigenous politics, identities, diplomacy, and cross-community relations in historical contexts of global change.
 
