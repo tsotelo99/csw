@@ -34,3 +34,4 @@ Stay connected and engaged with the Center for the Southwest through our social 
 - **Facebook:** [Follow us on Facebook](https://www.facebook.com/centerforthesouthwest)
 - **X (Twitter):** [Follow us on X](https://twitter.com/CntrSW)
 - **Email:** [cntrsw@unm.edu](mailto:cntrsw@unm.edu)
+- [**Join the Center of the Southwest Mailing List**](https://forms.gle/wSubeL2YBqhFdzAb7)
