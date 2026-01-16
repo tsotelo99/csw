@@ -5,11 +5,11 @@ header-image: /assets/images/banners/red-canyon.jpg
 section_cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
-    link: csw/initiatives
+    link: /initiatives
     description: Explore our scholarly initiatives and research projects focused on Southwest studies.
   - title: Horn Lecture
     image: /assets/images/csw-images/andy-young-2.jpg
-    link: /Users/tererodriguez/Documents/GitHub/csw/horn-lecture
+    link: /horn-lecture
     description: Annual lecture series featuring prominent scholars and thinkers.
   - title: News & Events
     image: /assets/images/csw-images/andy-young-3.jpg
