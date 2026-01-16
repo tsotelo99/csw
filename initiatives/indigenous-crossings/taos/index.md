@@ -73,19 +73,19 @@ In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos
 
 <div class="committee-grid">
   <div class="committee-member">
-    <h4>Joshua L. Reid (Snohomish Tribe of Indians)</h4>
+    <h4>[Joshua L. Reid (Snohomish Tribe of Indians)](https://history.washington.edu/people/joshua-l-reid)</h4>
     <p>History and American Indians Studies Departments, Director of the Center for the Study of the Pacific Northwest, University of Washington.</p>
   </div>
   <div class="committee-member">
-    <h4>Samuel Truett</h4>
+    <h4>[Samuel Truett](https://history.unm.edu/people/faculty/profile/samuel-truett.html)</h4>
     <p>History Department, Director of the Center for the Southwest, University of New Mexico.</p>
   </div>
   <div class="committee-member">
-    <h4>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h4>
+    <h4>[Elizabeth Ellis(Peoria Tribe of Indians of Oklahoma)](https://history.princeton.edu/people/elizabeth-ellis)</h4>
     <p>History Department, Princeton University.</p>
   </div>
   <div class="committee-member">
-    <h4>Rani-Henrik Andersson</h4>
+    <h4>[Rani-Henrik Andersson](https://researchportal.helsinki.fi/en/persons/rani-henrik-andersson/)</h4>
     <p>Department of Cultures, University of Helsinki.</p>
   </div>
 </div>
