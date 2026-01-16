@@ -83,14 +83,14 @@ header-image: /assets/images/banners/red-canyon.jpg
 
 <div class="lecture-card">
 <div class="lecture-year">2023</div>
-<div class="lecture-speaker">Katrina Jagodinsky</div>
+<div class="lecture-speaker">Dr. Katrina Jagodinsky</div>
 <div class="lecture-affiliation">University of Nebraska-Lincoln</div>
 <div class="lecture-title">"The Many Faces of Habeas: Challenging Coercion and Confinement in the American West"</div>
 </div>
 
 <div class="lecture-card">
 <div class="lecture-year">2019</div>
-<div class="lecture-speaker">Annette Gordon-Reed & Peter S. Onuf</div>
+<div class="lecture-speaker">Dr. Annette Gordon-Reed & Dr.Peter S. Onuf</div>
 <div class="lecture-affiliation">Harvard Law School & University of Virginia</div>
 <div class="lecture-title">Joint Lecture</div>
 </div>
