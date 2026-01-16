@@ -8,39 +8,307 @@ header-image: /assets/images/red-canyon.jpg
 
 ## Past Lectures
 
-* 2024     Juliana Barr, Duke University, "The Woman in Blue: How Native Storytellers Turned a Bilocating Nun into an Expression of Indigenous Geopolitics"
-* 2023     Katrina Jagodinsky, University of Nebraska-Lincoln, "The Many Faces of Habeas: Challenging Coercion and Confinement in the American West"
-* 2019     Annette Gordon-Reed, Charles Warren Professor of American Legal History at Harvard Law School, and Dr. Peter S. Onuf, Thomas Jefferson Foundation Professor of History, Emeritus, at the University of Virginia.
-* 2018     Dr. Megan Kate Nelson, Historian/Author/Cultural Critic, "Why the Civil War West Mattered"
-* 2017     Dr. Ari Kelman (UC Davis), "For Liberty and Empire:  How the Civil War Bled Into the Indian Wars"
-* 2016     Dr. John Mack Faragher (Yale), "Violence and Justice in Frontier Los Angeles," You can view the lecture here.
-* 2015     John Gray, Director, National Museum of American History, "American History: What Kind of People Do We Want To Be?"
-* 2014     Dr. Brenda Stevenson (UCLA), "Rethinking the L.A. Riots of 1992: Contested Images of the 'Female' in the Murder Trial of Soon Ja Du"
-* 2013     Dr. Ned Blackhawk (Yale), "The Indigenous West of Mark Twain: Samuel Clemens and the American Empire, 1861-1866"
-* 2012     Dr. Martha Sandweiss (Princeton), "Lost Tales, Forgotten Women, and the Violence of Everyday Life in the Nineteenth Century West"
-* 2011     Dr. Andrew Kirk (UNLV), "Doomtown: Picturing Home on the Nevada Test Site"
-* 2010     Dr. Stephen Aron (UCLA), "Can We All Just Get Along: In Search of an Alternative History of the American West"
-* 2009     Dr. Dan Flores (Univ. of Montana), "Art and Regional Identity in the Northern Rocky Mountain West"
-* 2008     Dr. Sherry L. Smith (SMU), "Discovering the Nations Within: Indians, the Counterculture, and the New Left in the ‘Sixties’ West"
-* 2007     Dr. Paul Hutton (UNM), "Kit Carson's Ride."
-* 2006     Lucy R. Lippard (Art Critic, Author), “Five Acres: Disputed Land and Disappearing Landscapes in the Galisteo Basin” 
-* 2005     Dr. Philip Deloria (Univ. of Michigan), “Reading Mount Rushmore: A tour of Landscape and Nationalism at Mount Rushmore” 
-* 2004     Dr. David Wrobel (Univ. of Oklahoma), “Through Traveler’s Eyes: Visions of Western America in the Travel Narrative
-* 2003     Dr. Marc Simmons (Author), “Kit Carson: The Family Man”
-* 2002     Dr. Hal K. Rothman (UNLV), “Tourism and the Next Stage of Capitalism: How Experience Became Currency and Entertainment Replaced Culture”
-* 2001     N/A
-* 2000     Dr James P. Ronda (Univ. of Tulsa), “Roads to Santa Fe” 
-* 1999     Dr. Richard Etulain (UNM), “Telling Western Stories” 
-* 1998     Dr. William deBuys (Writer, Conservationist), “West as Southwest”
-* 1997     Dr. Vicki Ruiz (UC Irvine), “Conquests and Migrations” 
-* 1996     Dr. Patricia Limerick (Univ. of Colorado-Boulder), “A Just and Honorable West”
-* 1995     Dr. Glenda Riley (Ball State Univ.), “Family Life on the Frontier” 
-* 1994     Dr. Elliott West (Univ. of Arkansas), “Going West” 
-* 1993     Dr. Donald Worster (Univ. of Kansas), “Environmental Change in the American West”
-* 1992     Dr. Joan M. Jensen (NMSU), “Creativity and Western Women”
-* 1991     Dr. Gerald D. Nash (UNM), “Western Historians”
-* 1990     Dr. William H. Goetzmann (Univ. of Texas-Austin), “Did Modern Art Kill the Myth of the West?” 
-* 1989     Dr. Rennard Strickland (Univ. of Oregon), “Indian Images” (1988-1989)
-* 1988     Dr. David J. Weber (SMU), “The Hispanic Southwest” 
-* 1987     Dr. Juan Gómez-Quiñones (UCLA), “Contemporary Chicano Political History” 
-* 1986     Dr. Robert M. Utley (Fmr. Chief Historian, NPS), “The Lincoln County Wars”
+<style>
+.past-lectures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.lecture-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lecture-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.lecture-year {
+  font-size: 28px;
+  font-weight: bold;
+  color: #8B4513;
+  margin-bottom: 10px;
+}
+
+.lecture-speaker {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.lecture-affiliation {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.lecture-title {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
+</style>
+
+<div class="past-lectures-grid">
+
+<div class="lecture-card">
+<div class="lecture-year">2024</div>
+<div class="lecture-speaker">Juliana Barr</div>
+<div class="lecture-affiliation">Duke University</div>
+<div class="lecture-title">"The Woman in Blue: How Native Storytellers Turned a Bilocating Nun into an Expression of Indigenous Geopolitics"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2023</div>
+<div class="lecture-speaker">Katrina Jagodinsky</div>
+<div class="lecture-affiliation">University of Nebraska-Lincoln</div>
+<div class="lecture-title">"The Many Faces of Habeas: Challenging Coercion and Confinement in the American West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2019</div>
+<div class="lecture-speaker">Annette Gordon-Reed & Peter S. Onuf</div>
+<div class="lecture-affiliation">Harvard Law School & University of Virginia</div>
+<div class="lecture-title">Joint Lecture</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2018</div>
+<div class="lecture-speaker">Dr. Megan Kate Nelson</div>
+<div class="lecture-affiliation">Historian/Author/Cultural Critic</div>
+<div class="lecture-title">"Why the Civil War West Mattered"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2017</div>
+<div class="lecture-speaker">Dr. Ari Kelman</div>
+<div class="lecture-affiliation">UC Davis</div>
+<div class="lecture-title">"For Liberty and Empire: How the Civil War Bled Into the Indian Wars"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2016</div>
+<div class="lecture-speaker">Dr. John Mack Faragher</div>
+<div class="lecture-affiliation">Yale</div>
+<div class="lecture-title">"Violence and Justice in Frontier Los Angeles"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2015</div>
+<div class="lecture-speaker">John Gray</div>
+<div class="lecture-affiliation">Director, National Museum of American History</div>
+<div class="lecture-title">"American History: What Kind of People Do We Want To Be?"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2014</div>
+<div class="lecture-speaker">Dr. Brenda Stevenson</div>
+<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-title">"Rethinking the L.A. Riots of 1992: Contested Images of the 'Female' in the Murder Trial of Soon Ja Du"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2013</div>
+<div class="lecture-speaker">Dr. Ned Blackhawk</div>
+<div class="lecture-affiliation">Yale</div>
+<div class="lecture-title">"The Indigenous West of Mark Twain: Samuel Clemens and the American Empire, 1861-1866"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2012</div>
+<div class="lecture-speaker">Dr. Martha Sandweiss</div>
+<div class="lecture-affiliation">Princeton</div>
+<div class="lecture-title">"Lost Tales, Forgotten Women, and the Violence of Everyday Life in the Nineteenth Century West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2011</div>
+<div class="lecture-speaker">Dr. Andrew Kirk</div>
+<div class="lecture-affiliation">UNLV</div>
+<div class="lecture-title">"Doomtown: Picturing Home on the Nevada Test Site"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2010</div>
+<div class="lecture-speaker">Dr. Stephen Aron</div>
+<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-title">"Can We All Just Get Along: In Search of an Alternative History of the American West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2009</div>
+<div class="lecture-speaker">Dr. Dan Flores</div>
+<div class="lecture-affiliation">University of Montana</div>
+<div class="lecture-title">"Art and Regional Identity in the Northern Rocky Mountain West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2008</div>
+<div class="lecture-speaker">Dr. Sherry L. Smith</div>
+<div class="lecture-affiliation">SMU</div>
+<div class="lecture-title">"Discovering the Nations Within: Indians, the Counterculture, and the New Left in the 'Sixties' West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2007</div>
+<div class="lecture-speaker">Dr. Paul Hutton</div>
+<div class="lecture-affiliation">UNM</div>
+<div class="lecture-title">"Kit Carson's Ride"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2006</div>
+<div class="lecture-speaker">Lucy R. Lippard</div>
+<div class="lecture-affiliation">Art Critic, Author</div>
+<div class="lecture-title">"Five Acres: Disputed Land and Disappearing Landscapes in the Galisteo Basin"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2005</div>
+<div class="lecture-speaker">Dr. Philip Deloria</div>
+<div class="lecture-affiliation">University of Michigan</div>
+<div class="lecture-title">"Reading Mount Rushmore: A tour of Landscape and Nationalism at Mount Rushmore"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2004</div>
+<div class="lecture-speaker">Dr. David Wrobel</div>
+<div class="lecture-affiliation">University of Oklahoma</div>
+<div class="lecture-title">"Through Traveler's Eyes: Visions of Western America in the Travel Narrative"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2003</div>
+<div class="lecture-speaker">Dr. Marc Simmons</div>
+<div class="lecture-affiliation">Author</div>
+<div class="lecture-title">"Kit Carson: The Family Man"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2002</div>
+<div class="lecture-speaker">Dr. Hal K. Rothman</div>
+<div class="lecture-affiliation">UNLV</div>
+<div class="lecture-title">"Tourism and the Next Stage of Capitalism: How Experience Became Currency and Entertainment Replaced Culture"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2001</div>
+<div class="lecture-speaker">No Lecture</div>
+<div class="lecture-affiliation">N/A</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2000</div>
+<div class="lecture-speaker">Dr. James P. Ronda</div>
+<div class="lecture-affiliation">University of Tulsa</div>
+<div class="lecture-title">"Roads to Santa Fe"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1999</div>
+<div class="lecture-speaker">Dr. Richard Etulain</div>
+<div class="lecture-affiliation">UNM</div>
+<div class="lecture-title">"Telling Western Stories"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1998</div>
+<div class="lecture-speaker">Dr. William deBuys</div>
+<div class="lecture-affiliation">Writer, Conservationist</div>
+<div class="lecture-title">"West as Southwest"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1997</div>
+<div class="lecture-speaker">Dr. Vicki Ruiz</div>
+<div class="lecture-affiliation">UC Irvine</div>
+<div class="lecture-title">"Conquests and Migrations"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1996</div>
+<div class="lecture-speaker">Dr. Patricia Limerick</div>
+<div class="lecture-affiliation">University of Colorado-Boulder</div>
+<div class="lecture-title">"A Just and Honorable West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1995</div>
+<div class="lecture-speaker">Dr. Glenda Riley</div>
+<div class="lecture-affiliation">Ball State University</div>
+<div class="lecture-title">"Family Life on the Frontier"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1994</div>
+<div class="lecture-speaker">Dr. Elliott West</div>
+<div class="lecture-affiliation">University of Arkansas</div>
+<div class="lecture-title">"Going West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1993</div>
+<div class="lecture-speaker">Dr. Donald Worster</div>
+<div class="lecture-affiliation">University of Kansas</div>
+<div class="lecture-title">"Environmental Change in the American West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1992</div>
+<div class="lecture-speaker">Dr. Joan M. Jensen</div>
+<div class="lecture-affiliation">NMSU</div>
+<div class="lecture-title">"Creativity and Western Women"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1991</div>
+<div class="lecture-speaker">Dr. Gerald D. Nash</div>
+<div class="lecture-affiliation">UNM</div>
+<div class="lecture-title">"Western Historians"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1990</div>
+<div class="lecture-speaker">Dr. William H. Goetzmann</div>
+<div class="lecture-affiliation">University of Texas-Austin</div>
+<div class="lecture-title">"Did Modern Art Kill the Myth of the West?"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1989</div>
+<div class="lecture-speaker">Dr. Rennard Strickland</div>
+<div class="lecture-affiliation">University of Oregon</div>
+<div class="lecture-title">"Indian Images"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1988</div>
+<div class="lecture-speaker">Dr. David J. Weber</div>
+<div class="lecture-affiliation">SMU</div>
+<div class="lecture-title">"The Hispanic Southwest"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1987</div>
+<div class="lecture-speaker">Dr. Juan Gómez-Quiñones</div>
+<div class="lecture-affiliation">UCLA</div>
+<div class="lecture-title">"Contemporary Chicano Political History"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">1986</div>
+<div class="lecture-speaker">Dr. Robert M. Utley</div>
+<div class="lecture-affiliation">Former Chief Historian, NPS</div>
+<div class="lecture-title">"The Lincoln County Wars"</div>
+</div>
+
+</div>
