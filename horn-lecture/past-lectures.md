@@ -34,14 +34,14 @@ header-image: /assets/images/red-canyon.jpg
 .lecture-year {
   font-size: 28px;
   font-weight: bold;
-  color: #8B4513;
+  color: #ba0c2f;
   margin-bottom: 10px;
 }
 
 .lecture-speaker {
   font-size: 16px;
   font-weight: 600;
-  color: #333;
+  color: #080808ff;
   margin-bottom: 5px;
 }
 
@@ -54,7 +54,7 @@ header-image: /assets/images/red-canyon.jpg
 
 .lecture-title {
   font-size: 14px;
-  color: #444;
+  color: #111010ff;
   line-height: 1.4;
 }
 
