@@ -1,7 +1,7 @@
 ---
 title: C. Ruth and Calvin P. Horn Lecture
 layout: unm-base
-header-image: /assets/images/houses.png
+header-image: /assets/images/banners/houses.png
 ---
 
 # C. Ruth and Calvin P. Horn Lecture in Western History and Culture
