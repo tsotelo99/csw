@@ -1,7 +1,7 @@
 ---
 title: Center for the Southwest
 layout: unm-base
-header-image: /assets/images/banners/bryce-wash.jpg
+header-image: /assets/images/banners/andybanner1.png
 section_cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
