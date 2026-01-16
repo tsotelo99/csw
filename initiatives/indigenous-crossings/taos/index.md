@@ -4,10 +4,19 @@ layout: unm-base
 header-image: /assets/images/banners/bryce-wash.jpg
 ---
 
+<h1>Indigenous Crossings Workshop at Taos New Mexico</h1>
+
+<style>
+  .page-grid {
+    display: block !important;
+  }
+  main.content {
+    width: 100% !important;
+  }
+</style>
+
 <div class="page-grid">
   <main class="content" role="main">
-
-<h1>Indigenous Crossings Workshop at Taos New Mexico</h1>
 
 ## Date: September 26-27, 2022
 
@@ -32,13 +41,4 @@ Department of Cultures, University of Helsinki.
 
 
   </main>
-
-  <aside class="sidebar" role="complementary" aria-label="Gallery">
-    <h2>Gallery</h2>
-    <div class="sidebar-gallery">
-      {% include figure.html class="sidebar-img" width="100%" caption="Horn Lecture" image-path="/assets/images/cards/horn.jpg" %}
-      {% include figure.html class="sidebar-img" width="100%" caption="Indigenous Borderlands" image-path="/assets/images/cards/indigenousborderlands.jpg" %}
-      {% include figure.html class="sidebar-img" width="100%" caption="Initiatives" image-path="/assets/images/cards/initiatives.jpg" %}
-    </div>
-  </aside>
 </div>
