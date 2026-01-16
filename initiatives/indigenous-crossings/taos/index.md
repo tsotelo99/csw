@@ -57,9 +57,8 @@ header-image: /assets/images/banners/bryce-wash.jpg
 
 In a workshop hosted by the Clements Center for Southwest Studies at SMU in Taos, NM (September 26-27, 2025), we propose anchoring visions of past and future to a deeper planetary archive, one linked to Native nations and Indigenous communities and their historical border crossings world-wide. We seek to connect exciting new work in global Indigenous studies with Native-centered work on place, mobility, climate change and justice, human and other-than-human kinship, migration and sanctuary, borderlands and border crossings, Native trans-national relationships and social movements, and Indigenous politics, identities, diplomacy, and cross-community relations in historical contexts of global change.
 
-Some pictures from the workshop. 
 
-<h3>Coordinating Committee</h3>
+<h5>Coordinating Committee</h5>
 
 <div class="committee-grid">
   <div class="committee-member">
@@ -71,11 +70,11 @@ Some pictures from the workshop.
     <p>History Department, Director of the Center for the Southwest, University of New Mexico.</p>
   </div>
   <div class="committee-member">
-    <h3>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h3>
+    <h4>Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma)</h4>
     <p>History Department, Princeton University.</p>
   </div>
   <div class="committee-member">
-    <h3>Rani-Henrik Andersson</h3>
+    <h4>Rani-Henrik Andersson</h4>
     <p>Department of Cultures, University of Helsinki.</p>
   </div>
 </div>
