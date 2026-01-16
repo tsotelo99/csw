@@ -14,7 +14,7 @@ header-image: /assets/images/banners/red-canyon.jpg
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 30px 0;
-  width: 115%;
+  width: 100%;
 }
 
 .lecture-card {
