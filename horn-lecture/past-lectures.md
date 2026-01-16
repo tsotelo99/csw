@@ -14,7 +14,7 @@ header-image: /assets/images/banners/red-canyon.jpg
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 30px 0;
-  width: 150%;
+  width: 115%;
 }
 
 .lecture-card {
@@ -90,7 +90,7 @@ header-image: /assets/images/banners/red-canyon.jpg
 
 <div class="lecture-card">
 <div class="lecture-year">2019</div>
-<div class="lecture-speaker">Dr. Annette Gordon-Reed & Dr.Peter S. Onuf</div>
+<div class="lecture-speaker">Dr. Annette Gordon-Reed & Dr. Peter S. Onuf</div>
 <div class="lecture-affiliation">Harvard Law School & University of Virginia</div>
 <div class="lecture-title">Joint Lecture</div>
 </div>
