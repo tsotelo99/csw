@@ -1,7 +1,7 @@
 ---
 title: Chicago
 layout: unm-base
-header-image: /assets/images/indigenous-crossings/chicago/header.jpg
+header-image: /assets/images/banners/bryce-wash.jpg
 ---
 
 <h1>Indigenous Crossings Workshop</h1>
