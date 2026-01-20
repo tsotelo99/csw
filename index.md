@@ -22,7 +22,9 @@ section_cards:
 The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.
 
 
-{% include section-cards.html cards=page.section_cards %}
+{% assign stacked_cards = site.pages | where_exp: "page", "page.path contains 'scrollstories/'" %}
+
+{% include nav/card-stack.html cards = stacked_cards %}
 
 ---
 
