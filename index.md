@@ -22,8 +22,6 @@ section_cards:
 The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.
 
 
-{% assign section-cards = site.pages | where_exp: "page", "page.title contains 'initiatives'" | where_exp: "page", "page.title contains 'C. Ruth and Calvin P. Horn Lecture'" | where_exp: "page", "page.title contains 'news and events'" %}
-
 {% include nav/section-cards.html cards = section-cards %}
 
 ---
