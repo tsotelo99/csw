@@ -9,7 +9,7 @@ section-cards:
     description: Explore our scholarly initiatives and research projects focused on Southwest studies.
   - title: Horn Lecture Series
     image: /assets/images/csw-images/andy-young-2.jpg
-    link: /horn-lecture
+    link: /horn-lecture/2026
     description: Annual lecture series featuring prominent scholars and thinkers.
   - title: News & Events
     image: /assets/images/csw-images/andy-young-3.jpg
