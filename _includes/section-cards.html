@@ -2,7 +2,7 @@
 <div class="section-card-grid">
   {% for card in cards %}
     <div class="section-card">
-      <a href="{{ card.link | default: card.url }}">
+      <a href="{{ site.baseurl }}{{ card.link | default: card.url }}">
         <div class="section-card-image-wrapper" style="background-image: url('{{site.baseurl}}{{ card.image }}')">
           <div class="section-card-overlay">
             <h3 class="section-card-title">{{ card.title }}</h3>
