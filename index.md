@@ -7,7 +7,7 @@ section-cards:
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
     link: /initiatives
     description: Explore our scholarly initiatives and research projects focused on Southwest studies.
-  - title: Horn Lecture
+  - title: Horn Lecture Series
     image: /assets/images/csw-images/andy-young-2.jpg
     link: /horn-lecture
     description: Annual lecture series featuring prominent scholars and thinkers.
