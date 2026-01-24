@@ -6,8 +6,8 @@ Rectangle cards with image background and overlay text
 .section-card-grid {
   /* Box Model */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
   
   /* Box Model */
   margin: var(--spacing-xl) 0;
@@ -60,7 +60,7 @@ Rectangle cards with image background and overlay text
   
   /* Box Model */
   width: 100%;
-  height: 400px;
+  height: 250px;
   
   /* Visual */
   background-size: cover;
