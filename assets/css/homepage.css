@@ -4,6 +4,12 @@ body.homepage {
   font-family: Georgia, "Times New Roman", serif;
 }
 
+body.homepage *,
+body.homepage *::before,
+body.homepage *::after {
+  box-sizing: border-box;
+}
+
 body.homepage #offcanvas,
 body.homepage .navbar-unm,
 body.homepage #header,
@@ -12,18 +18,37 @@ body.homepage #breadcrumbs {
 }
 
 body.homepage .jumbotron {
-  height: 4.5rem !important;
-  min-height: 0;
+  height: 24rem !important;
+  min-height: 16rem;
   max-height: none;
   margin: 0;
-  padding: 0;
+  padding: 2rem 1rem;
   background-position: center 53%;
   opacity: 1;
 }
 
+body.homepage .jumbotron::before {
+  background: linear-gradient(90deg, rgba(10, 23, 31, .65), rgba(10, 23, 31, .16) 80%);
+}
+
+body.homepage .jumbotron #page-title,
+body.homepage .jumbotron #page-subtitle {
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+body.homepage .jumbotron #page-title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.8rem, 6vw, 5.2rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 body.homepage #nav {
-  border-bottom: 1px solid #ddd;
-  background: #eee;
+  border-bottom: 1px solid #900923;
+  background: #ba0c2f;
 }
 
 body.homepage #nav .container {
@@ -40,15 +65,15 @@ body.homepage #nav .navbar {
 body.homepage #nav .navbar-nav > li > a {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: #ba0c2f;
+  color: #fff;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.25rem;
 }
 
 body.homepage #nav .navbar-nav > li > a:hover,
 body.homepage #nav .navbar-nav > li > a:focus {
-  color: #7f0921;
-  background: #e5e5e5;
+  color: #fff;
+  background: #8f0925;
 }
 
 body.homepage #main {
@@ -70,17 +95,8 @@ body.homepage #main .main-content-container {
 .home-intro {
   width: 100%;
   margin: 0;
-  padding: 1.25rem 1rem 1rem;
+  padding: 1.25rem 1rem;
   text-align: center;
-}
-
-.home-intro h1 {
-  margin: 0 0 .45rem;
-  color: #252a30;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 5vw, 4.3rem);
-  font-weight: 700;
-  line-height: 1.08;
 }
 
 .home-intro p {
@@ -331,13 +347,13 @@ body.homepage #lower {
 }
 
 @media (max-width: 520px) {
+  body.homepage .jumbotron {
+    height: 17rem !important;
+  }
+
   body.homepage #nav .navbar-nav > li > a {
     padding: .75rem .6rem;
     font-size: 1.1rem;
-  }
-
-  .home-intro {
-    padding-top: 1rem;
   }
 
   .home-section-links .section-card-grid {

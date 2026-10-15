@@ -4,7 +4,9 @@ layout: unm-base
 homepage: true
 css: homepage.css
 header-image: /assets/images/banners/red-canyon.jpg
-header-height: 4.5rem
+header-title: Center for the Southwest
+header-height: 24rem
+background-position: center 55%
 section-cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
@@ -22,7 +24,6 @@ section-cards:
 
 <div class="home-page-content">
   <header class="home-intro">
-    <h1>Center for the Southwest</h1>
     <p>The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.</p>
   </header>
 
