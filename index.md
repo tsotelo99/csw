@@ -3,9 +3,9 @@ title: Center for the Southwest
 layout: unm-base
 homepage: true
 css: homepage.css
-header-image: /assets/images/banners/red-canyon.jpg
+header-image: /assets/images/banners/bartlett-arizona.jpg
 header-height: 24rem
-background-position: center 53%
+background-position: center 55%
 section-cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg

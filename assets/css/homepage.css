@@ -10,21 +10,21 @@ body.homepage *::after {
   box-sizing: border-box;
 }
 
-body.homepage #offcanvas,
-body.homepage .navbar-unm,
-body.homepage #header,
-body.homepage #breadcrumbs {
-  display: none;
-}
-
 body.homepage .jumbotron {
+  position: relative;
+  display: flex;
   height: clamp(18rem, 34vw, 27rem) !important;
   min-height: 18rem;
   max-height: none;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 !important;
   padding: 3rem 0;
-  background-position: center 53%;
+  background-color: #182732;
+  background-position: center 55%;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
   opacity: 1;
 }
 
@@ -41,14 +41,7 @@ body.homepage .jumbotron #page-subtitle {
 }
 
 body.homepage #nav {
-  border-bottom: 1px solid #900923;
-  background: #ba0c2f;
-}
-
-body.homepage #nav .container {
-  width: 100%;
-  max-width: none;
-  padding: 0;
+  background: #fff;
 }
 
 body.homepage #nav .navbar {
@@ -57,17 +50,7 @@ body.homepage #nav .navbar {
 }
 
 body.homepage #nav .navbar-nav > li > a {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: #fff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.25rem;
-}
-
-body.homepage #nav .navbar-nav > li > a:hover,
-body.homepage #nav .navbar-nav > li > a:focus {
-  color: #fff;
-  background: #8f0925;
+  color: #ba0c2f;
 }
 
 body.homepage #main {
