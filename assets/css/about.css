@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 !important;
-  padding: 3rem max(calc((100vw - 70rem) / 2), 2rem);
+  padding: 3rem 0;
   background-color: #182732;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
 .jumbotron #page-subtitle {
   position: relative;
   z-index: 1;
-  max-width: 34rem;
+  max-width: none;
   color: #fff;
   text-align: left;
   text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
@@ -76,9 +76,12 @@
 }
 
 #main .main-content-container {
+  width: 100%;
   max-width: none;
-  margin: 0;
-  padding: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .about-page {
@@ -121,7 +124,7 @@
   width: 100%;
   max-width: none;
   margin: 0 auto;
-  padding: clamp(3.5rem, 6vw, 6rem) clamp(2rem, 5vw, 6rem);
+  padding: clamp(3.5rem, 6vw, 6rem) 0;
 }
 
 .about-mission-copy .about-eyebrow {
@@ -179,7 +182,7 @@
 }
 
 .about-people {
-  padding: clamp(3.5rem, 6vw, 5.5rem) 2rem;
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
   background: #f7f7f7;
   text-align: center;
 }
@@ -205,8 +208,9 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
-  max-width: 74rem;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   text-align: left;
 }
 
@@ -258,15 +262,13 @@
 }
 
 .about-history {
-  padding: clamp(3.5rem, 6vw, 5.5rem) 2rem;
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
   background: #fff;
 }
 
 .about-history > .about-eyebrow,
 .about-history-summary {
-  max-width: 72rem;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: none;
 }
 
 .about-timeline {
@@ -274,8 +276,9 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 2.2rem;
-  max-width: 74rem;
-  margin: 0 auto 2.5rem;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 2.5rem;
   padding: 0;
   list-style: none;
 }
@@ -355,7 +358,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 0;
   background: #ba0c2f;
   color: #fff;
 }
@@ -416,24 +419,16 @@
 
   .about-team-grid {
     grid-template-columns: 1fr;
-    max-width: 54rem;
   }
 }
 
 @media (max-width: 600px) {
   .jumbotron {
-    padding: 2.5rem 1.5rem;
+    padding: 2.5rem 0;
   }
 
   .jumbotron #page-title {
     font-size: 3.2rem;
-  }
-
-  .about-mission,
-  .about-people,
-  .about-history {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
   }
 
   .about-person {
@@ -450,7 +445,6 @@
   .about-timeline {
     grid-template-columns: 1fr;
     gap: 1.8rem;
-    max-width: 38rem;
   }
 
   .about-timeline::before {
