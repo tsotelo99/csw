@@ -117,10 +117,11 @@
   display: grid;
   grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
   align-items: center;
-  gap: clamp(3rem, 7vw, 8rem);
-  max-width: 74rem;
+  gap: clamp(2rem, 4vw, 5rem);
+  width: 100%;
+  max-width: none;
   margin: 0 auto;
-  padding: clamp(3.5rem, 7vw, 6.5rem) 2rem;
+  padding: clamp(3.5rem, 6vw, 6rem) clamp(2rem, 5vw, 6rem);
 }
 
 .about-mission-copy .about-eyebrow {
@@ -138,8 +139,7 @@
 .about-mission-image {
   display: block;
   width: 100%;
-  min-height: 28rem;
-  max-height: 36rem;
+  height: clamp(30rem, 42vw, 42rem);
   border-radius: 1.2rem;
   box-shadow: 0 1rem 2.5rem rgba(31, 42, 54, .16);
   object-fit: cover;
@@ -408,6 +408,7 @@
   }
 
   .about-mission-image {
+    height: auto;
     min-height: 20rem;
     max-height: 28rem;
   }
