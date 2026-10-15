@@ -1,0 +1,483 @@
+.jumbotron {
+  position: relative;
+  display: flex;
+  min-height: 18rem;
+  height: clamp(18rem, 34vw, 27rem) !important;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 3rem max(calc((100vw - 70rem) / 2), 2rem);
+  background-color: #182732;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.jumbotron::before {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(10, 23, 31, .78), rgba(10, 23, 31, .18) 75%);
+  content: "";
+}
+
+.jumbotron #page-title,
+.jumbotron #page-subtitle {
+  position: relative;
+  z-index: 1;
+  max-width: 34rem;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+
+.jumbotron #page-title {
+  margin: 0 0 .9rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  font-weight: 700;
+  line-height: 1.02;
+}
+
+.jumbotron #page-subtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+#nav {
+  background: #fff;
+}
+
+#breadcrumbs {
+  background: #ba0c2f;
+  color: #fff;
+}
+
+#breadcrumbs .breadcrumb {
+  margin: 0;
+  padding: .7rem 1rem;
+  background: transparent;
+  color: #fff;
+}
+
+#breadcrumbs .breadcrumb > li,
+#breadcrumbs .breadcrumb > li + li::before,
+#breadcrumbs .breadcrumb > .active {
+  color: rgba(255, 255, 255, .85);
+}
+
+#breadcrumbs .breadcrumb a {
+  color: #fff;
+}
+
+#main {
+  background: #fff;
+}
+
+#main .main-content-container {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  color: #28313a;
+  font-size: 1.5rem;
+  line-height: 1.65;
+}
+
+.about-page h2,
+.about-page h3,
+.about-page p {
+  margin-top: 0;
+}
+
+.about-page h2 {
+  margin-bottom: 1.2rem;
+  color: #252a30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 3vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.about-eyebrow {
+  margin-bottom: .5rem;
+  color: #ba0c2f;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-mission {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(3rem, 7vw, 8rem);
+  max-width: 74rem;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 7vw, 6.5rem) 2rem;
+}
+
+.about-mission-copy .about-eyebrow {
+  text-align: left;
+}
+
+.about-mission-copy h2 {
+  font-size: clamp(2.4rem, 3.2vw, 3.3rem);
+}
+
+.about-mission-copy p:not(.about-eyebrow) {
+  margin-bottom: 1.15rem;
+}
+
+.about-mission-image {
+  display: block;
+  width: 100%;
+  min-height: 28rem;
+  max-height: 36rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 1rem 2.5rem rgba(31, 42, 54, .16);
+  object-fit: cover;
+}
+
+.about-button,
+.about-person-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  border: 1px solid #ba0c2f;
+  border-radius: .25rem;
+  color: #fff;
+  background: #ba0c2f;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .18s ease, color .18s ease;
+}
+
+.about-button {
+  margin-top: .5rem;
+  padding: 1rem 1.35rem;
+}
+
+.about-button:hover,
+.about-button:focus,
+.about-person-link:hover,
+.about-person-link:focus {
+  color: #ba0c2f;
+  background: #fff;
+  text-decoration: none;
+}
+
+.about-people {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 2rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.about-people > h2,
+.about-history > h2 {
+  position: relative;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.about-people > h2::after,
+.about-history > h2::after {
+  display: block;
+  width: 3rem;
+  height: .25rem;
+  margin: 1rem auto 0;
+  background: #ba0c2f;
+  content: "";
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 74rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-person {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid #ececef;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 .4rem 1.5rem rgba(31, 42, 54, .07);
+}
+
+.about-person > img {
+  flex: 0 0 10rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-person-details {
+  min-width: 0;
+}
+
+.about-person h3 {
+  margin-bottom: .35rem;
+  color: #ba0c2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about-person-title,
+.about-person-office {
+  margin-bottom: .35rem;
+  color: #39424c;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.about-person-link {
+  margin-top: .65rem;
+  padding: .6rem .85rem;
+  font-size: 1rem;
+}
+
+.about-history {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 2rem;
+  background: #fff;
+}
+
+.about-history > .about-eyebrow,
+.about-history-summary {
+  max-width: 72rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2.2rem;
+  max-width: 74rem;
+  margin: 0 auto 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.about-timeline::before {
+  position: absolute;
+  top: 1.5rem;
+  right: 8%;
+  left: 8%;
+  height: 1px;
+  background: #aeb2b8;
+  content: "";
+}
+
+.about-milestone {
+  position: relative;
+  text-align: center;
+}
+
+.about-milestone-icon {
+  position: relative;
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  border: .35rem solid #fff;
+  border-radius: 50%;
+  background: #ba0c2f;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.about-milestone h3 {
+  margin-bottom: .55rem;
+  color: #ba0c2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.about-milestone p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about-milestone details {
+  margin-top: .8rem;
+  text-align: left;
+}
+
+.about-milestone summary {
+  color: #7f0921;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.about-milestone details p {
+  margin-top: .6rem;
+  font-size: 1.15rem;
+}
+
+.about-milestone details a {
+  color: #7f0921;
+  text-decoration: underline;
+}
+
+.about-history-summary {
+  text-align: center;
+}
+
+.about-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background: #ba0c2f;
+  color: #fff;
+}
+
+.about-newsletter p {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+}
+
+.about-newsletter a {
+  padding: .75rem 1.4rem;
+  border: 1px solid #fff;
+  border-radius: .25rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.about-newsletter a:hover,
+.about-newsletter a:focus {
+  color: #ba0c2f;
+  background: #fff;
+}
+
+#lower {
+  background: #1e252d;
+  color: #fff;
+}
+
+#lower h2 {
+  color: #fff;
+}
+
+#lower a {
+  color: #fff;
+}
+
+#lower iframe {
+  width: 100%;
+  max-width: 28rem;
+  height: 16rem;
+}
+
+@media (max-width: 800px) {
+  .about-mission {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .about-mission-image {
+    min-height: 20rem;
+    max-height: 28rem;
+  }
+
+  .about-team-grid {
+    grid-template-columns: 1fr;
+    max-width: 54rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .jumbotron {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .jumbotron #page-title {
+    font-size: 3.2rem;
+  }
+
+  .about-mission,
+  .about-people,
+  .about-history {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .about-person {
+    gap: 1.3rem;
+    padding: 1.2rem;
+  }
+
+  .about-person > img {
+    flex-basis: 7rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .about-timeline {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+    max-width: 38rem;
+  }
+
+  .about-timeline::before {
+    top: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+    width: 1px;
+    height: auto;
+  }
+
+  .about-milestone {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    column-gap: 1rem;
+    text-align: left;
+  }
+
+  .about-milestone-icon {
+    grid-row: span 2;
+    margin: 0;
+  }
+
+  .about-milestone h3 {
+    align-self: end;
+  }
+
+  .about-newsletter {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
