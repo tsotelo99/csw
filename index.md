@@ -4,7 +4,7 @@ layout: unm-base
 homepage: true
 css: homepage.css
 header-image: /assets/images/banners/red-canyon.jpg
-header-height: 5rem
+header-height: 24rem
 background-position: center 53%
 section-cards:
   - title: Initiatives
