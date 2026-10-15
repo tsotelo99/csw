@@ -3,6 +3,9 @@ title: Center for the Southwest
 layout: unm-base
 homepage: true
 css: homepage.css
+header-image: /assets/images/banners/red-canyon.jpg
+header-height: 5rem
+background-position: center 53%
 section-cards:
   - title: Initiatives
     image: /assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg
@@ -40,8 +43,37 @@ section-cards:
           </details>
         </div>
       </article>
-      {% include section-cards.html cards=page.section-cards %}
+      <div class="home-side-events">
+        <article class="side-event">
+          <a class="side-event-flyer" href="{{ '/assets/images/fliers/dr-hooton-grad-lunch.png' | relative_url }}">
+            <img src="{{ '/assets/images/fliers/dr-hooton-grad-lunch.png' | relative_url }}" alt="Graduate Student Lunch with Dr. Laura Hooton flyer">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Graduate Student Lunch</p>
+            <h3>Meet Dr. Laura Hooton</h3>
+            <p>November 17, 2026 · 12–1 pm</p>
+            <p>History Common Room, Mesa Vista Hall 1104</p>
+            <a class="side-event-link" href="{{ '/assets/images/fliers/dr-hooton-grad-lunch.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event">
+          <a class="side-event-flyer" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">
+            <img src="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}" alt="2027 C. Ruth and Calvin P. Horn Lecture flyer for Dr. Rachel St. John">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Save the Date · Horn Lecture</p>
+            <h3>Dr. Rachel St. John</h3>
+            <p>March 4, 2027 · 5:30 pm</p>
+            <p><em>The Imagined States of America: An Unmanifest History</em></p>
+            <a class="side-event-link" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
     </div>
+  </section>
+
+  <section class="home-section-links" aria-label="Explore the Center">
+    {% include section-cards.html cards=page.section-cards %}
   </section>
 
   <section class="home-connect" aria-labelledby="connect-heading">
