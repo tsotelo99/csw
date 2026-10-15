@@ -22,24 +22,6 @@ css: about.css
     <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/los-fresnos-view.jpg" alt="A view of the diverse landscapes of the Southwest">
   </section>
 
-  <section aria-labelledby="people-title" class="about-people">
-    <p class="about-eyebrow">People</p>
-    <h2 id="people-title">Meet Our Team</h2>
-    <div class="about-team-grid">
-      {% for person in site.data.people.current-csw %}
-      <article class="about-person">
-        <img src="{{ site.baseurl }}/assets/images/people/{{ person.image | strip }}" alt="{{ person.name }}">
-        <div class="about-person-details">
-          <h3>{{ person.name }}</h3>
-          <p class="about-person-title">{{ person.title }}</p>
-          {% if person.office %}<p class="about-person-office">{{ person.office }}</p>{% endif %}
-          {% if person.email %}<a class="about-person-link" href="mailto:{{ person.email }}">Contact {{ person.name | split: ' ' | first }} <span aria-hidden="true">→</span></a>{% endif %}
-        </div>
-      </article>
-      {% endfor %}
-    </div>
-  </section>
-
   <section aria-labelledby="history-title" class="about-history">
     <p class="about-eyebrow">Our history</p>
     <h2 id="history-title">A Legacy of Scholarship and Impact</h2>
@@ -82,6 +64,24 @@ css: about.css
       </li>
     </ol>
     <p class="about-history-summary">The Center’s research initiatives embrace interdisciplinary collaboration, connecting historians with other fields of inquiry and social action. We approach the Southwest as a space of interconnected communities and make the region relevant to a wide range of scholars, students, and publics.</p>
+  </section>
+
+  <section aria-labelledby="people-title" class="about-people">
+    <p class="about-eyebrow">People</p>
+    <h2 id="people-title">Meet Our Team</h2>
+    <div class="about-team-grid">
+      {% for person in site.data.people.current-csw %}
+      <article class="about-person">
+        <img src="{{ site.baseurl }}/assets/images/people/{{ person.image | strip }}" alt="{{ person.name }}">
+        <div class="about-person-details">
+          <h3>{{ person.name }}</h3>
+          <p class="about-person-title">{{ person.title }}</p>
+          {% if person.office %}<p class="about-person-office">{{ person.office }}</p>{% endif %}
+          {% if person.email %}<a class="about-person-link" href="mailto:{{ person.email }}">Contact {{ person.name | split: ' ' | first }} <span aria-hidden="true">→</span></a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
   </section>
 
   <section aria-label="Join the mailing list" class="about-newsletter">

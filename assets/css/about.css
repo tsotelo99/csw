@@ -165,7 +165,8 @@
 
 .about-button {
   margin-top: .5rem;
-  padding: 1rem 1.35rem;
+  padding: 1.2rem 1.8rem;
+  font-size: 1.4rem;
 }
 
 .about-button:hover,
