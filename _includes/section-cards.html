@@ -2,9 +2,9 @@
 <div class="section-card-grid">
   {% for card in cards %}
     <div class="section-card">
-      <a href="{{ site.baseurl }}{{ card.link | default: card.url | remove_first: '/' }}">
+      <a href="{{ card.link | default: card.url | relative_url }}">
         <div class="section-card-image-wrapper">
-          <img src="{{ site.baseurl }}{{ card.image | remove_first: '/' }}" alt="">
+          <img src="{{ card.image | relative_url }}" alt="">
         </div>
         <div class="section-card-content">
           <h3 class="section-card-title">{{ card.title }}</h3>

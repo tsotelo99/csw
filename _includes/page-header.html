@@ -7,7 +7,7 @@
 
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="{{site.baseurl}}/favicon.ico">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
 
   <!-- Bootstrap 3 CSS and JS for UNM.edu compatibility -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -20,12 +20,12 @@
   
   
   <!-- CSW styles -->
-  <link href="{{ site.baseurl }}/assets/css/csw.css" rel="stylesheet" />
-  <link href="{{ site.baseurl }}/assets/css/section-cards.css" rel="stylesheet" />
+  <link href="{{ '/assets/css/csw.css' | relative_url }}" rel="stylesheet" />
+  <link href="{{ '/assets/css/section-cards.css' | relative_url }}" rel="stylesheet" />
 
   <!-- if the YAML has a page: somepage.css parameter, load it -->
   {% if page.css %}
-  <link href="{{site.baseurl}}/assets/css/{{page.css}}" rel="stylesheet">
+  <link href="{{ page.css | prepend: '/assets/css/' | relative_url }}" rel="stylesheet">
   {% endif %}
 
 

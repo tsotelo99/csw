@@ -1,6 +1,6 @@
 body.homepage {
-  color: #25303b;
-  background: #f7f5ef;
+  color: #252a30;
+  background: #fff;
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -22,12 +22,14 @@ body.homepage .jumbotron {
 }
 
 body.homepage #nav {
-  border-bottom: 1px solid #e2ded4;
-  background: #fff;
+  border-bottom: 1px solid #ddd;
+  background: #eee;
 }
 
 body.homepage #nav .container {
-  max-width: 74rem;
+  width: 100%;
+  max-width: none;
+  padding: 0;
 }
 
 body.homepage #nav .navbar {
@@ -38,19 +40,19 @@ body.homepage #nav .navbar {
 body.homepage #nav .navbar-nav > li > a {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: #a20d20;
+  color: #ba0c2f;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.25rem;
 }
 
 body.homepage #nav .navbar-nav > li > a:hover,
 body.homepage #nav .navbar-nav > li > a:focus {
-  color: #690719;
-  background: #f7f5ef;
+  color: #7f0921;
+  background: #e5e5e5;
 }
 
 body.homepage #main {
-  background: #f7f5ef;
+  background: #fff;
 }
 
 body.homepage #main .main-content-container {
@@ -61,20 +63,20 @@ body.homepage #main .main-content-container {
 }
 
 .home-page-content {
-  width: min(100% - 2rem, 74rem);
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 .home-intro {
-  max-width: 47rem;
-  margin: 0 auto;
-  padding: 1.25rem 0 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 1.25rem 1rem 1rem;
   text-align: center;
 }
 
 .home-intro h1 {
   margin: 0 0 .45rem;
-  color: #202c39;
+  color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.6rem, 5vw, 4.3rem);
   font-weight: 700;
@@ -92,7 +94,7 @@ body.homepage #main .main-content-container {
   height: clamp(7rem, 14vw, 11rem);
   margin: 0 0 1.35rem;
   overflow: hidden;
-  background: #304251;
+  background: #555;
 }
 
 .home-landscape::after {
@@ -130,13 +132,13 @@ body.homepage #main .main-content-container {
 
 .home-events {
   padding: 0 0 1rem;
-  border-top: 1px solid #dcd8d0;
-  border-bottom: 1px solid #dcd8d0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .home-events > h2 {
   margin: .75rem 0 .6rem;
-  color: #202c39;
+  color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 3vw, 2.6rem);
   font-weight: 700;
@@ -148,7 +150,7 @@ body.homepage #main .main-content-container {
   gap: clamp(1.5rem, 3vw, 3rem);
   align-items: start;
   padding: 1.25rem;
-  background: #fffdfa;
+  background: #fff;
   box-shadow: 0 .3rem 1.2rem rgba(36, 42, 48, .07);
 }
 
@@ -177,7 +179,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy .home-eyebrow {
   margin-bottom: .3rem;
-  color: #a20d20;
+  color: #ba0c2f;
   font-family: Arial, sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -187,7 +189,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy h3 {
   margin: 0 0 .6rem;
-  color: #202c39;
+  color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 3vw, 2.6rem);
   font-weight: 700;
@@ -196,7 +198,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy .featured-event-date {
   margin-bottom: .2rem;
-  color: #a20d20;
+  color: #ba0c2f;
   font-weight: 700;
 }
 
@@ -218,14 +220,14 @@ body.homepage #main .main-content-container {
 
 .home-section-links .section-card {
   margin: 0;
-  border: 1px solid #e5e1d8;
+  border: 1px solid #ddd;
   border-radius: 0;
-  background: #fffdfa;
+  background: #fff;
   box-shadow: none;
 }
 
 .home-section-links .section-card:hover {
-  border-color: #c7bfb0;
+  border-color: #ba0c2f;
   box-shadow: 0 .5rem 1.5rem rgba(36, 42, 48, .1);
   transform: translateY(-2px);
 }
@@ -248,7 +250,7 @@ body.homepage #main .main-content-container {
 
 .home-section-links .section-card-title {
   margin: 0 0 .3rem;
-  color: #202c39;
+  color: #252a30;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.2;
@@ -258,7 +260,7 @@ body.homepage #main .main-content-container {
 
 .home-section-links .section-card-description {
   margin: 0 0 .35rem;
-  color: #37414b;
+  color: #333;
   font-size: 1.2rem;
   line-height: 1.35;
   text-align: left;
@@ -267,7 +269,7 @@ body.homepage #main .main-content-container {
 
 .home-section-links .section-card-link,
 .home-connect a {
-  color: #a20d20;
+  color: #ba0c2f;
   text-decoration: none;
 }
 
@@ -280,7 +282,7 @@ body.homepage #main .main-content-container {
 .home-section-links .section-card a:focus .section-card-link,
 .home-connect a:hover,
 .home-connect a:focus {
-  color: #690719;
+  color: #7f0921;
   text-decoration: underline;
 }
 
@@ -291,14 +293,14 @@ body.homepage #main .main-content-container {
   justify-content: space-around;
   gap: .8rem 1.5rem;
   padding: 1rem 0;
-  border-top: 1px solid #dcd8d0;
-  border-bottom: 1px solid #dcd8d0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   font-size: 1.15rem;
 }
 
 .home-connect h2 {
   margin: 0;
-  color: #202c39;
+  color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.3rem;
   font-weight: 700;
@@ -329,10 +331,6 @@ body.homepage #lower {
 }
 
 @media (max-width: 520px) {
-  .home-page-content {
-    width: min(100% - 1.25rem, 74rem);
-  }
-
   body.homepage #nav .navbar-nav > li > a {
     padding: .75rem .6rem;
     font-size: 1.1rem;

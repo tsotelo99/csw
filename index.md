@@ -27,7 +27,7 @@ section-cards:
   </header>
 
   <div class="home-landscape" role="img" aria-label="Panoramic view of the Southwest">
-    <img src="{{ site.baseurl }}assets/images/banners/banner2.png" alt="">
+    <img src="{{ '/assets/images/banners/banner2.png' | relative_url }}" alt="">
     <p>Research <span aria-hidden="true">·</span> Community <span aria-hidden="true">·</span> Public History</p>
   </div>
 
@@ -35,7 +35,7 @@ section-cards:
     <h2 id="upcoming-events-heading">Upcoming Events</h2>
     <article class="featured-event">
       <div class="featured-event-flyer">
-        <img src="{{ site.baseurl }}assets/images/fliers/dr-hooton.png" alt="Flyer for Dr. Laura Hooton's talk about Little Liberia: A Dream of Black Freedom in the US-Mexico Borderlands">
+      <img src="{{ '/assets/images/fliers/dr-hooton.png' | relative_url }}" alt="Flyer for Dr. Laura Hooton's talk about Little Liberia: A Dream of Black Freedom in the US-Mexico Borderlands">
       </div>
       <div class="featured-event-copy">
         <p class="home-eyebrow">Featured Event</p>
