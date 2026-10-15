@@ -4,10 +4,21 @@ body.homepage {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-body.homepage *,
-body.homepage *::before,
-body.homepage *::after {
+.home-page-content,
+.home-page-content *,
+.home-page-content *::before,
+.home-page-content *::after {
   box-sizing: border-box;
+}
+
+body.homepage #page {
+  display: block;
+}
+
+body.homepage .navbar-unm,
+body.homepage #header {
+  display: block;
+  visibility: visible;
 }
 
 body.homepage .jumbotron {
