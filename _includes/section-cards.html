@@ -2,12 +2,14 @@
 <div class="section-card-grid">
   {% for card in cards %}
     <div class="section-card">
-      <a href="{{ site.baseurl }}{{ card.link | default: card.url }}">
-        <div class="section-card-image-wrapper" style="background-image: url('{{site.baseurl}}{{ card.image }}')">
-          <div class="section-card-overlay">
-            <h3 class="section-card-title">{{ card.title }}</h3>
-            <p class="section-card-description">{{ card.description }}</p>
-          </div>
+      <a href="{{ site.baseurl }}{{ card.link | default: card.url | remove_first: '/' }}">
+        <div class="section-card-image-wrapper">
+          <img src="{{ site.baseurl }}{{ card.image | remove_first: '/' }}" alt="">
+        </div>
+        <div class="section-card-content">
+          <h3 class="section-card-title">{{ card.title }}</h3>
+          <p class="section-card-description">{{ card.description }}</p>
+          <span class="section-card-link">Learn More <span aria-hidden="true">→</span></span>
         </div>
       </a>
     </div>
