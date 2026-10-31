@@ -82,14 +82,25 @@ body.homepage #main .main-content-container {
 }
 
 .home-intro {
-  width: 100%;
-  margin: 0;
-  padding: 1rem 0;
+  width: min(100% - 3rem, 92rem);
+  margin: 0 auto;
+  padding: clamp(3rem, 6vw, 5.5rem) 1rem;
   text-align: center;
 }
 
+.home-intro .home-eyebrow,
+.home-section-heading .home-eyebrow {
+  margin: 0 0 .75rem;
+  color: #ba0c2f;
+  font-family: Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
 .home-intro h1 {
-  margin: 0 0 .4rem;
+  margin: 0 0 1.2rem;
   color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.3rem, 4.5vw, 3.8rem);
@@ -98,45 +109,121 @@ body.homepage #main .main-content-container {
 }
 
 .home-intro p {
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 1.4;
+  margin: 0 auto;
+}
+
+.home-intro .home-intro-lead {
+  max-width: 76rem;
+  color: #39424c;
+  font-size: clamp(1.7rem, 2.4vw, 2.25rem);
+  line-height: 1.45;
+}
+
+.home-intro .home-intro-description {
+  max-width: 68rem;
+  margin-top: 1rem;
+  color: #59636d;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.home-intro-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.home-action-primary,
+.home-action-secondary {
+  display: inline-flex;
+  min-height: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: .75rem;
+  padding: 1rem 1.6rem;
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .18s ease, color .18s ease, transform .18s ease;
+}
+
+.home-action-primary {
+  border: 1px solid #ba0c2f;
+  background: #ba0c2f;
+  color: #fff;
+}
+
+.home-action-secondary {
+  border: 1px solid #ba0c2f;
+  background: #fff;
+  color: #ba0c2f;
+}
+
+.home-action-primary:hover,
+.home-action-primary:focus {
+  background: #7f0921;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.home-action-secondary:hover,
+.home-action-secondary:focus {
+  background: #f7f4ec;
+  color: #7f0921;
+  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .home-events {
-  width: 50%;
+  width: min(100% - 3rem, 126rem);
   margin-right: auto;
   margin-left: auto;
-  padding: 0 0 .75rem;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  padding: clamp(2.5rem, 5vw, 4rem) 0;
+  border-top: 1px solid #e3e1dd;
 }
 
-.home-events > h2 {
-  margin: .6rem 0 .5rem;
+.home-section-heading {
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.home-section-heading > h2 {
+  margin: 0 0 .7rem;
   color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.8rem, 2.8vw, 2.3rem);
+  font-size: clamp(2.4rem, 3.5vw, 3.4rem);
   font-weight: 700;
+}
+
+.home-section-heading > p:last-child {
+  max-width: 72rem;
+  margin: 0 auto;
+  color: #59636d;
+  font-size: 1.45rem;
+  line-height: 1.55;
 }
 
 .home-feature-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(17rem, 1fr);
-  gap: .75rem;
+  grid-template-columns: minmax(0, 1.35fr) minmax(30rem, 1fr);
+  gap: 1.5rem;
   align-items: start;
-  padding: 0 0 .85rem;
+  padding: 0;
 }
 
 .featured-event {
   display: grid;
   grid-template-columns: minmax(7rem, .42fr) minmax(0, 1fr);
-  gap: clamp(.75rem, 1.5vw, 1.2rem);
+  gap: clamp(1rem, 2vw, 2rem);
   align-items: center;
   min-width: 0;
-  border: 1px solid #ddd;
+  border: 1px solid #e3e1dd;
   background: #fff;
-  padding: .65rem;
+  padding: 1.25rem;
   transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
 }
 
@@ -164,8 +251,8 @@ body.homepage #main .main-content-container {
 .featured-event-copy {
   min-width: 0;
   padding: .2rem 0;
-  font-size: 1rem;
-  line-height: 1.35;
+  font-size: 1.35rem;
+  line-height: 1.55;
 }
 
 .featured-event-copy p {
@@ -176,7 +263,7 @@ body.homepage #main .main-content-container {
   margin-bottom: .2rem;
   color: #ba0c2f;
   font-family: Arial, sans-serif;
-  font-size: .9rem;
+  font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: .13em;
   text-transform: uppercase;
@@ -219,7 +306,7 @@ body.homepage #main .main-content-container {
 .home-side-events {
   display: flex;
   flex-direction: column;
-  gap: .7rem;
+  gap: 1rem;
   min-width: 0;
 }
 
@@ -228,7 +315,7 @@ body.homepage #main .main-content-container {
   grid-template-columns: minmax(5rem, .64fr) minmax(0, 1.36fr);
   min-width: 0;
   overflow: hidden;
-  border: 1px solid #ddd;
+  border: 1px solid #e3e1dd;
   background: #fff;
   transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
 }
@@ -258,8 +345,8 @@ body.homepage #main .main-content-container {
   align-self: center;
   min-width: 0;
   padding: .55rem .65rem;
-  font-size: .9rem;
-  line-height: 1.3;
+  font-size: 1.15rem;
+  line-height: 1.45;
 }
 
 .side-event-copy p {
@@ -270,7 +357,7 @@ body.homepage #main .main-content-container {
   margin-bottom: .25rem;
   color: #ba0c2f;
   font-family: Arial, sans-serif;
-  font-size: .8rem;
+  font-size: .95rem;
   font-weight: 700;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -280,7 +367,7 @@ body.homepage #main .main-content-container {
   margin: 0 0 .35rem;
   color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -297,19 +384,25 @@ body.homepage #main .main-content-container {
   text-decoration: underline;
 }
 
+.home-section-links {
+  padding: clamp(2.5rem, 5vw, 4rem) 1.5rem;
+  background: #f7f7f7;
+}
+
 .home-section-links .section-card-grid {
   grid-template-columns: repeat(2, minmax(0, 24rem));
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
   margin: 0;
-  padding: 1rem 0;
+  padding: .5rem 0 0;
 }
 
 .home-section-links .section-card {
   width: 100%;
   aspect-ratio: 1;
   margin: 0;
-  border: 1px solid #ddd;
+  overflow: hidden;
+  border: 1px solid #e3e1dd;
   border-radius: 0;
   background: #fff;
   box-shadow: none;
@@ -339,13 +432,13 @@ body.homepage #main .main-content-container {
   flex: 1 1 auto;
   flex-direction: column;
   align-items: flex-start;
-  padding: .6rem .8rem .75rem;
+  padding: 1.2rem 1.35rem 1.35rem;
 }
 
 .home-section-links .section-card-title {
   margin: 0 0 .3rem;
   color: #252a30;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.2;
   text-align: left;
@@ -355,8 +448,8 @@ body.homepage #main .main-content-container {
 .home-section-links .section-card-description {
   margin: 0 0 .35rem;
   color: #333;
-  font-size: 1.1rem;
-  line-height: 1.35;
+  font-size: 1.25rem;
+  line-height: 1.5;
   text-align: left;
   text-shadow: none;
 }
@@ -369,7 +462,7 @@ body.homepage #main .main-content-container {
 
 .home-section-links .section-card-link {
   margin-top: auto;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -387,17 +480,17 @@ body.homepage #main .main-content-container {
   align-items: center;
   justify-content: space-around;
   gap: .65rem 1.25rem;
-  padding: .8rem 0;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  font-size: 1.05rem;
+  padding: 1.5rem;
+  border-top: 1px solid #e3e1dd;
+  border-bottom: 1px solid #e3e1dd;
+  font-size: 1.2rem;
 }
 
 .home-connect h2 {
   margin: 0;
   color: #252a30;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 700;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -413,7 +506,7 @@ body.homepage #lower {
 
 @media (max-width: 900px) {
   .home-events {
-    width: 100%;
+    width: min(100% - 3rem, 126rem);
   }
 
   .home-feature-grid {
@@ -457,5 +550,27 @@ body.homepage #lower {
 
   .home-connect {
     justify-content: flex-start;
+  }
+
+  .home-intro {
+    width: min(100% - 2rem, 92rem);
+    padding: 2.5rem 0;
+  }
+
+  .home-intro-actions {
+    flex-direction: column;
+  }
+
+  .home-action-primary,
+  .home-action-secondary {
+    width: 100%;
+  }
+
+  .home-events {
+    width: min(100% - 2rem, 126rem);
+  }
+
+  .home-section-links .section-card-grid {
+    gap: 1rem;
   }
 }

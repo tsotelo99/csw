@@ -19,12 +19,22 @@ section-cards:
 
 <div class="home-page-content">
   <header class="home-intro">
+    <p class="home-eyebrow">Scholarship · Community · The Southwest</p>
     <h1>Center for the Southwest</h1>
-    <p>The Center for the Southwest is devoted to the study of the U.S. Southwest and its borderlands, linking scholars, students, and the public through scholarly initiatives, speaker series, workshops and colloquia, student mentorship, and community outreach.</p>
+    <p class="home-intro-lead">Discover the histories, cultures, and connections that shape the U.S. Southwest and its borderlands.</p>
+    <p class="home-intro-description">We bring scholars, students, and communities together through research initiatives, public programs, mentorship, and conversation.</p>
+    <div class="home-intro-actions">
+      <a class="home-action-primary" href="#explore-the-center">Explore our work <span aria-hidden="true">↓</span></a>
+      <a class="home-action-secondary" href="#upcoming-events-heading">See upcoming events <span aria-hidden="true">→</span></a>
+    </div>
   </header>
 
   <section class="home-events" aria-labelledby="upcoming-events-heading">
-    <h2 id="upcoming-events-heading">Upcoming Events</h2>
+    <div class="home-section-heading">
+      <p class="home-eyebrow">Gather with us</p>
+      <h2 id="upcoming-events-heading">Upcoming Events</h2>
+      <p>Join the conversation through lectures, workshops, and community programs.</p>
+    </div>
     <div class="home-feature-grid">
       <article class="featured-event">
         <div class="featured-event-flyer">
@@ -72,7 +82,12 @@ section-cards:
     </div>
   </section>
 
-  <section class="home-section-links" aria-label="Explore the Center">
+  <section class="home-section-links" aria-labelledby="explore-the-center">
+    <div class="home-section-heading">
+      <p class="home-eyebrow">Go deeper</p>
+      <h2 id="explore-the-center">Explore the Center</h2>
+      <p>Find the people, projects, and ideas shaping our work across the Southwest.</p>
+    </div>
     {% include section-cards.html cards=page.section-cards %}
   </section>
 
