@@ -18,16 +18,19 @@ section-cards:
 ---
 
 <div class="home-page-content">
-  <header class="home-intro">
-    <p class="home-eyebrow">Scholarship · Community · The Southwest</p>
-    <h1>Center for the Southwest</h1>
-    <p class="home-intro-lead">Discover the histories, cultures, and connections that shape the U.S. Southwest and its borderlands.</p>
-    <p class="home-intro-description">We bring scholars, students, and communities together through research initiatives, public programs, mentorship, and conversation.</p>
-    <div class="home-intro-actions">
-      <a class="home-action-primary" href="#explore-the-center">Explore our work <span aria-hidden="true">↓</span></a>
-      <a class="home-action-secondary" href="#upcoming-events-heading">See upcoming events <span aria-hidden="true">→</span></a>
+  <section class="home-intro" aria-labelledby="home-intro-title">
+    <div class="home-intro-copy">
+      <p class="home-eyebrow">Scholarship · Community · The Southwest</p>
+      <h1 id="home-intro-title">Center for the Southwest</h1>
+      <p class="home-intro-lead">Discover the histories, cultures, and connections that shape the U.S. Southwest and its borderlands.</p>
+      <p class="home-intro-description">We bring scholars, students, and communities together through research initiatives, public programs, mentorship, and conversation.</p>
+      <div class="home-intro-actions">
+        <a class="home-action-primary" href="#explore-the-center">Explore our work <span aria-hidden="true">↓</span></a>
+        <a class="home-action-secondary" href="#upcoming-events-heading">See upcoming events <span aria-hidden="true">→</span></a>
+      </div>
     </div>
-  </header>
+    <img class="home-intro-image" src="{{ '/assets/images/csw-images/los-fresnos-view.jpg' | relative_url }}" alt="Southwest landscape with distant mountains and open sky">
+  </section>
 
   <section class="home-events" aria-labelledby="upcoming-events-heading">
     <div class="home-section-heading">
