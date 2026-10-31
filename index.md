@@ -29,7 +29,6 @@ section-cards:
         <a class="home-action-secondary" href="#upcoming-events-heading">See upcoming events <span aria-hidden="true">→</span></a>
       </div>
     </div>
-    <img class="home-intro-image" src="{{ '/assets/images/csw-images/los-fresnos-view.jpg' | relative_url }}" alt="Southwest landscape with distant mountains and open sky">
   </section>
 
   <section class="home-events" aria-labelledby="upcoming-events-heading">
