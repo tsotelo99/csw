@@ -9,8 +9,8 @@ background-position: center 55%
 css: about.css
 ---
 
-<div class="about-page">
-  <section aria-labelledby="faculty-title" class="about-mission">
+<div class="about-page ncais-page ncais-faculty">
+  <section aria-labelledby="faculty-title" class="ncais-faculty-intro">
     <div class="about-mission-copy">
       <p class="about-eyebrow">Faculty</p>
       <h2 id="faculty-title">Professional exchange and research access</h2>
@@ -18,13 +18,36 @@ css: about.css
       <p>These opportunities support faculty research agendas through collaborations, invited talks, conference participation, and sustained engagement with the Newberry’s collections and the broader scholarly community.</p>
       <a class="about-button" href="{{ site.baseurl }}/newberry-consortium/participants">Meet participants <span aria-hidden="true">→</span></a>
     </div>
-    <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/andy-young-2.jpg" alt="Faculty and scholars in conversation amid Southwest scholarship">
+    <aside class="ncais-faculty-highlight">
+      <p class="about-eyebrow">Faculty engagement</p>
+      <p class="ncais-faculty-highlight-text">Connect research with teaching, mentorship, and public scholarship.</p>
+      <span class="ncais-faculty-highlight-rule" aria-hidden="true"></span>
+      <p>Across institutions, disciplines, and communities.</p>
+    </aside>
   </section>
 
-  <section aria-labelledby="faculty-details-title" class="about-history">
-    <p class="about-eyebrow">Faculty engagement</p>
-    <h2 id="faculty-details-title">Connecting research, teaching, and public engagement</h2>
-    <p>Faculty participate in programs that connect research with teaching, graduate mentoring, and public engagement. In this way, the consortium strengthens both the university’s scholarship and its commitment to Indigenous knowledge, community partnership, and intellectual exchange.</p>
-    <p>By supporting sustained interaction across institutions, the consortium fosters collaborations that deepen methodological, institutional, and community-based approaches to Indigenous studies.</p>
+  <section aria-labelledby="faculty-details-title" class="ncais-faculty-practice">
+    <div class="ncais-section-inner">
+      <p class="about-eyebrow">Ways to connect</p>
+      <h2 id="faculty-details-title">A scholarly practice with reach</h2>
+      <div class="ncais-faculty-grid">
+        <article>
+          <span class="ncais-faculty-index">01 / NETWORKS</span>
+          <h3>Build collaborations</h3>
+          <p>Connect with scholars across member institutions through workshops, invited talks, and conferences.</p>
+        </article>
+        <article>
+          <span class="ncais-faculty-index">02 / RESEARCH</span>
+          <h3>Extend inquiry</h3>
+          <p>Engage the Newberry’s collections and the wider scholarly community in support of faculty research.</p>
+        </article>
+        <article>
+          <span class="ncais-faculty-index">03 / TEACHING</span>
+          <h3>Support the next generation</h3>
+          <p>Bring research into teaching, graduate mentoring, and public engagement grounded in Indigenous knowledge and partnership.</p>
+        </article>
+      </div>
+      <p class="ncais-faculty-closing">Together, these connections strengthen UNM scholarship and foster interdisciplinary approaches to Indigenous studies.</p>
+    </div>
   </section>
 </div>

@@ -9,7 +9,7 @@ background-position: center 55%
 css: about.css
 ---
 
-<div class="about-page">
+<div class="about-page ncais-page ncais-fellowships">
   <section aria-labelledby="fellowships-title" class="about-mission">
     <div class="about-mission-copy">
       <p class="about-eyebrow">Support</p>
@@ -21,15 +21,41 @@ css: about.css
     <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg" alt="Southwest landscape connected to community-based research and Indigenous scholarship">
   </section>
 
-  <section aria-labelledby="fellowship-details-title" class="about-history">
-    <p class="about-eyebrow">What this includes</p>
-    <h2 id="fellowship-details-title">Programmatic support and scholarly exchange</h2>
-    <ul>
-      <li>Research-based fellowships for graduate students and early career scholars</li>
-      <li>Participation in workshops and institutes designed for intensive exchange</li>
-      <li>Support for faculty engagement with the Newberry’s collections and scholarly networks</li>
-      <li>Collaborative opportunities across member institutions and disciplines</li>
-    </ul>
-    <p>At UNM, participation in the consortium creates pathways for students and faculty to connect their research to major collections, teaching initiatives, and interdisciplinary scholarship.</p>
+  <section aria-labelledby="fellowship-details-title" class="ncais-fellowship-pathways">
+    <div class="ncais-section-inner">
+      <p class="about-eyebrow">What this includes</p>
+      <h2 id="fellowship-details-title">Programmatic support and scholarly exchange</h2>
+      <ol class="ncais-pathway-list">
+        <li>
+          <span aria-hidden="true" class="ncais-pathway-number">01</span>
+          <div>
+            <h3>Research time</h3>
+            <p>Research-based fellowships for graduate students and early-career scholars.</p>
+          </div>
+        </li>
+        <li>
+          <span aria-hidden="true" class="ncais-pathway-number">02</span>
+          <div>
+            <h3>Intensive exchange</h3>
+            <p>Workshops and institutes designed to make space for focused scholarly conversation.</p>
+          </div>
+        </li>
+        <li>
+          <span aria-hidden="true" class="ncais-pathway-number">03</span>
+          <div>
+            <h3>Collections and networks</h3>
+            <p>Faculty engagement with the Newberry’s collections and scholarly networks.</p>
+          </div>
+        </li>
+        <li>
+          <span aria-hidden="true" class="ncais-pathway-number">04</span>
+          <div>
+            <h3>Cross-institution collaboration</h3>
+            <p>Opportunities to work across member institutions and disciplines.</p>
+          </div>
+        </li>
+      </ol>
+      <p class="ncais-pathway-note">At UNM, participation in the consortium creates pathways for students and faculty to connect their research to major collections, teaching initiatives, and interdisciplinary scholarship.</p>
+    </div>
   </section>
 </div>
