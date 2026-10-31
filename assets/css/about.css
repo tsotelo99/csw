@@ -475,21 +475,28 @@
 }
 
 .ncais-faculty-highlight {
-  min-height: 34rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: clamp(3rem, 5vw, 5rem);
+  min-width: 0;
   background: #182732;
   color: #fff;
 }
 
-.ncais-faculty-highlight .about-eyebrow {
+.ncais-faculty-image {
+  display: block;
+  width: 100%;
+  height: clamp(20rem, 26vw, 29rem);
+  object-fit: cover;
+}
+
+.ncais-faculty-highlight-copy {
+  padding: clamp(2rem, 3vw, 3.5rem);
+}
+
+.ncais-faculty-highlight-copy .about-eyebrow {
   color: #f2b8c5;
   text-align: left;
 }
 
-.ncais-faculty-highlight-text {
+.ncais-faculty-highlight-copy .ncais-faculty-highlight-text {
   margin: 1.5rem 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.6rem, 4vw, 4.2rem);
@@ -497,14 +504,14 @@
   line-height: 1.15;
 }
 
-.ncais-faculty-highlight-rule {
+.ncais-faculty-highlight-copy .ncais-faculty-highlight-rule {
   width: 4rem;
   height: .3rem;
   margin-bottom: 1.5rem;
   background: #ba0c2f;
 }
 
-.ncais-faculty-highlight > p:last-child {
+.ncais-faculty-highlight-copy > p:last-child {
   margin: 0;
   font-size: 1.5rem;
 }
@@ -649,7 +656,7 @@
   }
 
   .ncais-faculty-highlight {
-    min-height: 28rem;
+    min-height: 0;
   }
 
   .ncais-faculty-grid {

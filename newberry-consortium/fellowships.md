@@ -18,7 +18,7 @@ css: about.css
       <p>These fellowships and programmatic opportunities are designed to support scholars who work with Indigenous communities, historical inquiry, and the broader intellectual life of American Indian and Indigenous studies.</p>
       <a class="about-button" href="{{ site.baseurl }}/newberry-consortium/faculty">Explore faculty opportunities <span aria-hidden="true">→</span></a>
     </div>
-    <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg" alt="Southwest landscape connected to community-based research and Indigenous scholarship">
+    <img class="about-mission-image ncais-fellowship-image" src="{{ site.baseurl }}/assets/images/csw-images/evening-mesa-de-los-viejos_1_orig.jpg" alt="Southwest landscape connected to community-based research and Indigenous scholarship">
   </section>
 
   <section aria-labelledby="fellowship-details-title" class="ncais-fellowship-pathways">

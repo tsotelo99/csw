@@ -19,10 +19,13 @@ css: about.css
       <a class="about-button" href="{{ site.baseurl }}/newberry-consortium/participants">Meet participants <span aria-hidden="true">→</span></a>
     </div>
     <aside class="ncais-faculty-highlight">
-      <p class="about-eyebrow">Faculty engagement</p>
-      <p class="ncais-faculty-highlight-text">Connect research with teaching, mentorship, and public scholarship.</p>
-      <span class="ncais-faculty-highlight-rule" aria-hidden="true"></span>
-      <p>Across institutions, disciplines, and communities.</p>
+      <img class="ncais-faculty-image" src="{{ site.baseurl }}/assets/images/csw-images/andy-young-2.jpg" alt="Faculty and scholars in conversation amid Southwest scholarship">
+      <div class="ncais-faculty-highlight-copy">
+        <p class="about-eyebrow">Faculty engagement</p>
+        <p class="ncais-faculty-highlight-text">Connect research with teaching, mentorship, and public scholarship.</p>
+        <span class="ncais-faculty-highlight-rule" aria-hidden="true"></span>
+        <p>Across institutions, disciplines, and communities.</p>
+      </div>
     </aside>
   </section>
 
