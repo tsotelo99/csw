@@ -2,83 +2,26 @@
 title: C. Ruth and Calvin P. Horn Lecture
 layout: unm-base
 header-image: /assets/images/banners/red-canyon.jpg
+header-title: C. Ruth and Calvin P. Horn<br>Lecture
+header-text: Browse past speakers and topics from the Center for the Southwest’s annual lecture series.
+header-height: 24rem
+background-position: center 55%
+css: horn-lecture.css
 ---
 
-# C. Ruth and Calvin P. Horn Lecture in Western History and Culture
-
-## Past Lectures
-
-<style>
-.past-lectures-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin: 30px 0;
-  width: 100%;
-}
-
-.lecture-card {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.lecture-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.lecture-year {
-  font-size: 28px;
-  font-weight: bold;
-  color: #ba0c2f;
-  margin-bottom: 10px;
-}
-
-.lecture-speaker {
-  font-size: 16px;
-  font-weight: 600;
-  color: #080808ff;
-  margin-bottom: 5px;
-}
-
-.lecture-affiliation {
-  font-size: 13px;
-  color: #666;
-  font-style: italic;
-  margin-bottom: 12px;
-}
-
-.lecture-title {
-  font-size: 14px;
-  color: #111010ff;
-  line-height: 1.4;
-}
-
-@media (max-width: 900px) {
-  .past-lectures-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .past-lectures-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-<div class="past-lectures-grid">
-
+<div class="about-page horn-lecture-page past-lectures-page">
+  <section aria-labelledby="past-lectures-title" class="past-lectures-section">
+    <p class="about-eyebrow">From the archive</p>
+    <h2 id="past-lectures-title">Past lectures</h2>
+    <div class="past-lectures-grid">
 
 <div class="lecture-card">
 <div class="lecture-year">2025</div>
 <div class="lecture-speaker">Dr. Joshua L. Reid</div>
 <div class="lecture-affiliation">University of Washington</div>
 <div class="lecture-title">"Comekala and Ranald MacDonald: Making Pacific Worlds through Indigenous Exploration"</div>
+    </div>
+  </section>
 </div>
 
 <div class="lecture-card">
