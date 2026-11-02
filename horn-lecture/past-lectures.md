@@ -20,8 +20,6 @@ css: horn-lecture.css
 <div class="lecture-speaker">Dr. Joshua L. Reid</div>
 <div class="lecture-affiliation">University of Washington</div>
 <div class="lecture-title">"Comekala and Ranald MacDonald: Making Pacific Worlds through Indigenous Exploration"</div>
-    </div>
-  </section>
 </div>
 
 <div class="lecture-card">
@@ -263,4 +261,6 @@ css: horn-lecture.css
 <div class="lecture-title">"The Lincoln County Wars"</div>
 </div>
 
+</div>
+  </section>
 </div>
