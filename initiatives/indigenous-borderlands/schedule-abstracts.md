@@ -1,13 +1,24 @@
 ---
-title: Indigenous Boderlands in North America Symposium 
+title: Indigenous Borderlands Schedule and Abstracts
 author: Teresa Rodriguez
 date: 2025-8-25
 layout: unm-base
 header-image: /assets/images/banners/bartlett-arizona.jpg
+header-title: Symposium Schedule<br>and Abstracts
+header-text: Four days of conversation on Indigenous histories, homelands, mobility, and borderlands.
+header-height: 24rem
+background-position: center 55%
+css: initiatives.css
 ---
-# [Abstracts](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ib2022.unm.edu/ibnas-abstracts-alphabetical-listing.pdf) 
- 
-# Schedule — All events held in the Bank of America Theatre
+
+<div class="about-page initiatives-page initiative-detail-page">
+  <div class="initiative-document" markdown="1">
+
+<a class="initiative-document-link" href="https://ib2022.unm.edu/ibnas-abstracts-alphabetical-listing.pdf">View the symposium abstracts <span aria-hidden="true">→</span></a>
+
+## Schedule
+
+All events held in the Bank of America Theatre.
 
 ### Wednesday, November 2, 2022
 
@@ -143,5 +154,5 @@ header-image: /assets/images/banners/bartlett-arizona.jpg
 
 * **2:00–4:00** – Wrap‑Up Session for Symposium Participants
 
----
-
+  </div>
+</div>
