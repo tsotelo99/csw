@@ -12,6 +12,101 @@
   color: #28313a;
 }
 
+.horn-about-intro {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 5vw, 6rem);
+  align-items: center;
+  width: min(100% - 3rem, 120rem);
+  margin: 0 auto;
+  padding: clamp(3.5rem, 6vw, 6rem) 0;
+}
+
+.horn-about-intro .about-eyebrow {
+  text-align: left;
+}
+
+.horn-about-intro h2 {
+  font-size: clamp(2.7rem, 3.5vw, 3.7rem);
+}
+
+.horn-about-intro > p {
+  margin: 0;
+  color: #39424c;
+}
+
+.horn-about-history {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
+  background: #f7f7f7;
+}
+
+.horn-about-history-inner {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.horn-about-history h2,
+.horn-about-vision h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.horn-about-history .about-eyebrow,
+.horn-about-vision .about-eyebrow {
+  text-align: center;
+}
+
+.horn-about-history-inner > p:not(.about-eyebrow) {
+  margin-bottom: 1.2rem;
+}
+
+.horn-about-vision {
+  padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
+  background: #1e252d;
+  color: #fff;
+}
+
+.horn-about-vision-inner {
+  max-width: 90rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.horn-about-vision h2 {
+  color: #fff;
+}
+
+.horn-about-vision-inner > p:not(.about-eyebrow) {
+  margin-bottom: 2rem;
+}
+
+.horn-about-vision .about-eyebrow {
+  color: #f1a3b2;
+}
+
+.horn-about-support-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  padding: 1rem 1.4rem;
+  border: 1px solid #fff;
+  border-radius: .25rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .18s ease, color .18s ease;
+}
+
+.horn-about-support-link:hover,
+.horn-about-support-link:focus {
+  color: #1e252d;
+  background: #fff;
+  text-decoration: none;
+}
+
 .horn-2026-feature {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(24rem, .75fr);
@@ -233,6 +328,11 @@
 }
 
 @media (max-width: 700px) {
+  .horn-about-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
   .horn-2026-feature {
     grid-template-columns: minmax(0, 1fr);
   }
