@@ -48,6 +48,10 @@ body.homepage .jumbotron::before {
   content: "";
 }
 
+body.homepage .jumbotron #page-subtitle {
+  font-size: 1.2rem;
+}
+
 body.homepage #nav {
   background: #fff;
 }
