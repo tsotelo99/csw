@@ -35,7 +35,7 @@ body.homepage .jumbotron {
   flex-direction: column;
   justify-content: center;
   margin: 0 !important;
-  padding: 3rem 0;
+  padding: 3rem clamp(1rem, 5vw, 4rem);
   background-color: #335c67;
   background-position: center 55%;
   background-size: cover;
@@ -104,7 +104,7 @@ body.homepage #main .main-content-container {
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 0;
+  padding: 0 clamp(1rem, 3vw, 2rem);
 }
 
 .home-page-content {

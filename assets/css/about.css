@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 !important;
-  padding: 3rem 0;
+  padding: 3rem clamp(1rem, 5vw, 4rem);
   background-color: #335c67;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,8 +80,8 @@
   max-width: none;
   margin-right: 0;
   margin-left: 0;
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: clamp(1rem, 3vw, 2rem);
+  padding-left: clamp(1rem, 3vw, 2rem);
 }
 
 .about-page {
