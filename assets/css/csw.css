@@ -11,8 +11,63 @@
 }
 
 
-#nav, #main-nav {
-  background-color: #fff3b0;
+#page .navbar-unm {
+  display: none;
+}
+
+#page #nav {
+  position: relative;
+  z-index: 1001;
+  background: #fff;
+}
+
+#page #nav::before {
+  display: block;
+  height: .6rem;
+  background: #9e2a2b;
+  content: "";
+}
+
+#page #nav .navbar {
+  min-height: 0;
+  margin-bottom: 0;
+  background: #fff;
+}
+
+#page #nav .container {
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+#page #nav #horz-nav {
+  display: block !important;
+  height: auto !important;
+  padding: 0;
+  overflow: visible !important;
+}
+
+#page #nav .navbar-nav {
+  float: right;
+  margin: 0;
+}
+
+#page #nav .navbar-nav > li > a {
+  color: #9e2a2b;
+}
+
+#page .jumbotron #page-title {
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  font-weight: 700;
+  line-height: 1.02;
+}
+
+@media (max-width: 767px) {
+  #page #nav .navbar-nav {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*****************************************************
