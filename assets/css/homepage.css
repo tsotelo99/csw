@@ -61,6 +61,13 @@ body.homepage #nav {
   background: #fff;
 }
 
+body.homepage #nav::before {
+  display: block;
+  height: .6rem;
+  background: #ba0c2f;
+  content: "";
+}
+
 body.homepage #nav .navbar {
   min-height: 0;
   margin-bottom: 0;
