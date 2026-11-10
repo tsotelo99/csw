@@ -52,23 +52,14 @@ body.homepage .jumbotron #page-subtitle {
   font-size: 1.2rem;
 }
 
-body.homepage .homepage-header {
-  position: relative;
-}
-
 body.homepage #nav {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  left: 0;
-  background: transparent;
+  background: #fff;
 }
 
 body.homepage #nav .navbar {
   min-height: 0;
   margin-bottom: 0;
-  background: transparent;
+  background: #fff;
 }
 
 body.homepage #nav .container {
@@ -78,7 +69,10 @@ body.homepage #nav .container {
 }
 
 body.homepage #nav #horz-nav {
+  display: block !important;
+  height: auto !important;
   padding: 0;
+  overflow: visible !important;
 }
 
 body.homepage #nav .navbar-nav {
@@ -87,7 +81,7 @@ body.homepage #nav .navbar-nav {
 }
 
 body.homepage #nav .navbar-nav > li > a {
-  color: #fff;
+  color: #ba0c2f;
 }
 
 body.homepage #main {
@@ -365,6 +359,14 @@ body.homepage #lower {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+}
+
+@media (max-width: 767px) {
+  body.homepage #nav .navbar-nav {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 520px) {
