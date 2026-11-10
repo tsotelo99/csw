@@ -30,6 +30,11 @@
 
 {% include nav-unm.html %}
 
+{% if page.homepage %}
+<div class="homepage-header">
+  {% include nav-csw.html %}
+{% endif %}
+
 {% assign headerimage = page.header-image %}
 {% assign headertitle = page.header-title %}
 {% assign headertext = page.header-text %}
@@ -50,8 +55,11 @@
 
 {% endif %}
 
-
-{% include nav-csw.html %}
+{% if page.homepage %}
+</div>
+{% else %}
+  {% include nav-csw.html %}
+{% endif %}
  
 <div id="upper"> 
   <div class="container">
