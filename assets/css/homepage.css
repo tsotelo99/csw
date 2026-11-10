@@ -17,7 +17,10 @@ body.homepage #page {
   display: block;
 }
 
-body.homepage .navbar-unm,
+body.homepage .navbar-unm {
+  display: none;
+}
+
 body.homepage #header {
   display: block;
   visibility: visible;
@@ -55,7 +58,6 @@ body.homepage .jumbotron #page-subtitle {
 body.homepage #nav {
   position: relative;
   z-index: 1001;
-  margin-top: 3rem;
   background: #fff;
 }
 
