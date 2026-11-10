@@ -1,7 +1,7 @@
 @import "about.css";
 
 body.homepage {
-  color: #252a30;
+  color: #335c67;
   background: #fff;
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -36,7 +36,7 @@ body.homepage .jumbotron {
   justify-content: center;
   margin: 0 !important;
   padding: 3rem 0;
-  background-color: #182732;
+  background-color: #335c67;
   background-position: center 55%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body.homepage #nav {
 body.homepage #nav::before {
   display: block;
   height: .6rem;
-  background: #ba0c2f;
+  background: #9e2a2b;
   content: "";
 }
 
@@ -93,7 +93,7 @@ body.homepage #nav .navbar-nav {
 }
 
 body.homepage #nav .navbar-nav > li > a {
-  color: #ba0c2f;
+  color: #9e2a2b;
 }
 
 body.homepage #main {
@@ -117,7 +117,7 @@ body.homepage #main .main-content-container {
   width: 100%;
   margin: 0;
   padding: clamp(2.5rem, 4vw, 3.5rem) 2rem;
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .home-section-heading {
@@ -128,7 +128,7 @@ body.homepage #main .main-content-container {
 
 .home-section-heading > h2 {
   margin: 0 0 .7rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.4rem, 3.5vw, 3.4rem);
   font-weight: 700;
@@ -137,7 +137,7 @@ body.homepage #main .main-content-container {
 .home-section-heading > p:last-child {
   max-width: 72rem;
   margin: 0 auto;
-  color: #59636d;
+  color: #335c67;
   font-size: 1.45rem;
   line-height: 1.55;
   text-align: center;
@@ -167,7 +167,7 @@ body.homepage #main .main-content-container {
 }
 
 .featured-event:hover {
-  border-color: #ba0c2f;
+  border-color: #9e2a2b;
   box-shadow: 0 .5rem 1.5rem rgba(36, 42, 48, .1);
   transform: translateY(-2px);
 }
@@ -200,7 +200,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy .home-eyebrow {
   margin-bottom: .2rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Arial, sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
@@ -210,7 +210,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy h3 {
   margin: 0 0 .3rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.35rem, 1.6vw, 1.7rem);
   font-weight: 700;
@@ -219,7 +219,7 @@ body.homepage #main .main-content-container {
 
 .featured-event-copy .featured-event-date {
   margin-bottom: .2rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-weight: 700;
 }
 
@@ -233,7 +233,7 @@ body.homepage #main .main-content-container {
 }
 
 .featured-event-copy summary {
-  color: #ba0c2f;
+  color: #9e2a2b;
   cursor: pointer;
   font-weight: 700;
 }
@@ -260,7 +260,7 @@ body.homepage #main .main-content-container {
 }
 
 .side-event:hover {
-  border-color: #ba0c2f;
+  border-color: #9e2a2b;
   box-shadow: 0 .5rem 1.5rem rgba(36, 42, 48, .1);
   transform: translateY(-2px);
 }
@@ -269,7 +269,7 @@ body.homepage #main .main-content-container {
   display: block;
   min-height: 8rem;
   overflow: hidden;
-  background: #f7f4ec;
+  background: #fff3b0;
 }
 
 .side-event-flyer img {
@@ -294,7 +294,7 @@ body.homepage #main .main-content-container {
 
 .side-event-copy .home-eyebrow {
   margin-bottom: .25rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Arial, sans-serif;
   font-size: .95rem;
   font-weight: 700;
@@ -304,7 +304,7 @@ body.homepage #main .main-content-container {
 
 .side-event-copy h3 {
   margin: 0 0 .35rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.45rem;
   font-weight: 700;
@@ -312,14 +312,14 @@ body.homepage #main .main-content-container {
 }
 
 .side-event-link {
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-weight: 700;
   text-decoration: none;
 }
 
 .side-event-link:hover,
 .side-event-link:focus {
-  color: #7f0921;
+  color: #540b0e;
   text-decoration: underline;
 }
 
@@ -336,7 +336,7 @@ body.homepage #main .main-content-container {
   justify-content: space-around;
   gap: .65rem 1.25rem;
   padding: 1.5rem 2rem;
-  background: #ba0c2f;
+  background: #9e2a2b;
   color: #fff;
   font-size: 1.2rem;
 }

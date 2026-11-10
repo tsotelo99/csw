@@ -7,7 +7,7 @@
   justify-content: center;
   margin: 0 !important;
   padding: 3rem 0;
-  background-color: #182732;
+  background-color: #335c67;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -50,7 +50,7 @@
 }
 
 #breadcrumbs {
-  background: #ba0c2f;
+  background: #9e2a2b;
   color: #fff;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .about-page {
-  color: #28313a;
+  color: #335c67;
   font-size: 1.7rem;
   line-height: 1.7;
 }
@@ -98,7 +98,7 @@
 
 .about-page h2 {
   margin-bottom: 1.2rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.4rem, 3.2vw, 3.3rem);
   font-weight: 700;
@@ -107,7 +107,7 @@
 
 .about-eyebrow {
   margin-bottom: .5rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: .08em;
@@ -154,10 +154,10 @@
   align-items: center;
   justify-content: center;
   gap: .7rem;
-  border: 1px solid #ba0c2f;
+  border: 1px solid #9e2a2b;
   border-radius: .25rem;
   color: #fff;
-  background: #ba0c2f;
+  background: #9e2a2b;
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.25;
@@ -176,14 +176,14 @@
 .about-button:focus,
 .about-person-link:hover,
 .about-person-link:focus {
-  color: #ba0c2f;
+  color: #9e2a2b;
   background: #fff;
   text-decoration: none;
 }
 
 .about-people {
   padding: clamp(3.5rem, 6vw, 5.5rem) 0;
-  background: #f7f7f7;
+  background: #fff3b0;
   text-align: center;
 }
 
@@ -200,7 +200,7 @@
   width: 3rem;
   height: .25rem;
   margin: 1rem auto 0;
-  background: #ba0c2f;
+  background: #9e2a2b;
   content: "";
 }
 
@@ -240,7 +240,7 @@
 
 .about-person h3 {
   margin-bottom: .35rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
   font-weight: 700;
@@ -250,7 +250,7 @@
 .about-person-title,
 .about-person-office {
   margin-bottom: .35rem;
-  color: #39424c;
+  color: #335c67;
   font-size: 1.45rem;
   line-height: 1.4;
 }
@@ -308,14 +308,14 @@
   margin: 0 auto 1rem;
   border: .35rem solid #fff;
   border-radius: 50%;
-  background: #ba0c2f;
+  background: #9e2a2b;
   color: #fff;
   font-size: 1.6rem;
 }
 
 .about-milestone h3 {
   margin-bottom: .55rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.6rem;
   font-weight: 700;
@@ -333,7 +333,7 @@
 }
 
 .about-milestone summary {
-  color: #7f0921;
+  color: #540b0e;
   cursor: pointer;
   font-size: 1.3rem;
   font-weight: 700;
@@ -345,7 +345,7 @@
 }
 
 .about-milestone details a {
-  color: #7f0921;
+  color: #540b0e;
   text-decoration: underline;
 }
 
@@ -359,7 +359,7 @@
   justify-content: center;
   gap: 2rem;
   padding: 1.5rem 0;
-  background: #ba0c2f;
+  background: #9e2a2b;
   color: #fff;
 }
 
@@ -382,7 +382,7 @@
 
 .about-newsletter a:hover,
 .about-newsletter a:focus {
-  color: #ba0c2f;
+  color: #9e2a2b;
   background: #fff;
 }
 
@@ -401,14 +401,14 @@
 
 .ncais-fellowship-pathways {
   padding: clamp(3.5rem, 6vw, 5.5rem) 0;
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .ncais-fellowship-pathways h2,
 .ncais-faculty-practice h2,
 .ncais-community-network h2 {
   margin: 0 auto 2.5rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.4rem, 3.2vw, 3.3rem);
   line-height: 1.15;
@@ -429,12 +429,12 @@
   align-items: flex-start;
   gap: 1.5rem;
   padding: 2rem;
-  border-top: 2px solid #ba0c2f;
+  border-top: 2px solid #9e2a2b;
   background: #fff;
 }
 
 .ncais-pathway-number {
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.3rem;
   font-weight: 700;
@@ -445,7 +445,7 @@
 .ncais-faculty-grid h3,
 .ncais-community-groups h3 {
   margin-bottom: .6rem;
-  color: #252a30;
+  color: #335c67;
   font-size: 1.9rem;
 }
 
@@ -476,7 +476,7 @@
 
 .ncais-faculty-highlight {
   min-width: 0;
-  background: #182732;
+  background: #335c67;
   color: #fff;
 }
 
@@ -492,7 +492,7 @@
 }
 
 .ncais-faculty-highlight-copy .about-eyebrow {
-  color: #f2b8c5;
+  color: #e09f3e;
   text-align: left;
 }
 
@@ -508,7 +508,7 @@
   width: 4rem;
   height: .3rem;
   margin-bottom: 1.5rem;
-  background: #ba0c2f;
+  background: #9e2a2b;
 }
 
 .ncais-faculty-highlight-copy > p:last-child {
@@ -518,7 +518,7 @@
 
 .ncais-faculty-practice {
   padding: clamp(3.5rem, 6vw, 5.5rem) 0;
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .ncais-faculty-grid {
@@ -529,14 +529,14 @@
 
 .ncais-faculty-grid article {
   padding: 2rem;
-  border-left: 2px solid #ba0c2f;
+  border-left: 2px solid #9e2a2b;
   background: #fff;
 }
 
 .ncais-faculty-index {
   display: block;
   margin-bottom: 1rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: .1em;
@@ -552,7 +552,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: stretch;
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .ncais-community-intro .about-mission-copy {
@@ -602,7 +602,7 @@
   justify-content: center;
   margin-bottom: 1.5rem;
   border-radius: 50%;
-  background: #ba0c2f;
+  background: #9e2a2b;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.6rem;
@@ -612,12 +612,12 @@
 .ncais-community-closing {
   max-width: 90rem;
   margin: 2.5rem auto 0;
-  color: #39424c;
+  color: #335c67;
   text-align: center;
 }
 
 #lower {
-  background: #1e252d;
+  background: #335c67;
   color: #fff;
 }
 

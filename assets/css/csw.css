@@ -12,7 +12,7 @@
 
 
 #nav, #main-nav {
-  background-color: #eee;
+  background-color: #fff3b0;
 }
 
 /*****************************************************
@@ -88,7 +88,7 @@ PULLQUOTES
   .pullquote {
     border-top: 2px solid #ddd;
     border-bottom: 2px solid #ddd;
-    color: #486B76;
+    color: #335c67;
     margin: 1em auto;
     padding: 1em 0 1em 0;
   }
@@ -211,7 +211,7 @@ DIRECTORY CARDS
   }
 
   .card:hover {
-    background: #eee;
+    background: #fff3b0;
     opacity: 1;
     transform: scale(1.05);
     /* Slightly enlarge the card */
@@ -371,7 +371,7 @@ DIRECTORY CARDS
 
 .sidebar h2 { margin-top: 0; font-size: 1.1rem; }
 .sidebar .news-list { list-style: none; padding: 0; margin: 0; }
-.sidebar .news-list li { padding: .5rem 0; border-bottom: 1px solid #eee; }
+.sidebar .news-list li { padding: .5rem 0; border-bottom: 1px solid #fff3b0; }
 .sidebar .news-list li a { font-weight: 600; color: #123; text-decoration: none; }
 
 /* Stack on narrow screens */

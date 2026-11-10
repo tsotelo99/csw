@@ -9,7 +9,7 @@
 }
 
 .horn-lecture-page {
-  color: #28313a;
+  color: #335c67;
 }
 
 .horn-about-intro {
@@ -32,12 +32,12 @@
 
 .horn-about-intro > p {
   margin: 0;
-  color: #39424c;
+  color: #335c67;
 }
 
 .horn-about-history {
   padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .horn-about-history-inner {
@@ -62,7 +62,7 @@
 
 .horn-about-vision {
   padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
-  background: #1e252d;
+  background: #335c67;
   color: #fff;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .horn-about-vision .about-eyebrow {
-  color: #f1a3b2;
+  color: #e09f3e;
 }
 
 .horn-about-support-link {
@@ -102,7 +102,7 @@
 
 .horn-about-support-link:hover,
 .horn-about-support-link:focus {
-  color: #1e252d;
+  color: #335c67;
   background: #fff;
   text-decoration: none;
 }
@@ -131,7 +131,7 @@
 
 .horn-2026-affiliation {
   margin-bottom: 1.5rem;
-  color: #59636d;
+  color: #335c67;
   font-size: 1.5rem;
   line-height: 1.6;
 }
@@ -142,7 +142,7 @@
   margin: 0 auto;
   overflow: hidden;
   border-radius: 1rem;
-  background: #f7f7f7;
+  background: #fff3b0;
   box-shadow: 0 1rem 2.5rem rgba(31, 42, 54, .16);
 }
 
@@ -157,7 +157,7 @@
 .horn-2026-portrait figcaption {
   margin: 0;
   padding: .8rem 1rem;
-  color: #59636d;
+  color: #335c67;
   font-size: 1.3rem;
   line-height: 1.4;
   text-align: center;
@@ -169,7 +169,7 @@
   gap: clamp(2rem, 5vw, 6rem);
   align-items: start;
   padding: clamp(3.5rem, 6vw, 5.5rem) max(1.5rem, calc((100% - 120rem) / 2));
-  background: #f7f7f7;
+  background: #fff3b0;
 }
 
 .horn-event-details .about-eyebrow {
@@ -178,7 +178,7 @@
 
 .horn-event-details h2,
 .horn-registration h3 {
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.4rem, 3.2vw, 3.3rem);
   font-weight: 700;
@@ -195,7 +195,7 @@
 }
 
 .horn-event-details dt {
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: .08em;
@@ -204,11 +204,11 @@
 
 .horn-event-details dd {
   margin-top: .3rem;
-  color: #39424c;
+  color: #335c67;
 }
 
 .horn-event-details a {
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-weight: 700;
 }
 
@@ -235,7 +235,7 @@
 
 .past-lectures-section {
   padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
-  background: #f7f7f7;
+  background: #fff3b0;
   text-align: center;
 }
 
@@ -251,7 +251,7 @@
   width: 3rem;
   height: .25rem;
   margin: 1rem auto 0;
-  background: #ba0c2f;
+  background: #9e2a2b;
   content: "";
 }
 
@@ -269,7 +269,7 @@
   min-width: 0;
   padding: clamp(1.5rem, 2.5vw, 2.5rem);
   border: 1px solid #ececef;
-  border-top: .35rem solid #ba0c2f;
+  border-top: .35rem solid #9e2a2b;
   border-radius: .5rem;
   background: #fff;
   box-shadow: 0 .4rem 1.5rem rgba(31, 42, 54, .07);
@@ -283,7 +283,7 @@
 
 .lecture-year {
   margin-bottom: .8rem;
-  color: #ba0c2f;
+  color: #9e2a2b;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.8rem;
   font-weight: 700;
@@ -292,7 +292,7 @@
 
 .lecture-speaker {
   margin-bottom: .35rem;
-  color: #252a30;
+  color: #335c67;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -301,14 +301,14 @@
 
 .lecture-affiliation {
   margin-bottom: 1.1rem;
-  color: #59636d;
+  color: #335c67;
   font-size: 1.3rem;
   font-style: italic;
   line-height: 1.45;
 }
 
 .lecture-title {
-  color: #39424c;
+  color: #335c67;
   font-size: 1.45rem;
   line-height: 1.6;
 }
