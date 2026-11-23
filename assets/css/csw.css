@@ -29,6 +29,7 @@
 }
 
 #page #nav .navbar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +37,20 @@
   min-height: 0;
   margin-bottom: 0;
   background: #ba0c2f;
+}
+
+#page #nav .csw-navbar-logo {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 11rem;
+  line-height: 0;
+}
+
+#page #nav .csw-navbar-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 #page #nav .container {
@@ -110,6 +125,12 @@
   #page #nav .navbar {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  #page #nav .csw-navbar-logo {
+    position: static;
+    width: 9rem;
+    margin: .75rem auto;
   }
 
   #page #nav #horz-nav {
