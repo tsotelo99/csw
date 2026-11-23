@@ -48,19 +48,7 @@ css: homepage.css
             <a class="side-event-link" href="{{ '/assets/images/fliers/dr-hooton-grad-lunch.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
           </div>
         </article>
-        <article class="side-event">
-          <a class="side-event-flyer" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">
-            <img src="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}" alt="2027 C. Ruth and Calvin P. Horn Lecture flyer for Dr. Rachel St. John">
-          </a>
-          <div class="side-event-copy">
-            <p class="home-eyebrow">Save the Date · Horn Lecture</p>
-            <h3>Dr. Rachel St. John</h3>
-            <p>March 4, 2027 · 5:30 pm</p>
-            <p><em>The Imagined States of America: An Unmanifest History</em></p>
-            <a class="side-event-link" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
-          </div>
-        </article>
-        <section class="home-instagram" aria-labelledby="home-instagram-title">
+        <section class="home-instagram side-event" aria-labelledby="home-instagram-title">
           <div class="home-instagram-heading">
             <div>
               <p class="home-eyebrow">Follow along</p>
@@ -86,6 +74,18 @@ css: homepage.css
             </article>
           </div>
         </section>
+        <article class="side-event">
+          <a class="side-event-flyer" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">
+            <img src="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}" alt="2027 C. Ruth and Calvin P. Horn Lecture flyer for Dr. Rachel St. John">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Save the Date · Horn Lecture</p>
+            <h3>Dr. Rachel St. John</h3>
+            <p>March 4, 2027 · 5:30 pm</p>
+            <p><em>The Imagined States of America: An Unmanifest History</em></p>
+            <a class="side-event-link" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
