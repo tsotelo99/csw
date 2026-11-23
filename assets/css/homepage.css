@@ -327,40 +327,6 @@ body.homepage #main .main-content-container {
   text-decoration: underline;
 }
 
-.home-connect a:hover,
-.home-connect a:focus {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.home-connect {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  gap: .65rem 1.25rem;
-  padding: 1.5rem 2rem;
-  background: #ba0c2f;
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.home-connect h2 {
-  margin: 0;
-  color: #fff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-
-.home-connect a {
-  color: #fff;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 body.homepage #lower {
   margin-top: 1.5rem;
 }
@@ -408,9 +374,7 @@ body.homepage #lower {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .home-connect {
-    justify-content: flex-start;
-  }
+
 
   .home-events {
     padding-right: 1rem;

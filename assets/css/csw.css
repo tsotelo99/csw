@@ -10,6 +10,46 @@
   padding: 2rem 1rem;
 }
 
+.connect-with-us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: .65rem 1.25rem;
+  padding: 1.5rem 2rem;
+  background: #ba0c2f;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.connect-with-us h2 {
+  margin: 0;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.connect-with-us a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.connect-with-us a:hover,
+.connect-with-us a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+  .connect-with-us {
+    justify-content: flex-start;
+  }
+}
+
 
 #page .navbar-unm {
   display: none;

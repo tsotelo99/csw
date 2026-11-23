@@ -140,12 +140,4 @@ css: homepage.css
     </section>
   </div>
 
-  <section class="home-connect" aria-labelledby="connect-heading">
-    <h2 id="connect-heading">Connect With Us</h2>
-    <a href="https://www.instagram.com/cntrsw_unm">Instagram</a>
-    <a href="https://www.facebook.com/centerforthesouthwest">Facebook</a>
-    <a href="https://twitter.com/CntrSW">X (Twitter)</a>
-    <a href="mailto:cntrsw@unm.edu">Email</a>
-    <a href="https://forms.gle/wSubeL2YBqhFdzAb7">Join the CSW Mailing List</a>
-  </section>
 </div>
