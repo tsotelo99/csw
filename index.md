@@ -2,7 +2,7 @@
 title: Center for the Southwest
 layout: unm-base
 homepage: true
-header-image: /assets/images/banners/bartlett-arizona.jpg
+header-image: /assets/images/banners/homepage-mountain.jpg
 header-title: Center for the Southwest
 header-text: Exploring the histories, cultures, and borderlands of the U.S. Southwest through scholarship, education, and community engagement.
 header-height: 24rem
