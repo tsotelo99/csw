@@ -16,6 +16,13 @@ css: horn-lecture.css
     <div class="past-lectures-grid">
 
 <div class="lecture-card">
+<div class="lecture-year">2026</div>
+<div class="lecture-speaker">Dr. Elizabeth Ellis</div>
+<div class="lecture-affiliation">Princeton University</div>
+<div class="lecture-title">"Recording Stories in the Indigenous Middle Ages: Ancient Iconography in Middle America"</div>
+</div>
+
+<div class="lecture-card">
 <div class="lecture-year">2025</div>
 <div class="lecture-speaker">Dr. Joshua L. Reid</div>
 <div class="lecture-affiliation">University of Washington</div>
@@ -23,10 +30,24 @@ css: horn-lecture.css
 </div>
 
 <div class="lecture-card">
+<div class="lecture-year">2024</div>
+<div class="lecture-speaker">Dr. Juliana Barr</div>
+<div class="lecture-affiliation">Duke University</div>
+<div class="lecture-title">"The Woman in Blue: How Native Storytellers Turned a Bilocating Nun into an Expression of Indigenous Geopolitics"</div>
+</div>
+
+<div class="lecture-card">
 <div class="lecture-year">2023</div>
 <div class="lecture-speaker">Dr. Katrina Jagodinsky</div>
 <div class="lecture-affiliation">University of Nebraska-Lincoln</div>
 <div class="lecture-title">"The Many Faces of Habeas: Challenging Coercion and Confinement in the American West"</div>
+</div>
+
+<div class="lecture-card">
+<div class="lecture-year">2022</div>
+<div class="lecture-speaker">Dr. Kelly Lytle Hernández</div>
+<div class="lecture-affiliation">University of California, Los Angeles</div>
+<div class="lecture-title">"Bad Mexicans: Race, Empire, and Revolution in the Borderlands"</div>
 </div>
 
 <div class="lecture-card">
