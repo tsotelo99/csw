@@ -58,8 +58,8 @@
 
 #page #nav .csw-brand-logo {
   display: block;
-  width: 4rem;
-  height: 4rem;
+  width: 4.75rem;
+  height: 4.75rem;
   object-fit: contain;
 }
 
@@ -75,6 +75,7 @@
 #page #nav .navbar-nav {
   display: flex;
   flex-wrap: wrap;
+  gap: .35rem;
   justify-content: flex-end;
   float: none;
   margin: 0;
@@ -84,7 +85,7 @@
   padding: .8rem .5rem;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -124,8 +125,8 @@
   }
 
   #page #nav .csw-brand-logo {
-    width: 3.25rem;
-    height: 3.25rem;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   #page #nav #horz-nav {
