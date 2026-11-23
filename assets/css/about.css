@@ -399,221 +399,187 @@
   padding: 0 2rem;
 }
 
-.ncais-fellowship-pathways {
+.ncais-home-opportunities {
   padding: clamp(3.5rem, 6vw, 5.5rem) 0;
   background: #f7f7f7;
 }
 
-.ncais-fellowship-pathways h2,
-.ncais-faculty-practice h2,
-.ncais-community-network h2 {
-  margin: 0 auto 2.5rem;
-  color: #252a30;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.4rem, 3.2vw, 3.3rem);
-  line-height: 1.15;
+.ncais-home-opportunities > .ncais-section-inner > h2 {
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 
-.ncais-pathway-list {
+.ncais-home-pathways {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
+}
+
+.ncais-home-pathways article {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  border: 1px solid #e3e1dd;
+  border-top: .35rem solid #ba0c2f;
+  background: #fff;
+}
+
+.ncais-home-index {
+  margin-bottom: 1rem;
+  color: #ba0c2f;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.ncais-home-pathways h3 {
+  margin-bottom: .65rem;
+  color: #252a30;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.ncais-home-pathways p {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.55;
+}
+
+.ncais-home-pathways a {
+  margin-top: auto;
+  color: #ba0c2f;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ncais-home-pathways a:hover,
+.ncais-home-pathways a:focus-visible {
+  color: #7f0921;
+  text-decoration: underline;
+}
+
+.ncais-home-audiences {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: clamp(3rem, 5vw, 5rem) 2rem;
+}
+
+.ncais-home-audiences article {
+  min-width: 0;
+  padding: 2rem;
+  border: 1px solid #e3e1dd;
+  background: #fff;
+  scroll-margin-top: 2rem;
+}
+
+.ncais-home-audiences h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 2.5vw, 2.6rem);
+}
+
+.ncais-home-audiences p:not(.about-eyebrow),
+.ncais-home-audiences li {
+  font-size: 1.45rem;
+  line-height: 1.6;
+}
+
+.ncais-home-audiences ul {
+  margin: 1rem 0 0;
+  padding-left: 1.8rem;
+}
+
+.ncais-home-context {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(28rem, .65fr);
+  gap: clamp(2.5rem, 5vw, 6rem);
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 6vw, 5.5rem) 2rem;
+}
+
+.ncais-home-context-main {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.ncais-home-community h2,
+.ncais-home-history h2,
+.ncais-home-collections h2 {
+  margin-bottom: 1rem;
+}
+
+.ncais-home-history h2 {
+  font-size: clamp(2rem, 2.5vw, 2.6rem);
+}
+
+.ncais-home-community p:not(.about-eyebrow) {
+  font-size: 1.55rem;
+  line-height: 1.65;
+}
+
+.ncais-home-history {
+  padding-top: 2rem;
+  border-top: 1px solid #d9d3cc;
+}
+
+.ncais-home-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.ncais-pathway-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  padding: 2rem;
+.ncais-home-timeline li {
+  padding-top: .75rem;
   border-top: 2px solid #ba0c2f;
-  background: #fff;
 }
 
-.ncais-pathway-number {
+.ncais-home-timeline strong {
+  display: block;
+  margin-bottom: .4rem;
   color: #ba0c2f;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.3rem;
-  font-weight: 700;
-  line-height: 1;
+  font-size: 1.8rem;
 }
 
-.ncais-pathway-list h3,
-.ncais-faculty-grid h3,
-.ncais-community-groups h3 {
-  margin-bottom: .6rem;
-  color: #252a30;
-  font-size: 1.9rem;
+.ncais-home-timeline span {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.5;
 }
 
-.ncais-pathway-list p,
-.ncais-faculty-grid p,
-.ncais-community-groups p {
-  margin: 0;
-  font-size: 1.5rem;
-  line-height: 1.6;
-}
-
-.ncais-pathway-note {
-  max-width: 90rem;
-  margin: 2rem auto 0;
-  text-align: center;
-}
-
-.ncais-faculty-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(28rem, .8fr);
-  align-items: center;
-  gap: clamp(3rem, 7vw, 8rem);
-  width: 100%;
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: clamp(4rem, 7vw, 7rem) 2rem;
-}
-
-.ncais-faculty-highlight {
-  min-width: 0;
+.ncais-home-collections {
+  align-self: stretch;
+  padding: clamp(2rem, 3vw, 3rem);
   background: #182732;
   color: #fff;
 }
 
-.ncais-faculty-image {
-  display: block;
-  width: 100%;
-  height: clamp(20rem, 26vw, 29rem);
-  object-fit: cover;
-}
-
-.ncais-faculty-highlight-copy {
-  padding: clamp(2rem, 3vw, 3.5rem);
-}
-
-.ncais-faculty-highlight-copy .about-eyebrow {
-  color: #f2b8c5;
+.ncais-home-collections .about-eyebrow {
   text-align: left;
+  color: #f2b8c5;
 }
 
-.ncais-faculty-highlight-copy .ncais-faculty-highlight-text {
-  margin: 1.5rem 0;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 4vw, 4.2rem);
-  font-weight: 700;
-  line-height: 1.15;
-}
-
-.ncais-faculty-highlight-copy .ncais-faculty-highlight-rule {
-  width: 4rem;
-  height: .3rem;
-  margin-bottom: 1.5rem;
-  background: #ba0c2f;
-}
-
-.ncais-faculty-highlight-copy > p:last-child {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.ncais-faculty-practice {
-  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
-  background: #f7f7f7;
-}
-
-.ncais-faculty-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
-}
-
-.ncais-faculty-grid article {
-  padding: 2rem;
-  border-left: 2px solid #ba0c2f;
-  background: #fff;
-}
-
-.ncais-faculty-index {
-  display: block;
-  margin-bottom: 1rem;
-  color: #ba0c2f;
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: .1em;
-}
-
-.ncais-faculty-closing {
-  max-width: 90rem;
-  margin: 2rem auto 0;
-  text-align: center;
-}
-
-.ncais-community-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  align-items: stretch;
-  background: #f7f7f7;
-}
-
-.ncais-community-intro .about-mission-copy {
-  align-self: center;
-  padding: clamp(3rem, 6vw, 6rem) clamp(2rem, 6vw, 7rem);
-}
-
-.ncais-community-image {
-  display: block;
-  width: 100%;
-  min-height: 44rem;
-  height: 100%;
-  object-fit: cover;
-}
-
-.ncais-community-network {
-  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
-}
-
-.ncais-community-lead {
-  max-width: 80rem;
-  margin: 0 auto 3rem;
-  text-align: center;
-}
-
-.ncais-community-groups {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0;
-  border-top: 1px solid #d9d3cc;
-  border-bottom: 1px solid #d9d3cc;
-}
-
-.ncais-community-groups article {
-  padding: 2.5rem;
-}
-
-.ncais-community-groups article + article {
-  border-left: 1px solid #d9d3cc;
-}
-
-.ncais-community-mark {
-  display: inline-flex;
-  width: 3.6rem;
-  height: 3.6rem;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  border-radius: 50%;
-  background: #ba0c2f;
+.ncais-home-collections h2 {
   color: #fff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.6rem;
-  font-weight: 700;
 }
 
-.ncais-community-closing {
-  max-width: 90rem;
-  margin: 2.5rem auto 0;
-  color: #39424c;
-  text-align: center;
+.ncais-home-collections p:not(.about-eyebrow) {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 #lower {
@@ -651,35 +617,18 @@
     grid-template-columns: 1fr;
   }
 
-  .ncais-faculty-intro {
-    grid-template-columns: 1fr;
+  .ncais-home-context {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .ncais-faculty-highlight {
-    min-height: 0;
+  .ncais-home-audiences {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .ncais-faculty-grid {
-    grid-template-columns: 1fr;
+  .ncais-home-pathways {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .ncais-community-intro {
-    grid-template-columns: 1fr;
-  }
-
-  .ncais-community-image {
-    min-height: 28rem;
-    max-height: 40rem;
-  }
-
-  .ncais-community-groups {
-    grid-template-columns: 1fr;
-  }
-
-  .ncais-community-groups article + article {
-    border-top: 1px solid #d9d3cc;
-    border-left: 0;
-  }
 }
 
 @media (max-width: 600px) {
@@ -737,27 +686,14 @@
     text-align: center;
   }
 
-  .ncais-section-inner,
-  .ncais-faculty-intro {
+  .ncais-section-inner {
     width: 100%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
 
-  .ncais-pathway-list {
-    grid-template-columns: 1fr;
+  .ncais-home-timeline {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .ncais-pathway-list li {
-    gap: 1rem;
-    padding: 1.5rem;
-  }
-
-  .ncais-community-intro .about-mission-copy {
-    padding: 3rem 1.5rem;
-  }
-
-  .ncais-community-groups article {
-    padding: 2rem 1.5rem;
-  }
 }
