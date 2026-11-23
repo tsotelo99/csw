@@ -15,12 +15,14 @@ css: horn-lecture.css
     <h2 id="past-lectures-title">Past lectures</h2>
     <div class="past-lectures-grid">
 
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2026-horn-lecture-dr-elizabeth-ellis.jpg' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2026</div>
 <div class="lecture-speaker">Dr. Elizabeth Ellis</div>
 <div class="lecture-affiliation">Princeton University</div>
 <div class="lecture-title">"Recording Stories in the Indigenous Middle Ages: Ancient Iconography in Middle America"</div>
 </div>
+</a>
 
 <div class="lecture-card">
 <div class="lecture-year">2025</div>
