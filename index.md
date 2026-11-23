@@ -82,23 +82,8 @@ css: homepage.css
           </a>
         </article>
         <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/DU4EIMkikMv/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: graduate showcase flyer">
-            <img src="{{ '/assets/images/instagram/DU4EIMkikMv.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-        <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/Db81N0kKVVg/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: Borderlands History seminar flyer">
-            <img src="{{ '/assets/images/instagram/Db81N0kKVVg.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-        <article class="home-instagram-post">
           <a class="home-instagram-tile" href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: Western History Association banner">
             <img src="{{ '/assets/images/instagram/DP9zZyjEv4E.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-        <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/DPhRGDnEQzR/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: collective memories and Mexican American civil rights flyer">
-            <img src="{{ '/assets/images/instagram/DPhRGDnEQzR.jpg' | relative_url }}" alt="">
           </a>
         </article>
       </div>

@@ -208,7 +208,7 @@ body.homepage #main .main-content-container {
 }
 
 .home-instagram-post {
-  flex: 0 0 clamp(5rem, 8vw, 7rem);
+  flex: 0 0 clamp(7rem, 12vw, 10rem);
 }
 
 .home-instagram-tile {
