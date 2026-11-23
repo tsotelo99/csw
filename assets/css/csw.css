@@ -43,7 +43,7 @@
   position: absolute;
   left: 0;
   display: block;
-  width: 11rem;
+  width: 3.7rem;
   line-height: 0;
 }
 
@@ -129,7 +129,7 @@
 
   #page #nav .csw-navbar-logo {
     position: static;
-    width: 9rem;
+    width: 3rem;
     margin: .75rem auto;
   }
 
