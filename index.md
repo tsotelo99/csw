@@ -62,6 +62,36 @@ css: homepage.css
         </article>
       </div>
     </div>
+    <section class="home-instagram" aria-labelledby="home-instagram-title">
+      <div class="home-instagram-heading">
+        <div>
+          <p class="home-eyebrow">Follow along</p>
+          <h3 id="home-instagram-title">From Instagram</h3>
+        </div>
+        <a href="https://www.instagram.com/cntrsw_unm/" target="_blank" rel="noopener noreferrer">@cntrsw_unm on Instagram <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="home-instagram-posts">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cw584NdLsU7/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cw57yYwpzKD/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DU4EIMkikMv/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/DU4EIMkikMv/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db81N0kKVVg/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/Db81N0kKVVg/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP9zZyjEv4E/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPhRGDnEQzR/" data-instgrm-version="14">
+          <a href="https://www.instagram.com/p/DPhRGDnEQzR/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
+        </blockquote>
+      </div>
+      <script async src="https://www.instagram.com/embed.js"></script>
+    </section>
   </section>
 
   <div class="about-page">
