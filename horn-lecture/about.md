@@ -10,12 +10,13 @@ css: horn-lecture.css
 ---
 
 <div class="about-page horn-lecture-page horn-about-page">
-  <section aria-labelledby="horn-about-intro-title" class="horn-about-intro">
-    <div>
-      <p class="about-eyebrow">About the lecture</p>
-      <h2 id="horn-about-intro-title">A distinguished series in Western history and culture</h2>
+  <section aria-labelledby="horn-about-history-title" class="horn-about-history">
+    <div class="horn-about-history-inner">
+      <p class="about-eyebrow">A lasting legacy</p>
+      <h2 id="horn-about-history-title">Honoring a passion for history</h2>
+      <p>This endowed lecture series was established as the “Calvin Horn Lecture on Western History and Culture” in the fall of 1985. It honors the memory of U.S. President John F. Kennedy and supports the study of history, a passion shared by Mr. and Mrs. Horn.</p>
+      <p>The only endowed lecture series in the UNM Department of History, it was originally organized by the University of New Mexico Press to honor Calvin and Ruth Horn’s passion for American Western history. The Center for the Southwest now coordinates the series, which offers a generous honorarium of $1,000 to the featured Calvin Horn lecturer.</p>
     </div>
-    <p>The C. Ruth and Calvin P. Horn Lecture Series makes a singularly invaluable contribution—it enriches students, faculty, and the community. Since its creation in 1985, this distinguished lecture series has brought leading scholars to our community to interpret the West in ways that both enlighten and entertain.</p>
   </section>
 
   <section aria-labelledby="horn-gallery-title" class="horn-photo-gallery">
@@ -50,13 +51,12 @@ css: horn-lecture.css
     </div>
   </section>
 
-  <section aria-labelledby="horn-about-history-title" class="horn-about-history">
-    <div class="horn-about-history-inner">
-      <p class="about-eyebrow">A lasting legacy</p>
-      <h2 id="horn-about-history-title">Honoring a passion for history</h2>
-      <p>This endowed lecture series was established as the “Calvin Horn Lecture on Western History and Culture” in the fall of 1985. It honors the memory of U.S. President John F. Kennedy and supports the study of history, a passion shared by Mr. and Mrs. Horn.</p>
-      <p>The only endowed lecture series in the UNM Department of History, it was originally organized by the University of New Mexico Press to honor Calvin and Ruth Horn’s passion for American Western history. The Center for the Southwest now coordinates the series, which offers a generous honorarium of $1,000 to the featured Calvin Horn lecturer.</p>
+  <section aria-labelledby="horn-about-intro-title" class="horn-about-intro">
+    <div>
+      <p class="about-eyebrow">About the lecture</p>
+      <h2 id="horn-about-intro-title">A distinguished series in Western history and culture</h2>
     </div>
+    <p>The C. Ruth and Calvin P. Horn Lecture Series makes a singularly invaluable contribution—it enriches students, faculty, and the community. Since its creation in 1985, this distinguished lecture series has brought leading scholars to our community to interpret the West in ways that both enlighten and entertain.</p>
   </section>
 
   <section aria-labelledby="horn-about-vision-title" class="horn-about-vision">
