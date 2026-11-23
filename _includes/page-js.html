@@ -19,6 +19,74 @@
       touch: false
     });
   });
+
+  document.querySelectorAll('.horn-photo-carousel').forEach(function (carousel) {
+    var slides = Array.from(carousel.querySelectorAll('.horn-photo-slide'));
+    var currentSlide = 0;
+    var rotationTimer;
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var hovered = false;
+    var focused = false;
+    var interval = 7000;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+      slides.forEach(function (slide, slideIndex) {
+        var isActive = slideIndex === currentSlide;
+        slide.classList.toggle('is-active', isActive);
+        slide.setAttribute('aria-hidden', String(!isActive));
+      });
+    }
+
+    function stopRotation() {
+      window.clearInterval(rotationTimer);
+      rotationTimer = null;
+    }
+
+    function startRotation() {
+      stopRotation();
+      if (!reduceMotion && !hovered && !focused && !document.hidden && slides.length > 1) {
+        rotationTimer = window.setInterval(function () {
+          showSlide(currentSlide + 1);
+        }, interval);
+      }
+    }
+
+    carousel.querySelector('.horn-photo-previous').addEventListener('click', function () {
+      showSlide(currentSlide - 1);
+      startRotation();
+    });
+
+    carousel.querySelector('.horn-photo-next').addEventListener('click', function () {
+      showSlide(currentSlide + 1);
+      startRotation();
+    });
+
+    carousel.addEventListener('mouseenter', function () {
+      hovered = true;
+      stopRotation();
+    });
+
+    carousel.addEventListener('mouseleave', function () {
+      hovered = false;
+      startRotation();
+    });
+
+    carousel.addEventListener('focusin', function () {
+      focused = true;
+      stopRotation();
+    });
+
+    carousel.addEventListener('focusout', function (event) {
+      if (!carousel.contains(event.relatedTarget)) {
+        focused = false;
+        startRotation();
+      }
+    });
+
+    document.addEventListener('visibilitychange', startRotation);
+    startRotation();
+  });
 </script>
 
 

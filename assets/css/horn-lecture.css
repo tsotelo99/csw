@@ -35,6 +35,82 @@
   color: #39424c;
 }
 
+.horn-photo-gallery {
+  width: min(100% - 3rem, 96rem);
+  margin: 0 auto;
+  padding: 1rem 0 clamp(3.5rem, 6vw, 6rem);
+}
+
+.horn-photo-gallery h2 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.4rem, 3.5vw, 3.4rem);
+  text-align: center;
+}
+
+.horn-photo-gallery > .about-eyebrow {
+  text-align: center;
+}
+
+.horn-photo-carousel {
+  position: relative;
+}
+
+.horn-photo-carousel-stage {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: .5rem;
+  background: #1e252d;
+}
+
+.horn-photo-slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.horn-photo-slide.is-active {
+  display: block;
+}
+
+.horn-photo-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.horn-photo-control {
+  position: absolute;
+  top: 50%;
+  display: grid;
+  width: 3.5rem;
+  height: 3.5rem;
+  place-items: center;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 50%;
+  background: rgba(30, 37, 45, .72);
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.horn-photo-control:hover,
+.horn-photo-control:focus-visible {
+  background: #ba0c2f;
+}
+
+.horn-photo-previous {
+  left: 1rem;
+}
+
+.horn-photo-next {
+  right: 1rem;
+}
+
 .horn-about-history {
   padding: clamp(3.5rem, 6vw, 5.5rem) 1.5rem;
   background: #f7f7f7;
@@ -349,6 +425,16 @@
   .horn-about-intro {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.5rem;
+  }
+
+  .horn-photo-gallery {
+    width: min(100% - 2rem, 96rem);
+  }
+
+  .horn-photo-control {
+    width: 2.75rem;
+    height: 2.75rem;
+    font-size: 2.2rem;
   }
 
   .horn-2026-feature {
