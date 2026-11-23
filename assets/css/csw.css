@@ -47,28 +47,12 @@
   padding-left: 2.5rem;
 }
 
-#page #nav .csw-brand {
-  display: inline-flex;
-  flex: 0 0 auto;
-  align-items: center;
-  gap: .65rem;
-  color: #252a30;
-  text-decoration: none;
-}
-
-#page #nav .csw-brand-logo {
-  display: block;
-  width: 4.75rem;
-  height: 4.75rem;
-  object-fit: contain;
-}
-
 #page #nav #horz-nav {
   display: flex !important;
   flex: 1 1 auto;
-  justify-content: flex-end;
+  justify-content: center;
   height: auto !important;
-  padding: 0 0 0 2rem;
+  padding: 0;
   overflow: visible !important;
 }
 
@@ -76,7 +60,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: .35rem;
-  justify-content: flex-end;
+  justify-content: center;
   float: none;
   margin: 0;
 }
@@ -122,11 +106,6 @@
   #page #nav .navbar {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  #page #nav .csw-brand-logo {
-    width: 3.75rem;
-    height: 3.75rem;
   }
 
   #page #nav #horz-nav {

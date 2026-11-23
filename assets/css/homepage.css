@@ -81,14 +81,18 @@ body.homepage #nav .container {
 }
 
 body.homepage #nav #horz-nav {
-  display: block !important;
+  display: flex !important;
+  justify-content: center;
   height: auto !important;
   padding: 0;
   overflow: visible !important;
 }
 
 body.homepage #nav .navbar-nav {
-  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  float: none;
+  justify-content: center;
   margin: 0;
 }
 
