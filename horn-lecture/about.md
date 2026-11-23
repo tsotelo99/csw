@@ -18,16 +18,17 @@ css: horn-lecture.css
     <p>The C. Ruth and Calvin P. Horn Lecture Series makes a singularly invaluable contribution—it enriches students, faculty, and the community. Since its creation in 1985, this distinguished lecture series has brought leading scholars to our community to interpret the West in ways that both enlighten and entertain.</p>
   </section>
 
-  <section aria-labelledby="horn-about-history-title" class="horn-about-history">
+  <div class="horn-legacy-gallery">
+    <section aria-labelledby="horn-about-history-title" class="horn-about-history">
     <div class="horn-about-history-inner">
       <p class="about-eyebrow">A lasting legacy</p>
       <h2 id="horn-about-history-title">Honoring a passion for history</h2>
       <p>This endowed lecture series was established as the “Calvin Horn Lecture on Western History and Culture” in the fall of 1985. It honors the memory of U.S. President John F. Kennedy and supports the study of history, a passion shared by Mr. and Mrs. Horn.</p>
       <p>The only endowed lecture series in the UNM Department of History, it was originally organized by the University of New Mexico Press to honor Calvin and Ruth Horn’s passion for American Western history. The Center for the Southwest now coordinates the series, which offers a generous honorarium of $1,000 to the featured Calvin Horn lecturer.</p>
     </div>
-  </section>
+    </section>
 
-  <section aria-labelledby="horn-gallery-title" class="horn-photo-gallery">
+    <section aria-labelledby="horn-gallery-title" class="horn-photo-gallery">
     <p class="about-eyebrow">From the 2026 lecture</p>
     <h2 id="horn-gallery-title">Moments from the Horn Lecture</h2>
     <div aria-label="Photos from the 2026 C. Ruth and Calvin P. Horn Lecture" aria-roledescription="carousel" class="horn-photo-carousel" role="region">
@@ -57,7 +58,8 @@ css: horn-lecture.css
       <button class="horn-photo-control horn-photo-previous" type="button" aria-label="Previous photo"><span aria-hidden="true">&#8249;</span></button>
       <button class="horn-photo-control horn-photo-next" type="button" aria-label="Next photo"><span aria-hidden="true">&#8250;</span></button>
     </div>
-  </section>
+    </section>
+  </div>
 
   <section aria-labelledby="horn-about-vision-title" class="horn-about-vision">
     <div class="horn-about-vision-inner">
