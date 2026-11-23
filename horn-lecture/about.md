@@ -27,15 +27,6 @@ css: horn-lecture.css
     </div>
   </section>
 
-  <section aria-labelledby="horn-about-vision-title" class="horn-about-vision">
-    <div class="horn-about-vision-inner">
-      <p class="about-eyebrow">The Horns’ vision</p>
-      <h2 id="horn-about-vision-title">History that speaks to the present</h2>
-      <p>Calvin and Ruth’s vision for the series was to give the campus and the wider community access to inspiring speakers who bring history to life and offer perspective on the West. Understanding the past can bring new insight to land use, conservation, access to water, regional identity, the creative arts, and the actions of historical figures.</p>
-      <a class="horn-about-support-link" href="{{ site.baseurl }}/support-us/">Support the Center for the Southwest <span aria-hidden="true">→</span></a>
-    </div>
-  </section>
-
   <section aria-labelledby="horn-gallery-title" class="horn-photo-gallery">
     <p class="about-eyebrow">From the 2026 lecture</p>
     <h2 id="horn-gallery-title">Moments from the Horn Lecture</h2>
@@ -65,6 +56,15 @@ css: horn-lecture.css
       </div>
       <button class="horn-photo-control horn-photo-previous" type="button" aria-label="Previous photo"><span aria-hidden="true">&#8249;</span></button>
       <button class="horn-photo-control horn-photo-next" type="button" aria-label="Next photo"><span aria-hidden="true">&#8250;</span></button>
+    </div>
+  </section>
+
+  <section aria-labelledby="horn-about-vision-title" class="horn-about-vision">
+    <div class="horn-about-vision-inner">
+      <p class="about-eyebrow">The Horns’ vision</p>
+      <h2 id="horn-about-vision-title">History that speaks to the present</h2>
+      <p>Calvin and Ruth’s vision for the series was to give the campus and the wider community access to inspiring speakers who bring history to life and offer perspective on the West. Understanding the past can bring new insight to land use, conservation, access to water, regional identity, the creative arts, and the actions of historical figures.</p>
+      <a class="horn-about-support-link" href="{{ site.baseurl }}/support-us/">Support the Center for the Southwest <span aria-hidden="true">→</span></a>
     </div>
   </section>
 </div>
