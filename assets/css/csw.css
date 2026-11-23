@@ -19,6 +19,7 @@
   position: relative;
   z-index: 1001;
   background: #fff;
+  border-bottom: 2px solid #9e2a2b;
 }
 
 #page #nav::before {
@@ -29,21 +30,61 @@
 }
 
 #page #nav .navbar {
+  display: flex;
+  align-items: center;
   min-height: 0;
   margin-bottom: 0;
   background: #fff;
 }
 
 #page #nav .container {
+  display: flex;
+  align-items: center;
   width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  max-width: 100%;
+  min-height: 5.9rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+#page #nav .csw-brand {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: .65rem;
+  color: #252a30;
+  text-decoration: none;
+}
+
+#page #nav .csw-brand-mark {
+  display: grid;
+  width: 3.25rem;
+  height: 3.25rem;
+  place-items: center;
+  border: .16rem solid #9e2a2b;
+  border-radius: 50%;
+  color: #9e2a2b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -.08rem;
+  line-height: 1;
+}
+
+#page #nav .csw-brand-name {
+  color: #252a30;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: .035rem;
 }
 
 #page #nav #horz-nav {
   display: block !important;
+  flex: 1 1 auto;
   height: auto !important;
-  padding: 0;
+  padding: 0 0 0 2rem;
   overflow: visible !important;
 }
 
@@ -53,7 +94,26 @@
 }
 
 #page #nav .navbar-nav > li > a {
+  padding: 1.9rem .65rem 1.75rem;
+  color: #252a30;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#page #nav .navbar-nav > li.active > a,
+#page #nav .navbar-nav > li > a:hover,
+#page #nav .navbar-nav > li > a:focus,
+#page #nav .navbar-nav > li.open > a {
+  background: transparent;
   color: #9e2a2b;
+}
+
+#page #nav .navbar-nav > li.csw-search > a {
+  padding-right: .25rem;
+  padding-left: .75rem;
+  font-size: 1rem;
 }
 
 #page .jumbotron #page-title {
@@ -63,6 +123,26 @@
 }
 
 @media (max-width: 767px) {
+  #page #nav .container {
+    min-height: 5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  #page #nav .navbar {
+    position: relative;
+  }
+
+  #page #nav .csw-brand-name {
+    font-size: .9rem;
+  }
+
+  #page #nav #horz-nav {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+
   #page #nav .navbar-nav {
     float: none;
     display: flex;
