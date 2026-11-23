@@ -199,14 +199,39 @@ body.homepage #main .main-content-container {
 }
 
 .home-instagram-posts {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: .75rem;
+  overflow-x: auto;
+  padding-bottom: .5rem;
 }
 
-.home-instagram-posts .side-event-flyer {
-  height: 10rem;
-  min-height: 0;
+.home-instagram-post {
+  flex: 0 0 clamp(5rem, 8vw, 7rem);
+}
+
+.home-instagram-tile {
+  display: block;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid #e3e1dd;
+  background: #f7f4ec;
+  transition: box-shadow .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.home-instagram-tile:hover,
+.home-instagram-tile:focus-visible {
+  border-color: #ba0c2f;
+  box-shadow: 0 .5rem 1.5rem rgba(36, 42, 48, .1);
+  transform: translateY(-2px);
+}
+
+.home-instagram-tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .featured-event {
@@ -387,10 +412,6 @@ body.homepage #lower {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .home-instagram-posts {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .home-side-events {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -414,10 +435,6 @@ body.homepage #lower {
   body.homepage #nav .navbar-nav > li > a {
     padding: .75rem .6rem;
     font-size: 1.4rem;
-  }
-
-  .home-instagram-posts {
-    grid-template-columns: minmax(0, 1fr);
   }
 
   .featured-event {
