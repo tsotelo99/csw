@@ -201,15 +201,12 @@ body.homepage #main .main-content-container {
 .home-instagram-posts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  justify-items: center;
   gap: 1rem;
 }
 
-.home-instagram-posts .instagram-media {
-  width: 100% !important;
-  max-width: 54rem !important;
-  min-width: 0 !important;
-  margin: 0 !important;
+.home-instagram-posts .side-event-flyer {
+  height: 10rem;
+  min-height: 0;
 }
 
 .featured-event {

@@ -71,26 +71,61 @@ css: homepage.css
         <a href="https://www.instagram.com/cntrsw_unm/" target="_blank" rel="noopener noreferrer">@cntrsw_unm on Instagram <span aria-hidden="true">→</span></a>
       </div>
       <div class="home-instagram-posts">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cw584NdLsU7/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cw57yYwpzKD/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DU4EIMkikMv/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/DU4EIMkikMv/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db81N0kKVVg/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/Db81N0kKVVg/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DP9zZyjEv4E/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPhRGDnEQzR/" data-instgrm-version="14">
-          <a href="https://www.instagram.com/p/DPhRGDnEQzR/" target="_blank" rel="noopener noreferrer">View this post on Instagram</a>
-        </blockquote>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/Cw584NdLsU7.jpg' | relative_url }}" alt="Canyon landscape shared in an Instagram post">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/Cw57yYwpzKD.jpg' | relative_url }}" alt="Portrait of a man in front of bookshelves">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/DU4EIMkikMv/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/DU4EIMkikMv.jpg' | relative_url }}" alt="Flyer for a graduate showcase of works in progress">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/DU4EIMkikMv/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/Db81N0kKVVg/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/Db81N0kKVVg.jpg' | relative_url }}" alt="Flyer for a seminar in Borderlands History">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/Db81N0kKVVg/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/DP9zZyjEv4E.jpg' | relative_url }}" alt="Western History Association banner">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="side-event home-instagram-post">
+          <a class="side-event-flyer" href="https://www.instagram.com/p/DPhRGDnEQzR/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/images/instagram/DPhRGDnEQzR.jpg' | relative_url }}" alt="Flyer about collective memories and Mexican American civil rights">
+          </a>
+          <div class="side-event-copy">
+            <p class="home-eyebrow">Instagram post</p>
+            <a class="side-event-link" href="https://www.instagram.com/p/DPhRGDnEQzR/" target="_blank" rel="noopener noreferrer">View post <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
       </div>
-      <script async src="https://www.instagram.com/embed.js"></script>
     </section>
   </section>
 
