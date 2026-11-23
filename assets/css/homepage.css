@@ -167,9 +167,10 @@ body.homepage #main .main-content-container {
 .home-instagram-heading {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: .2rem;
   margin-bottom: .6rem;
+  text-align: center;
 }
 
 .home-instagram-heading .home-eyebrow {
@@ -198,7 +199,10 @@ body.homepage #main .main-content-container {
 .home-instagram-posts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: .4rem;
+  gap: .55rem;
+  width: 100%;
+  max-width: 27rem;
+  margin: 0 auto;
 }
 
 .home-instagram-post {
@@ -317,7 +321,7 @@ body.homepage #main .main-content-container {
 
 .home-side-events {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
   min-width: 0;
 }
@@ -409,10 +413,6 @@ body.homepage #lower {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .home-side-events {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 767px) {
