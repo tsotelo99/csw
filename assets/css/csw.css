@@ -56,28 +56,11 @@
   text-decoration: none;
 }
 
-#page #nav .csw-brand-mark {
-  display: grid;
-  width: 3.25rem;
-  height: 3.25rem;
-  place-items: center;
-  border: .16rem solid #9e2a2b;
-  border-radius: 50%;
-  color: #9e2a2b;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: -.08rem;
-  line-height: 1;
-}
-
-#page #nav .csw-brand-name {
-  color: #252a30;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: .035rem;
+#page #nav .csw-brand-logo {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
 }
 
 #page #nav #horz-nav {
@@ -94,10 +77,10 @@
 }
 
 #page #nav .navbar-nav > li > a {
-  padding: 1.9rem .65rem 1.75rem;
+  padding: 1.9rem .5rem 1.75rem;
   color: #252a30;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .82rem;
+  font-size: .95rem;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -133,8 +116,9 @@
     position: relative;
   }
 
-  #page #nav .csw-brand-name {
-    font-size: .9rem;
+  #page #nav .csw-brand-logo {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 
   #page #nav #horz-nav {
