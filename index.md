@@ -2,7 +2,7 @@
 title: Center for the Southwest
 layout: unm-base
 homepage: true
-header-image: /assets/images/banners/homepage-mountain.jpg
+header-image: /assets/images/banners/bartlett-arizona.jpg
 header-title: Center for the Southwest
 header-text: Exploring the histories, cultures, and borderlands of the U.S. Southwest through scholarship, education, and community engagement.
 header-height: 24rem
@@ -74,7 +74,7 @@ css: homepage.css
         <p>Through scholarly initiatives, speakers, workshops, colloquia, institutional partnerships, student mentorship, and community engagement, it connects scholars, students, and publics across the borderlands and beyond.</p>
         <a class="about-button" href="{{ site.baseurl }}/initiatives/">Explore our initiatives <span aria-hidden="true">→</span></a>
       </div>
-      <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/los-fresnos-view.jpg" alt="A view of the diverse landscapes of the Southwest">
+      <img class="about-mission-image" src="{{ site.baseurl }}/assets/images/csw-images/mission-mountain.jpg" alt="A mountain rises above the Sonoran Desert landscape">
     </section>
 
     <section aria-labelledby="people-title" class="about-people" id="meet-our-team">
