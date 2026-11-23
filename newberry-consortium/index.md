@@ -26,15 +26,15 @@ css: about.css
       <div class="ncais-home-pathways">
         <article>
           <span class="ncais-home-index">01 · SUPPORT</span>
-          <h3>Students and researchers</h3>
-          <p>Find research fellowships, workshops, institutes, and collection resources.</p>
-          <a href="#ncais-students">Explore student opportunities <span aria-hidden="true">→</span></a>
+          <h3>Fellowships</h3>
+          <p>Research-based support for graduate students and early-career scholars.</p>
+          <a href="{{ site.baseurl }}/newberry-consortium/fellowships">Explore fellowships <span aria-hidden="true">→</span></a>
         </article>
         <article>
           <span class="ncais-home-index">02 · FACULTY</span>
           <h3>Faculty opportunities</h3>
           <p>Professional exchange, research access, teaching, and collaboration.</p>
-          <a href="#ncais-faculty">Explore faculty opportunities <span aria-hidden="true">→</span></a>
+          <a href="{{ site.baseurl }}/newberry-consortium/faculty">For faculty <span aria-hidden="true">→</span></a>
         </article>
         <article>
           <span class="ncais-home-index">03 · PROGRAMS</span>
@@ -46,39 +46,14 @@ css: about.css
     </div>
   </section>
 
-  <section aria-label="NCAIS opportunities by audience" class="ncais-home-audiences">
-    <article id="ncais-students">
-      <p class="about-eyebrow">For students and researchers</p>
-      <h2>Research support and scholarly exchange</h2>
-      <p>NCAIS offers research-based fellowships for graduate students and early-career scholars working in American Indian and Indigenous studies, including research grounded in Indigenous communities and historical inquiry.</p>
-      <ul>
-        <li>Research time and professional development</li>
-        <li>Focused scholarly exchange through workshops and institutes</li>
-        <li>Research with the Newberry’s collections and networks</li>
-        <li>Collaboration across member institutions and disciplines</li>
-      </ul>
-    </article>
-    <article id="ncais-faculty">
-      <p class="about-eyebrow">For faculty</p>
-      <h2>Connect research, teaching, and collaboration</h2>
-      <p>UNM faculty can connect with scholars across member institutions through workshops, invited talks, conferences, and collaborations in Indigenous history, Native studies, borderlands, and related fields.</p>
-      <ul>
-        <li>Engage the Newberry’s collections and scholarly networks</li>
-        <li>Advance faculty research and interdisciplinary inquiry</li>
-        <li>Support teaching, graduate mentorship, and public scholarship</li>
-        <li>Build partnerships grounded in Indigenous knowledge</li>
-      </ul>
-    </article>
-    <article id="ncais-community">
-      <p class="about-eyebrow">For visitors and participants</p>
-      <h2>A community across institutions and fields</h2>
-      <p>NCAIS brings together scholars and research communities from member institutions, graduate programs, and across the United States and beyond. Workshops, institutes, conferences, and invited talks create opportunities to exchange ideas and build connections.</p>
-      <p>Participants engage Indigenous histories, Native studies, borderlands, community memory, place, movement, historical change, and transnational Indigenous studies.</p>
-    </article>
-  </section>
-
   <section aria-label="NCAIS community, history, and research resources" class="ncais-home-context">
     <div class="ncais-home-context-main">
+      <div class="ncais-home-community" id="ncais-community">
+        <p class="about-eyebrow">The NCAIS community</p>
+        <h2 id="ncais-community-title">A network across institutions and fields</h2>
+        <p>NCAIS brings together scholars and research communities from member institutions and graduate programs across the United States and beyond. Their work engages Indigenous histories, Native studies, borderlands, community memory, place, movement, historical change, and transnational Indigenous studies.</p>
+        <p>Workshops, institutes, conferences, and invited talks create opportunities for research, teaching, mentorship, public scholarship, and cross-institution collaboration.</p>
+      </div>
       <div class="ncais-home-history">
         <h2>A brief history</h2>
         <ol class="ncais-home-timeline">
