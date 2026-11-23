@@ -60,34 +60,34 @@ css: homepage.css
             <a class="side-event-link" href="{{ '/assets/images/fliers/2027-horn-lecture.png' | relative_url }}">View flyer <span aria-hidden="true">→</span></a>
           </div>
         </article>
+        <section class="home-instagram" aria-labelledby="home-instagram-title">
+          <div class="home-instagram-heading">
+            <div>
+              <p class="home-eyebrow">Follow along</p>
+              <h3 id="home-instagram-title">From Instagram</h3>
+            </div>
+            <a href="https://www.instagram.com/cntrsw_unm/" target="_blank" rel="noopener noreferrer">@cntrsw_unm <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="home-instagram-posts">
+            <article class="home-instagram-post">
+              <a class="home-instagram-tile" href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: canyon landscape">
+                <img src="{{ '/assets/images/instagram/Cw584NdLsU7.jpg' | relative_url }}" alt="">
+              </a>
+            </article>
+            <article class="home-instagram-post">
+              <a class="home-instagram-tile" href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: portrait in front of bookshelves">
+                <img src="{{ '/assets/images/instagram/Cw57yYwpzKD.jpg' | relative_url }}" alt="">
+              </a>
+            </article>
+            <article class="home-instagram-post">
+              <a class="home-instagram-tile" href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: Western History Association banner">
+                <img src="{{ '/assets/images/instagram/DP9zZyjEv4E.jpg' | relative_url }}" alt="">
+              </a>
+            </article>
+          </div>
+        </section>
       </div>
     </div>
-    <section class="home-instagram" aria-labelledby="home-instagram-title">
-      <div class="home-instagram-heading">
-        <div>
-          <p class="home-eyebrow">Follow along</p>
-          <h3 id="home-instagram-title">From Instagram</h3>
-        </div>
-        <a href="https://www.instagram.com/cntrsw_unm/" target="_blank" rel="noopener noreferrer">@cntrsw_unm on Instagram <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="home-instagram-posts">
-        <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/Cw584NdLsU7/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: canyon landscape">
-            <img src="{{ '/assets/images/instagram/Cw584NdLsU7.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-        <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/Cw57yYwpzKD/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: portrait in front of bookshelves">
-            <img src="{{ '/assets/images/instagram/Cw57yYwpzKD.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-        <article class="home-instagram-post">
-          <a class="home-instagram-tile" href="https://www.instagram.com/p/DP9zZyjEv4E/" target="_blank" rel="noopener noreferrer" aria-label="View Instagram post: Western History Association banner">
-            <img src="{{ '/assets/images/instagram/DP9zZyjEv4E.jpg' | relative_url }}" alt="">
-          </a>
-        </article>
-      </div>
-    </section>
   </section>
 
   <div class="about-page">
