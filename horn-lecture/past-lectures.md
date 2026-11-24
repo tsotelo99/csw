@@ -24,12 +24,14 @@ css: horn-lecture.css
 </div>
 </a>
 
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2025-horn-lecture-dr-joshua-l-reid.png' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2025</div>
 <div class="lecture-speaker">Dr. Joshua L. Reid</div>
 <div class="lecture-affiliation">University of Washington</div>
 <div class="lecture-title">"Comekala and Ranald MacDonald: Making Pacific Worlds through Indigenous Exploration"</div>
 </div>
+</a>
 
 <a class="lecture-card-link" href="{{ '/assets/images/fliers/2024-horn-lecture-dr-juliana-barr.png' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
