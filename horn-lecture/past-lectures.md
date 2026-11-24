@@ -42,19 +42,23 @@ css: horn-lecture.css
 </div>
 </a>
 
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2023-horn-lecture-dr-katrina-jagodinsky.png' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2023</div>
 <div class="lecture-speaker">Dr. Katrina Jagodinsky</div>
 <div class="lecture-affiliation">University of Nebraska-Lincoln</div>
 <div class="lecture-title">"The Many Faces of Habeas: Challenging Coercion and Confinement in the American West"</div>
 </div>
+</a>
 
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2022-horn-lecture-dr-kelly-lytle-hernandez.png' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2022</div>
 <div class="lecture-speaker">Dr. Kelly Lytle Hernández</div>
 <div class="lecture-affiliation">University of California, Los Angeles</div>
 <div class="lecture-title">"Bad Mexicans: Race, Empire, and Revolution in the Borderlands"</div>
 </div>
+</a>
 
 <div class="lecture-card">
 <div class="lecture-year">2019</div>
