@@ -31,12 +31,14 @@ css: horn-lecture.css
 <div class="lecture-title">"Comekala and Ranald MacDonald: Making Pacific Worlds through Indigenous Exploration"</div>
 </div>
 
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2024-horn-lecture-dr-juliana-barr.png' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2024</div>
 <div class="lecture-speaker">Dr. Juliana Barr</div>
 <div class="lecture-affiliation">Duke University</div>
 <div class="lecture-title">"The Woman in Blue: How Native Storytellers Turned a Bilocating Nun into an Expression of Indigenous Geopolitics"</div>
 </div>
+</a>
 
 <div class="lecture-card">
 <div class="lecture-year">2023</div>
