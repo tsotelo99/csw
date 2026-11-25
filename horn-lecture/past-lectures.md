@@ -42,7 +42,7 @@ css: horn-lecture.css
 </div>
 </a>
 
-<a class="lecture-card-link" href="{{ '/assets/images/fliers/2023-horn-lecture-dr-katrina-jagodinsky.png' | relative_url }}" target="_blank" rel="noopener">
+<a class="lecture-card-link" href="{{ '/assets/images/fliers/2023-horn-lecture-dr-katrina-jagodinsky.jpg' | relative_url }}" target="_blank" rel="noopener">
 <div class="lecture-card">
 <div class="lecture-year">2023</div>
 <div class="lecture-speaker">Dr. Katrina Jagodinsky</div>
